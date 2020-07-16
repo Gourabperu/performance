@@ -1,0 +1,7 @@
+timeStamp,elapsed,label,responseCode,responseMessage,threadName,success,bytes,grpThreads,allThreads,Latency,Hostname,Connect
+1594917269855,3030,token,201,Created,prueba_performance 1-1,true,988,1,1,3014,gs,1104
+1594917272955,2603,cargo,201,Created,prueba_performance 1-1,true,1987,1,1,2602,gs,451
+1594917275561,1465,token,201,Created,prueba_performance 1-1,true,988,1,1,1465,gs,508
+1594917277030,2365,cargo,201,Created,prueba_performance 1-1,true,1987,1,1,2365,gs,390
+1594917279398,1338,token,201,Created,prueba_performance 1-1,true,988,1,1,1338,gs,437
+1594917280736,952,cargo,500,Internal Server Error,prueba_performance 1-1,false,717,1,1,952,gs,431

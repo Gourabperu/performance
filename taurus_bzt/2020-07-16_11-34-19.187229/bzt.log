@@ -1,0 +1,391 @@
+[2020-07-16 11:34:19,136 INFO root] Taurus CLI Tool v1.14.2
+[2020-07-16 11:34:19,136 DEBUG root] Command-line options: {'log': '/tmp/bzt_y4_sh8oa.log', 'option': None, 'quiet': None, 'verbose': None, 'no_system_configs': None, 'aliases': []}
+[2020-07-16 11:34:19,136 DEBUG root] Python: CPython 3.6.9
+[2020-07-16 11:34:19,136 DEBUG root] OS: uname_result(system='Linux', node='gs', release='5.0.0-32-generic', version='#34~18.04.2-Ubuntu SMP Thu Oct 10 10:36:02 UTC 2019', machine='x86_64', processor='x86_64')
+[2020-07-16 11:34:19,137 INFO root] Starting with configs: ['performance-testing.yml']
+[2020-07-16 11:34:19,137 DEBUG root] Using personal config: /home/gsaha/.bzt-rc
+[2020-07-16 11:34:19,137 INFO Engine] Configuring...
+[2020-07-16 11:34:19,147 DEBUG Engine] Base configs list: ['/usr/local/lib/python3.6/dist-packages/bzt/resources/10-base-config.yml']
+[2020-07-16 11:34:19,148 DEBUG Engine.Configuration] Configs: ['/usr/local/lib/python3.6/dist-packages/bzt/resources/10-base-config.yml']
+[2020-07-16 11:34:19,148 DEBUG Engine.Configuration] Reading /usr/local/lib/python3.6/dist-packages/bzt/resources/10-base-config.yml as YAML
+[2020-07-16 11:34:19,170 DEBUG Engine] User configs list: ['/home/gsaha/.bzt-rc', 'performance-testing.yml']
+[2020-07-16 11:34:19,170 DEBUG Engine.Configuration] Configs: ['/home/gsaha/.bzt-rc', 'performance-testing.yml']
+[2020-07-16 11:34:19,171 DEBUG Engine.Configuration] Reading /home/gsaha/.bzt-rc as YAML
+[2020-07-16 11:34:19,175 DEBUG Engine.Configuration] Reading performance-testing.yml as YAML
+[2020-07-16 11:34:19,179 DEBUG Engine.Configuration] Configs: ['/home/gsaha/.bzt-rc', 'performance-testing.yml']
+[2020-07-16 11:34:19,180 DEBUG Engine.Configuration] Reading /home/gsaha/.bzt-rc as YAML
+[2020-07-16 11:34:19,184 DEBUG Engine.Configuration] Reading performance-testing.yml as YAML
+[2020-07-16 11:34:19,187 DEBUG Engine] Requesting updates info: https://gettaurus.org/updates/?version=1.14.2&installID=linux-2816ad55131f
+[2020-07-16 11:34:19,187 DEBUG HTTPClient] Making HTTP request GET https://gettaurus.org/updates/?version=1.14.2&installID=linux-2816ad55131f
+[2020-07-16 11:34:19,187 INFO Engine] Artifacts dir: /home/gsaha/Desktop/performance/taurus_bzt/2020-07-16_11-34-19.187229
+[2020-07-16 11:34:19,187 DEBUG Engine] New artifact filename: /home/gsaha/Desktop/performance/taurus_bzt/2020-07-16_11-34-19.187229/effective
+[2020-07-16 11:34:19,189 DEBUG Engine.Configuration] Dumping YAML config into /home/gsaha/Desktop/performance/taurus_bzt/2020-07-16_11-34-19.187229/effective.yml
+[2020-07-16 11:34:19,201 DEBUG urllib3.connectionpool] Starting new HTTPS connection (1): gettaurus.org
+[2020-07-16 11:34:19,207 DEBUG Engine.Configuration] Dumping JSON config into /home/gsaha/Desktop/performance/taurus_bzt/2020-07-16_11-34-19.187229/effective.json
+[2020-07-16 11:34:19,210 DEBUG Engine] New artifact filename: /home/gsaha/Desktop/performance/taurus_bzt/2020-07-16_11-34-19.187229/merged.yml
+[2020-07-16 11:34:19,210 DEBUG Engine.Configuration] Dumping YAML config into /home/gsaha/Desktop/performance/taurus_bzt/2020-07-16_11-34-19.187229/merged.yml
+[2020-07-16 11:34:19,213 DEBUG Engine] New artifact filename: /home/gsaha/Desktop/performance/taurus_bzt/2020-07-16_11-34-19.187229/merged.json
+[2020-07-16 11:34:19,214 DEBUG Engine.Configuration] Dumping JSON config into /home/gsaha/Desktop/performance/taurus_bzt/2020-07-16_11-34-19.187229/merged.json
+[2020-07-16 11:34:19,215 DEBUG Engine] Add existing artifact (move=False): performance-testing.yml
+[2020-07-16 11:34:19,215 DEBUG Engine] Copying performance-testing.yml to /home/gsaha/Desktop/performance/taurus_bzt/2020-07-16_11-34-19.187229/performance-testing.yml
+[2020-07-16 11:34:19,217 DEBUG root] Closing log handler: /tmp/bzt_y4_sh8oa.log
+[2020-07-16 11:34:19,219 DEBUG root] Switched writing logs to /home/gsaha/Desktop/performance/taurus_bzt/2020-07-16_11-34-19.187229/bzt.log
+[2020-07-16 11:34:19,219 DEBUG root] Linting config
+[2020-07-16 11:34:19,222 WARNING root] at path 'execution': 'execution' should be a list
+[2020-07-16 11:34:19,222 INFO Engine] Preparing...
+[2020-07-16 11:34:19,223 DEBUG Engine] Module config: consolidator {'class': 'bzt.modules.aggregator.ConsolidatingAggregator'}
+[2020-07-16 11:34:19,223 DEBUG root] Importing module: bzt.modules.aggregator
+[2020-07-16 11:34:19,403 DEBUG root] Loading class: 'ConsolidatingAggregator' from <module 'bzt.modules.aggregator' from '/usr/local/lib/python3.6/dist-packages/bzt/modules/aggregator.py'>
+[2020-07-16 11:34:19,403 DEBUG Engine.consolidator] Buffer scaling setup: percentile 95.0 from [0.0, 50.0, 90.0, 95.0, 99.0, 99.9, 100.0] selected
+[2020-07-16 11:34:19,403 DEBUG Engine] Module config: monitoring {'class': 'bzt.modules.monitoring.Monitoring'}
+[2020-07-16 11:34:19,403 DEBUG root] Importing module: bzt.modules.monitoring
+[2020-07-16 11:34:19,406 DEBUG root] Loading class: 'Monitoring' from <module 'bzt.modules.monitoring' from '/usr/local/lib/python3.6/dist-packages/bzt/modules/monitoring.py'>
+[2020-07-16 11:34:19,406 DEBUG Engine] Module config: local {'class': 'bzt.modules.provisioning.Local'}
+[2020-07-16 11:34:19,406 DEBUG root] Importing module: bzt.modules.provisioning
+[2020-07-16 11:34:19,406 DEBUG root] Loading class: 'Local' from <module 'bzt.modules.provisioning' from '/usr/local/lib/python3.6/dist-packages/bzt/modules/provisioning.py'>
+[2020-07-16 11:34:19,406 DEBUG Engine] Module config: jmeter {'class': 'bzt.modules.jmeter.JMeterExecutor', 'protocol-handlers': {'http': 'bzt.jmx.http.HTTPProtocolHandler'}, 'plugins': ['jpgc-casutg', 'jpgc-dummy', 'jpgc-ffw', 'jpgc-fifo', 'jpgc-functions', 'jpgc-json', 'jpgc-perfmon', 'jpgc-prmctl', 'jpgc-tst'], 'properties': {'jmeter.save.saveservice.autoflush': 'true', 'jmeter.save.saveservice.connect_time': 'true', 'jmeterengine.force.system.exit': 'true', 'summariser.name': ''}}
+[2020-07-16 11:34:19,407 DEBUG root] Importing module: bzt.modules.jmeter
+[2020-07-16 11:34:19,427 DEBUG root] Loading class: 'JMeterExecutor' from <module 'bzt.modules.jmeter' from '/usr/local/lib/python3.6/dist-packages/bzt/modules/jmeter.py'>
+[2020-07-16 11:34:19,427 DEBUG Engine.local] Preparing executor: jmeter/139762187994000
+[2020-07-16 11:34:19,428 DEBUG Engine] New artifact filename: /home/gsaha/Desktop/performance/taurus_bzt/2020-07-16_11-34-19.187229/jmeter.log
+[2020-07-16 11:34:19,428 DEBUG Engine.jmeter] Checking if port 4445 is free
+[2020-07-16 11:34:19,428 DEBUG Engine.jmeter] Port 4445 is free
+[2020-07-16 11:34:19,428 DEBUG Engine.jmeter] Using port 4445 for management
+[2020-07-16 11:34:19,429 DEBUG Engine.jmeter] Extract {'script': '../script_jmeter/performance_gateway.jmx', 'properties': {'hostam`e': 'https://qa-secure.culqi.xyz/'}} into scenarios
+[2020-07-16 11:34:19,429 DEBUG Engine.jmeter] Additional properties: {'jmeter.save.saveservice.autoflush': 'true', 'jmeter.save.saveservice.connect_time': 'true', 'jmeterengine.force.system.exit': 'true', 'summariser.name': '', 'hostam`e': 'https://qa-secure.culqi.xyz/', 'jmeterengine.nongui.port': 4445, 'jmeterengine.nongui.maxport': 4445, 'jmeter.save.saveservice.timestamp_format': 'ms', 'sampleresult.default.encoding': 'UTF-8', 'user.classpath': '/home/gsaha/Desktop/performance/taurus_bzt/2020-07-16_11-34-19.187229:/home/gsaha/Desktop/performance/script_jmeter'}
+[2020-07-16 11:34:19,429 DEBUG Engine] New artifact filename: /home/gsaha/Desktop/performance/taurus_bzt/2020-07-16_11-34-19.187229/jmeter-bzt.properties
+[2020-07-16 11:34:19,430 DEBUG Engine.jmeter.JavaVM] Trying JavaVM: ['java', '-version']
+[2020-07-16 11:34:19,431 DEBUG root] Executing shell: ['java', '-version'] at .
+[2020-07-16 11:34:19,488 DEBUG Engine.jmeter.JavaVM] JavaVM output: openjdk version "11.0.6" 2020-01-14
+OpenJDK Runtime Environment (build 11.0.6+10-post-Ubuntu-1ubuntu118.04.1)
+OpenJDK 64-Bit Server VM (build 11.0.6+10-post-Ubuntu-1ubuntu118.04.1, mixed mode, sharing)
+
+[2020-07-16 11:34:19,488 DEBUG Engine.jmeter.TclLibrary] We don't need to check tcl library on this platform
+[2020-07-16 11:34:19,489 DEBUG Engine.jmeter.JMeter] Trying JMeter..
+[2020-07-16 11:34:19,489 DEBUG root] Executing shell: ['/home/gsaha/.bzt/jmeter-taurus/5.2.1/bin/jmeter.sh', '-j', '/tmp/jmeterp_pd4zgylog', '--version'] at .
+[2020-07-16 11:34:20,648 DEBUG urllib3.connectionpool] https://gettaurus.org:443 "GET /updates/?version=1.14.2&installID=linux-2816ad55131f HTTP/1.1" 200 40
+[2020-07-16 11:34:20,649 DEBUG Engine] Taurus updates info: {'latest': '1.14.2', 'needsUpgrade': False}
+[2020-07-16 11:34:20,649 DEBUG Engine] Installation is up-to-date
+[2020-07-16 11:34:20,771 DEBUG Engine.jmeter.JMeter] JMeter check:     _    ____   _    ____ _   _ _____       _ __  __ _____ _____ _____ ____
+   / \  |  _ \ / \  / ___| | | | ____|     | |  \/  | ____|_   _| ____|  _ \
+  / _ \ | |_) / _ \| |   | |_| |  _|    _  | | |\/| |  _|   | | |  _| | |_) |
+ / ___ \|  __/ ___ \ |___|  _  | |___  | |_| | |  | | |___  | | | |___|  _ <
+/_/   \_\_| /_/   \_\____|_| |_|_____|  \___/|_|  |_|_____| |_| |_____|_| \_\ 5.2.1
+
+Copyright (c) 1999-2019 The Apache Software Foundation
+
+ / 
+[2020-07-16 11:34:20,773 DEBUG Engine] New artifact filename: /home/gsaha/Desktop/performance/taurus_bzt/2020-07-16_11-34-19.187229/kpi.jtl
+[2020-07-16 11:34:20,773 DEBUG Engine] New artifact filename: /home/gsaha/Desktop/performance/taurus_bzt/2020-07-16_11-34-19.187229/error.jtl
+[2020-07-16 11:34:20,774 DEBUG Engine.jmeter.LoadSettingsProcessor] Load: LoadSpec(concurrency=1, throughput=None, ramp_up=1.0, hold=0, iterations=3, duration=1.0, steps=None)
+[2020-07-16 11:34:20,775 DEBUG Engine.jmeter.LoadSettingsProcessor] Thread group detection: iterations are found, regular ThreadGroup will be used
+[2020-07-16 11:34:20,776 DEBUG Engine.jmeter.LoadSettingsProcessor.ThreadGroupHandler] Converting ThreadGroup (prueba_performance) to ThreadGroup and apply load parameters
+[2020-07-16 11:34:20,776 DEBUG JMX] Saving JMX to: /home/gsaha/Desktop/performance/script_jmeter/modified_performance_gateway.jmx
+[2020-07-16 11:34:20,777 DEBUG root] Executing shell: ['/home/gsaha/.bzt/jmeter-taurus/5.2.1/bin/PluginsManagerCMD.sh', 'install-for-jmx', '/home/gsaha/Desktop/performance/script_jmeter/modified_performance_gateway.jmx'] at .
+[2020-07-16 11:34:23,378 DEBUG Engine.jmeter.JMeter] Try to detect plugins for /home/gsaha/Desktop/performance/script_jmeter/modified_performance_gateway.jmx
+2020-07-16 11:34:22,061 INFO o.j.r.PluginManagerCMD: Command is: install-for-jmx
+2020-07-16 11:34:22,164 INFO o.j.r.JARSourceHTTP: Found cached repo
+2020-07-16 11:34:22,429 INFO o.j.r.PluginManager: Plugins Status: [jpgc-functions=2.1, jpgc-casutg=2.9, jpgc-dummy=0.4, jpgc-ffw=2.0, jpgc-fifo=0.2, jpgc-json=2.7, jpgc-prmctl=0.4, jpgc-perfmon=2.1, jpgc-plugins-manager=1.3, jpgc-tst=2.5, jmeter-core=5.2.1, jmeter-ftp=5.2.1, jmeter-http=5.2.1, jmeter-jdbc=5.2.1, jmeter-jms=5.2.1, jmeter-junit=5.2.1, jmeter-java=5.2.1, jmeter-ldap=5.2.1, jmeter-mail=5.2.1, jmeter-mongodb=5.2.1, jmeter-native=5.2.1, jmeter-tcp=5.2.1, jmeter-components=5.2.1]
+2020-07-16 11:34:22,432 INFO o.j.r.PluginManagerCMD: Params line is: /home/gsaha/Desktop/performance/script_jmeter/modified_performance_gateway.jmx
+2020-07-16 11:34:22,928 INFO o.a.j.s.SaveService: Testplan (JMX) version: 2.2. Testlog (JTL) version: 2.2
+2020-07-16 11:34:22,951 INFO o.a.j.s.SaveService: Using SaveService properties version 5.0
+2020-07-16 11:34:22,957 INFO o.a.j.s.SaveService: Using SaveService properties file encoding UTF-8
+2020-07-16 11:34:23,086 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/html is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2020-07-16 11:34:23,091 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for application/xhtml+xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2020-07-16 11:34:23,092 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for application/xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2020-07-16 11:34:23,093 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2020-07-16 11:34:23,093 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/vnd.wap.wml is org.apache.jmeter.protocol.http.parser.RegexpHTMLParser
+2020-07-16 11:34:23,093 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/css is org.apache.jmeter.protocol.http.parser.CssParser
+2020-07-16 11:34:23,252 INFO o.j.r.PluginManager: Finishing without changes
+
+WARNING: An illegal reflective access operation has occurred
+WARNING: Illegal reflective access by com.thoughtworks.xstream.core.util.Fields (file:/home/gsaha/.bzt/jmeter-taurus/5.2.1/lib/xstream-1.4.11.jar) to field java.util.TreeMap.comparator
+WARNING: Please consider reporting this to the maintainers of com.thoughtworks.xstream.core.util.Fields
+WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+WARNING: All illegal access operations will be denied in a future release
+
+[2020-07-16 11:34:23,378 DEBUG Engine] New artifact filename: /home/gsaha/Desktop/performance/taurus_bzt/2020-07-16_11-34-19.187229/jmeter.out
+[2020-07-16 11:34:23,379 DEBUG Engine] New artifact filename: /home/gsaha/Desktop/performance/taurus_bzt/2020-07-16_11-34-19.187229/jmeter.err
+[2020-07-16 11:34:23,380 DEBUG Engine] Module config: final-stats {'class': 'bzt.modules.reporting.FinalStatus'}
+[2020-07-16 11:34:23,380 DEBUG root] Importing module: bzt.modules.reporting
+[2020-07-16 11:34:23,394 DEBUG easyprocess] version=0.2.10
+[2020-07-16 11:34:23,398 DEBUG pyvirtualdisplay] version=0.2.5
+[2020-07-16 11:34:23,408 DEBUG root] Loading class: 'FinalStatus' from <module 'bzt.modules.reporting' from '/usr/local/lib/python3.6/dist-packages/bzt/modules/reporting.py'>
+[2020-07-16 11:34:23,408 DEBUG Engine] Module config: console {'class': 'bzt.modules.console.ConsoleStatusReporter'}
+[2020-07-16 11:34:23,409 DEBUG root] Importing module: bzt.modules.console
+[2020-07-16 11:34:23,409 DEBUG root] Loading class: 'ConsoleStatusReporter' from <module 'bzt.modules.console' from '/usr/local/lib/python3.6/dist-packages/bzt/modules/console.py'>
+[2020-07-16 11:34:23,409 DEBUG Engine] Module config: blazemeter {'class': 'bzt.modules.blazemeter.BlazeMeterUploader', 'token': '********'}
+[2020-07-16 11:34:23,409 DEBUG root] Importing module: bzt.modules.blazemeter
+[2020-07-16 11:34:23,409 DEBUG root] Loading class: 'BlazeMeterUploader' from <module 'bzt.modules.blazemeter' from '/usr/local/lib/python3.6/dist-packages/bzt/modules/blazemeter.py'>
+[2020-07-16 11:34:23,410 DEBUG Engine] Module config: junit-xml {'class': 'bzt.modules.reporting.JUnitXMLReporter'}
+[2020-07-16 11:34:23,410 DEBUG root] Importing module: bzt.modules.reporting
+[2020-07-16 11:34:23,410 DEBUG root] Loading class: 'JUnitXMLReporter' from <module 'bzt.modules.reporting' from '/usr/local/lib/python3.6/dist-packages/bzt/modules/reporting.py'>
+[2020-07-16 11:34:23,416 DEBUG Engine.blazemeter] Installing http client
+[2020-07-16 11:34:23,417 DEBUG User] Request: GET https://a.blazemeter.com/api/v4/web/version None
+[2020-07-16 11:34:23,417 DEBUG HTTPClient] Making HTTP request GET https://a.blazemeter.com/api/v4/web/version
+[2020-07-16 11:34:23,419 DEBUG urllib3.connectionpool] Starting new HTTPS connection (1): a.blazemeter.com
+[2020-07-16 11:34:24,449 DEBUG urllib3.connectionpool] https://a.blazemeter.com:443 "GET /api/v4/web/version HTTP/1.1" 200 None
+[2020-07-16 11:34:24,453 DEBUG User] Response [200]: {
+    "api_version": 4,
+    "error": null,
+    "result": "BACKEND-CI/release-2020-07-07-247 14 release-2020-07-07-247 25f1cae95832fe22c283de4b1de106c4f5df68d6 Thu Jul 9 12:11:41 2020 +0300 25f1cae95832fe22c283de4b1de106c4f5df68d6\n",
+    "request_id": "5f1
+[2020-07-16 11:34:24,454 DEBUG User] Request: GET https://a.blazemeter.com/api/v4/accounts None
+[2020-07-16 11:34:24,454 DEBUG HTTPClient] Making HTTP request GET https://a.blazemeter.com/api/v4/accounts
+[2020-07-16 11:34:24,744 DEBUG urllib3.connectionpool] https://a.blazemeter.com:443 "GET /api/v4/accounts HTTP/1.1" 200 None
+[2020-07-16 11:34:24,750 DEBUG User] Response [200]: {
+    "limit": 10,
+    "skip": 0,
+    "total": 1,
+    "hidden": 0,
+    "api_version": 4,
+    "error": null,
+    "result": [
+        {
+            "id": 497197,
+            "name": "gourab.saha@culqi.com",
+            "thumbnailUrl": null,
+            "sale
+[2020-07-16 11:34:24,754 DEBUG User] Request: GET https://a.blazemeter.com/api/v4/workspaces?accountId=497197&enabled=true&limit=100 None
+[2020-07-16 11:34:24,754 DEBUG HTTPClient] Making HTTP request GET https://a.blazemeter.com/api/v4/workspaces?accountId=497197&enabled=true&limit=100
+[2020-07-16 11:34:25,040 DEBUG urllib3.connectionpool] https://a.blazemeter.com:443 "GET /api/v4/workspaces?accountId=497197&enabled=true&limit=100 HTTP/1.1" 200 None
+[2020-07-16 11:34:25,045 DEBUG User] Response [200]: {
+    "limit": 100,
+    "skip": 0,
+    "total": 1,
+    "hidden": 0,
+    "api_version": 4,
+    "error": null,
+    "result": [
+        {
+            "id": 498442,
+            "name": "Default workspace",
+            "userId": 929706,
+            "created": 1
+[2020-07-16 11:34:25,047 DEBUG User] Request: GET https://a.blazemeter.com/api/v4/projects?workspaceId=498442&name=Culqi+Tests None
+[2020-07-16 11:34:25,047 DEBUG HTTPClient] Making HTTP request GET https://a.blazemeter.com/api/v4/projects?workspaceId=498442&name=Culqi+Tests
+[2020-07-16 11:34:25,345 DEBUG urllib3.connectionpool] https://a.blazemeter.com:443 "GET /api/v4/projects?workspaceId=498442&name=Culqi+Tests HTTP/1.1" 200 None
+[2020-07-16 11:34:25,353 DEBUG User] Response [200]: {
+    "limit": 10,
+    "skip": 0,
+    "total": 2,
+    "hidden": 0,
+    "api_version": 4,
+    "error": null,
+    "result": [
+        {
+            "id": 692745,
+            "name": "Culqi Tests",
+            "userId": 929706,
+            "description": null
+[2020-07-16 11:34:25,355 DEBUG User] Request: GET https://a.blazemeter.com/api/v4/tests?projectId=692745&name=performance+transaction None
+[2020-07-16 11:34:25,356 DEBUG HTTPClient] Making HTTP request GET https://a.blazemeter.com/api/v4/tests?projectId=692745&name=performance+transaction
+[2020-07-16 11:34:25,651 DEBUG urllib3.connectionpool] https://a.blazemeter.com:443 "GET /api/v4/tests?projectId=692745&name=performance+transaction HTTP/1.1" 200 None
+[2020-07-16 11:34:25,656 DEBUG User] Response [200]: {
+    "limit": 10,
+    "skip": 0,
+    "total": 1,
+    "hidden": 0,
+    "api_version": 4,
+    "error": null,
+    "result": [
+        {
+            "id": 8290237,
+            "name": "performance transaction",
+            "isNewTest": false,
+            "use
+[2020-07-16 11:34:25,668 DEBUG Engine.Configuration] Dumping YAML config into /home/gsaha/Desktop/performance/taurus_bzt/2020-07-16_11-34-19.187229/effective.yml
+[2020-07-16 11:34:25,749 DEBUG Engine.Configuration] Dumping JSON config into /home/gsaha/Desktop/performance/taurus_bzt/2020-07-16_11-34-19.187229/effective.json
+[2020-07-16 11:34:25,752 INFO Engine] Starting...
+[2020-07-16 11:34:25,752 DEBUG Engine] Startup <bzt.modules.monitoring.Monitoring object at 0x7f1cfffc7b38>
+[2020-07-16 11:34:25,753 DEBUG Engine] Startup <bzt.modules.aggregator.ConsolidatingAggregator object at 0x7f1cfffc76d8>
+[2020-07-16 11:34:25,753 DEBUG Engine] Startup <bzt.modules.reporting.FinalStatus object at 0x7f1ceb87ba58>
+[2020-07-16 11:34:25,754 DEBUG Engine] Startup <bzt.modules.console.ConsoleStatusReporter object at 0x7f1ceb88c4e0>
+[2020-07-16 11:34:25,754 INFO Engine.console] Waiting for results...
+[2020-07-16 11:34:25,754 DEBUG Engine] Startup <bzt.modules.blazemeter.BlazeMeterUploader object at 0x7f1ceb63cf98>
+[2020-07-16 11:34:25,755 INFO Engine.blazemeter] Initiating data feeding...
+[2020-07-16 11:34:25,755 DEBUG User] Request: POST https://a.blazemeter.com/api/v4/tests/8290237/start-external None
+[2020-07-16 11:34:25,755 DEBUG HTTPClient] Making HTTP request POST https://a.blazemeter.com/api/v4/tests/8290237/start-external
+[2020-07-16 11:34:26,133 DEBUG urllib3.connectionpool] https://a.blazemeter.com:443 "POST /api/v4/tests/8290237/start-external HTTP/1.1" 202 2668
+[2020-07-16 11:34:26,138 DEBUG User] Response [202]: {
+    "api_version": 4,
+    "error": null,
+    "result": {
+        "session": {
+            "id": "r-ext5f108191f1e0f",
+            "name": "performance transaction",
+            "userId": 929706,
+            "offset": 0,
+            "statusCode": 15,
+    
+[2020-07-16 11:34:26,142 DEBUG User] Request: PATCH https://a.blazemeter.com/api/v4/sessions/r-ext5f108191f1e0f {
+ "name": "prueba performance"
+}
+[2020-07-16 11:34:26,143 DEBUG HTTPClient] Making HTTP request PATCH https://a.blazemeter.com/api/v4/sessions/r-ext5f108191f1e0f
+[2020-07-16 11:34:26,545 DEBUG urllib3.connectionpool] https://a.blazemeter.com:443 "PATCH /api/v4/sessions/r-ext5f108191f1e0f HTTP/1.1" 200 None
+[2020-07-16 11:34:26,549 DEBUG User] Response [200]: {
+    "api_version": 4,
+    "error": null,
+    "result": {
+        "id": "r-ext5f108191f1e0f",
+        "name": "prueba performance",
+        "userId": 929706,
+        "offset": 0,
+        "statusCode": 15,
+        "status": "INITIALIZING",
+        "labels"
+[2020-07-16 11:34:26,550 INFO Engine.blazemeter] Started data feeding: https://a.blazemeter.com/app/#/masters/29958135
+[2020-07-16 11:34:26,575 DEBUG Engine] Startup <bzt.modules.reporting.JUnitXMLReporter object at 0x7f1ceac162e8>
+[2020-07-16 11:34:26,578 DEBUG Engine] Startup <bzt.modules.provisioning.Local object at 0x7f1cfffa0588>
+[2020-07-16 11:34:26,581 DEBUG Engine.local] Delay setup for jmeter/performance_gateway.jmx: 0(start-at) + 0(delay) = 0
+[2020-07-16 11:34:26,600 DEBUG Engine.Configuration] Dumping YAML config into /home/gsaha/Desktop/performance/taurus_bzt/2020-07-16_11-34-19.187229/effective.yml
+[2020-07-16 11:34:26,678 DEBUG Engine.Configuration] Dumping JSON config into /home/gsaha/Desktop/performance/taurus_bzt/2020-07-16_11-34-19.187229/effective.json
+[2020-07-16 11:34:26,681 DEBUG root] Leveling down log file verbosity to INFO, use -v option to have DEBUG messages enabled
+[2020-07-16 11:34:26,681 DEBUG root] Leveled up log file verbosity
+[2020-07-16 11:34:26,683 DEBUG root] Executing shell: ['/home/gsaha/.bzt/jmeter-taurus/5.2.1/bin/jmeter.sh', '-t', '/home/gsaha/Desktop/performance/script_jmeter/modified_performance_gateway.jmx', '-j', '/home/gsaha/Desktop/performance/taurus_bzt/2020-07-16_11-34-19.187229/jmeter.log', '-q', '/home/gsaha/Desktop/performance/taurus_bzt/2020-07-16_11-34-19.187229/jmeter-bzt.properties', '-n'] at /home/gsaha/Desktop/performance/taurus_bzt
+[2020-07-16 11:34:26,690 DEBUG Engine.local] Starting execution: jmeter/performance_gateway.jmx, rest of available slots: 9223372036854775806
+[2020-07-16 11:34:26,690 DEBUG root] Leveling down log file verbosity to INFO, use -v option to have DEBUG messages enabled
+[2020-07-16 11:34:26,921 INFO Engine.console] Waiting for finish...
+[2020-07-16 11:34:36,335 INFO Engine.jmeter.JTLReader] Changed data analysis delay to 6s
+[2020-07-16 11:34:42,407 WARNING Engine] Please wait for graceful shutdown...
+[2020-07-16 11:34:42,413 DEBUG root] Leveled up log file verbosity
+[2020-07-16 11:34:42,413 INFO Engine] Shutting down...
+[2020-07-16 11:34:42,417 DEBUG Engine] Current stop reason: None
+[2020-07-16 11:34:42,418 DEBUG Engine.local] Shutdown jmeter/performance_gateway.jmx
+[2020-07-16 11:34:42,418 DEBUG Engine.console] Restoring logging streams, [<StreamHandler (INFO)>]/{<StreamHandler (INFO)>: <_io.TextIOWrapper name='<stdout>' mode='w' encoding='UTF-8'>}
+[2020-07-16 11:34:42,419 DEBUG Engine.Configuration] Dumping YAML config into /home/gsaha/Desktop/performance/taurus_bzt/2020-07-16_11-34-19.187229/effective.yml
+[2020-07-16 11:34:42,441 DEBUG Engine.Configuration] Dumping JSON config into /home/gsaha/Desktop/performance/taurus_bzt/2020-07-16_11-34-19.187229/effective.json
+[2020-07-16 11:34:42,443 INFO Engine] Post-processing...
+[2020-07-16 11:34:42,443 DEBUG Engine.local] Post-process jmeter/performance_gateway.jmx
+[2020-07-16 11:34:42,443 DEBUG Engine] Add existing artifact (move=True): /home/gsaha/Desktop/performance/script_jmeter/modified_performance_gateway.jmx
+[2020-07-16 11:34:42,444 DEBUG Engine] Moving /home/gsaha/Desktop/performance/script_jmeter/modified_performance_gateway.jmx to /home/gsaha/Desktop/performance/taurus_bzt/2020-07-16_11-34-19.187229/modified_performance_gateway.jmx
+[2020-07-16 11:34:42,445 DEBUG Engine.jmeter.JTLReader] Buffer len: 4; Known errors count: 1
+[2020-07-16 11:34:42,446 DEBUG Engine.jmeter.JTLReader] Aggregating: 1594917275, 4 in buffer
+[2020-07-16 11:34:42,447 DEBUG Engine.jmeter.JTLReader] Buffer len: 3; Known errors count: 1
+[2020-07-16 11:34:42,465 DEBUG Engine.jmeter.JTLReader] Aggregating: 1594917277, 3 in buffer
+[2020-07-16 11:34:42,467 DEBUG Engine.jmeter.JTLReader] Buffer len: 2; Known errors count: 1
+[2020-07-16 11:34:42,489 DEBUG Engine.jmeter.JTLReader] Aggregating: 1594917279, 2 in buffer
+[2020-07-16 11:34:42,492 DEBUG Engine.jmeter.JTLReader] Buffer len: 1; Known errors count: 1
+[2020-07-16 11:34:42,509 DEBUG Engine.jmeter.JTLReader] Aggregating: 1594917280, 1 in buffer
+[2020-07-16 11:34:42,510 DEBUG Engine.jmeter.JTLErrorsReader] Got error info for 1594917280, labels: dict_keys(['cargo', ''])
+[2020-07-16 11:34:42,511 DEBUG Engine.jmeter.JTLReader] Buffer len: 0; Known errors count: 1
+[2020-07-16 11:34:42,511 DEBUG Engine.consolidator] Consolidator buffer[5]: dict_keys([1594917272, 1594917275, 1594917277, 1594917279, 1594917280])
+[2020-07-16 11:34:42,511 DEBUG Engine.consolidator] Merging into 1594917272
+[2020-07-16 11:34:42,511 DEBUG Engine.consolidator] Bypassing consolidation because of single result
+[2020-07-16 11:34:42,544 DEBUG Engine.consolidator] Processed datapoint: 1594917272/ConsolidatingAggregator@139762530547416
+[2020-07-16 11:34:42,544 DEBUG Engine.consolidator] Merging into 1594917275
+[2020-07-16 11:34:42,544 DEBUG Engine.consolidator] Bypassing consolidation because of single result
+[2020-07-16 11:34:42,570 DEBUG Engine.consolidator] Processed datapoint: 1594917275/ConsolidatingAggregator@139762530547416
+[2020-07-16 11:34:42,570 DEBUG Engine.consolidator] Merging into 1594917277
+[2020-07-16 11:34:42,571 DEBUG Engine.consolidator] Bypassing consolidation because of single result
+[2020-07-16 11:34:42,599 DEBUG Engine.consolidator] Processed datapoint: 1594917277/ConsolidatingAggregator@139762530547416
+[2020-07-16 11:34:42,599 DEBUG Engine.consolidator] Merging into 1594917279
+[2020-07-16 11:34:42,599 DEBUG Engine.consolidator] Bypassing consolidation because of single result
+[2020-07-16 11:34:42,622 DEBUG Engine.consolidator] Processed datapoint: 1594917279/ConsolidatingAggregator@139762530547416
+[2020-07-16 11:34:42,622 DEBUG Engine.consolidator] Merging into 1594917280
+[2020-07-16 11:34:42,622 DEBUG Engine.consolidator] Bypassing consolidation because of single result
+[2020-07-16 11:34:42,644 DEBUG Engine.consolidator] Processed datapoint: 1594917280/ConsolidatingAggregator@139762530547416
+[2020-07-16 11:34:42,644 INFO Engine.final-stats] Test duration: 0:00:17
+[2020-07-16 11:34:42,644 INFO Engine.final-stats] Samples count: 6, 16.67% failures
+[2020-07-16 11:34:42,645 INFO Engine.final-stats] Average times: total 1.959, latency 1.956, connect 0.553
+[2020-07-16 11:34:42,645 INFO Engine.final-stats] Percentiles:
+(0lqqqqqqqqqqqqqqqwqqqqqqqqqqqqqqqk(B
+(0x(B Percentile, % (0x(B Resp. Time, s (0x(B
+(0tqqqqqqqqqqqqqqqnqqqqqqqqqqqqqqqu(B
+(0x(B           0.0 (0x(B         0.952 (0x(B
+(0x(B          50.0 (0x(B         1.465 (0x(B
+(0x(B          90.0 (0x(B          3.03 (0x(B
+(0x(B          95.0 (0x(B          3.03 (0x(B
+(0x(B          99.0 (0x(B          3.03 (0x(B
+(0x(B          99.9 (0x(B          3.03 (0x(B
+(0x(B         100.0 (0x(B          3.03 (0x(B
+(0mqqqqqqqqqqqqqqqvqqqqqqqqqqqqqqqj(B
+[2020-07-16 11:34:42,647 INFO Engine.final-stats] Request label stats:
+(0lqqqqqqqwqqqqqqqqwqqqqqqqqqwqqqqqqqqwqqqqqqqqqqqqqqqqqqqqqqqk(B
+(0x(B label (0x(B status (0x(B    succ (0x(B avg_rt (0x(B error                 (0x(B
+(0tqqqqqqqnqqqqqqqqnqqqqqqqqqnqqqqqqqqnqqqqqqqqqqqqqqqqqqqqqqqu(B
+(0x(B cargo (0x(B  FAIL  (0x(B  66.67% (0x(B  1.973 (0x(B Internal Server Error (0x(B
+(0x(B token (0x(B   OK   (0x(B 100.00% (0x(B  1.944 (0x(B                       (0x(B
+(0mqqqqqqqvqqqqqqqqvqqqqqqqqqvqqqqqqqqvqqqqqqqqqqqqqqqqqqqqqqqj(B
+[2020-07-16 11:34:42,647 DEBUG Engine.console] No logger_handler or orig_stream was detected
+[2020-07-16 11:34:42,647 DEBUG Engine.blazemeter] KPI bulk buffer len in post-proc: 6
+[2020-07-16 11:34:42,647 INFO Engine.blazemeter] Sending remaining KPI data to server...
+[2020-07-16 11:34:42,763 DEBUG User] Request: POST https://data.blazemeter.com/submit.php?session_id=r-ext5f108191f1e0f&signature=ci1leHQ1ZjEwODE5MWYxZTBmOjE1OTYxMjY4NjY6OGRiN2QxYjNlZGJkYmZjZjRkZjI5MWJhODFiYTgxYTNjOGNiZTE1OGIxNGM4M2UxNDQ1OThhYTkzZmI4MDRhMzQ4MGE5NmFlZjM2N2M2NDBhZjFhMTRmZTQzNWE0ZGVlZDdiODJiNmQ0NDQ5NWJiNWUwOTBjNGI4MWZlOGM1MDI=&test_id=8290237&user_id=929706&pq=0&target=labels_bulk&update=1 b'{\n "labels": [\n  {\n   "n": 6,\n   "name": "ALL",\n   "interval": 1,\n   "intervals": [\n    {\n     "ec": 0,\n     "ts": 1594917269,\n     "na": 1,\n     "n": 1,\n     "failed": 0,\n     "rc": [\n      {\n       "n": 1,\n       "f": [],\n       "rc": "201"\n      }\n     '
+[2020-07-16 11:34:42,763 DEBUG HTTPClient] Making HTTP request POST https://data.blazemeter.com/submit.php?session_id=r-ext5f108191f1e0f&signature=ci1leHQ1ZjEwODE5MWYxZTBmOjE1OTYxMjY4NjY6OGRiN2QxYjNlZGJkYmZjZjRkZjI5MWJhODFiYTgxYTNjOGNiZTE1OGIxNGM4M2UxNDQ1OThhYTkzZmI4MDRhMzQ4MGE5NmFlZjM2N2M2NDBhZjFhMTRmZTQzNWE0ZGVlZDdiODJiNmQ0NDQ5NWJiNWUwOTBjNGI4MWZlOGM1MDI=&test_id=8290237&user_id=929706&pq=0&target=labels_bulk&update=1
+[2020-07-16 11:34:43,089 DEBUG urllib3.connectionpool] https://data.blazemeter.com:443 "POST /submit.php?session_id=r-ext5f108191f1e0f&signature=ci1leHQ1ZjEwODE5MWYxZTBmOjE1OTYxMjY4NjY6OGRiN2QxYjNlZGJkYmZjZjRkZjI5MWJhODFiYTgxYTNjOGNiZTE1OGIxNGM4M2UxNDQ1OThhYTkzZmI4MDRhMzQ4MGE5NmFlZjM2N2M2NDBhZjFhMTRmZTQzNWE0ZGVlZDdiODJiNmQ0NDQ5NWJiNWUwOTBjNGI4MWZlOGM1MDI=&test_id=8290237&user_id=929706&pq=0&target=labels_bulk&update=1 HTTP/1.1" 200 148
+[2020-07-16 11:34:43,092 DEBUG User] Response [200]: {"api_version":2,"error":null,"result":{"session":{"_id":"r-ext5f108191f1e0f","name":"prueba performance","statusCode":15,"status":"INITIALIZING"}}}
+[2020-07-16 11:34:43,103 DEBUG User] Request: POST https://data.blazemeter.com/api/v4/image/r-ext5f108191f1e0f/files?signature=ci1leHQ1ZjEwODE5MWYxZTBmOjE1OTYxMjY4NjY6OGRiN2QxYjNlZGJkYmZjZjRkZjI5MWJhODFiYTgxYTNjOGNiZTE1OGIxNGM4M2UxNDQ1OThhYTkzZmI4MDRhMzQ4MGE5NmFlZjM2N2M2NDBhZjFhMTRmZTQzNWE0ZGVlZDdiODJiNmQ0NDQ5NWJiNWUwOTBjNGI4MWZlOGM1MDI=&masterId=29958135 b'--===============3552548821263736561==\r\nContent-Disposition: file; name="file"; filename="r-ext5f108191f1e0f-0-c.monitoring.json"\r\nContent-Type: application/json\r\n\r\n{\n "reportInfo": {\n  "sessionId": "r-ext5f108191f1e0f",\n  "timestamp": 1594917283.0935204,\n'
+[2020-07-16 11:34:43,103 DEBUG HTTPClient] Making HTTP request POST https://data.blazemeter.com/api/v4/image/r-ext5f108191f1e0f/files?signature=ci1leHQ1ZjEwODE5MWYxZTBmOjE1OTYxMjY4NjY6OGRiN2QxYjNlZGJkYmZjZjRkZjI5MWJhODFiYTgxYTNjOGNiZTE1OGIxNGM4M2UxNDQ1OThhYTkzZmI4MDRhMzQ4MGE5NmFlZjM2N2M2NDBhZjFhMTRmZTQzNWE0ZGVlZDdiODJiNmQ0NDQ5NWJiNWUwOTBjNGI4MWZlOGM1MDI=&masterId=29958135
+[2020-07-16 11:34:43,850 DEBUG urllib3.connectionpool] https://data.blazemeter.com:443 "POST /api/v4/image/r-ext5f108191f1e0f/files?signature=ci1leHQ1ZjEwODE5MWYxZTBmOjE1OTYxMjY4NjY6OGRiN2QxYjNlZGJkYmZjZjRkZjI5MWJhODFiYTgxYTNjOGNiZTE1OGIxNGM4M2UxNDQ1OThhYTkzZmI4MDRhMzQ4MGE5NmFlZjM2N2M2NDBhZjFhMTRmZTQzNWE0ZGVlZDdiODJiNmQ0NDQ5NWJiNWUwOTBjNGI4MWZlOGM1MDI=&masterId=29958135 HTTP/1.1" 200 150
+[2020-07-16 11:34:43,855 DEBUG User] Response [200]: {
+    "api_version": 4,
+    "error": null,
+    "result": [
+        "r-ext5f108191f1e0f-0-c.monitoring.json"
+    ],
+    "request_id": "5f1081a3557ff"
+}
+[2020-07-16 11:34:43,916 INFO Engine.blazemeter] Uploading all artifacts as artifacts.zip ...
+[2020-07-16 11:34:43,917 DEBUG User] Request: POST https://data.blazemeter.com/api/v4/image/r-ext5f108191f1e0f/files?signature=ci1leHQ1ZjEwODE5MWYxZTBmOjE1OTYxMjY4NjY6OGRiN2QxYjNlZGJkYmZjZjRkZjI5MWJhODFiYTgxYTNjOGNiZTE1OGIxNGM4M2UxNDQ1OThhYTkzZmI4MDRhMzQ4MGE5NmFlZjM2N2M2NDBhZjFhMTRmZTQzNWE0ZGVlZDdiODJiNmQ0NDQ5NWJiNWUwOTBjNGI4MWZlOGM1MDI=&masterId=29958135 b'--===============6117904892995886515==\r\nContent-Disposition: file; name="file"; filename="artifacts.zip"\r\nContent-Type: application/zip\r\n\r\nPK\x03\x04\x14\x00\x00\x00\x08\x00I\\\xf0P%5\xf8\x9e\xf8\x00\x00\x00\xbe\x01\x00\x00\x15\x00\x00\x00jmeter-bzt.properties\x85\x8fIn\xc30\x0cE\xf7\xbe\x8b$\xdbu\x9b\x01\xd0\xae\xe8\t\xda\xb5\xcb*\x8c\xad\xd4\x1a"R\x81\x93\xd3WN6\x1d\xd1\x8d\x08\x81\x8f\x8f\x9f\x07\x87\x8cI\x12\x9c\xf0\xfa\x10\xa6\x935(!s\xd8O\x99F\xcd)c'
+[2020-07-16 11:34:43,918 DEBUG HTTPClient] Making HTTP request POST https://data.blazemeter.com/api/v4/image/r-ext5f108191f1e0f/files?signature=ci1leHQ1ZjEwODE5MWYxZTBmOjE1OTYxMjY4NjY6OGRiN2QxYjNlZGJkYmZjZjRkZjI5MWJhODFiYTgxYTNjOGNiZTE1OGIxNGM4M2UxNDQ1OThhYTkzZmI4MDRhMzQ4MGE5NmFlZjM2N2M2NDBhZjFhMTRmZTQzNWE0ZGVlZDdiODJiNmQ0NDQ5NWJiNWUwOTBjNGI4MWZlOGM1MDI=&masterId=29958135
+[2020-07-16 11:34:44,911 DEBUG urllib3.connectionpool] https://data.blazemeter.com:443 "POST /api/v4/image/r-ext5f108191f1e0f/files?signature=ci1leHQ1ZjEwODE5MWYxZTBmOjE1OTYxMjY4NjY6OGRiN2QxYjNlZGJkYmZjZjRkZjI5MWJhODFiYTgxYTNjOGNiZTE1OGIxNGM4M2UxNDQ1OThhYTkzZmI4MDRhMzQ4MGE5NmFlZjM2N2M2NDBhZjFhMTRmZTQzNWE0ZGVlZDdiODJiNmQ0NDQ5NWJiNWUwOTBjNGI4MWZlOGM1MDI=&masterId=29958135 HTTP/1.1" 200 125
+[2020-07-16 11:34:44,917 DEBUG User] Response [200]: {
+    "api_version": 4,
+    "error": null,
+    "result": [
+        "artifacts.zip"
+    ],
+    "request_id": "5f1081a44d36f"
+}
+[2020-07-16 11:34:44,920 DEBUG User] Request: POST https://data.blazemeter.com/api/v4/image/r-ext5f108191f1e0f/files?signature=ci1leHQ1ZjEwODE5MWYxZTBmOjE1OTYxMjY4NjY6OGRiN2QxYjNlZGJkYmZjZjRkZjI5MWJhODFiYTgxYTNjOGNiZTE1OGIxNGM4M2UxNDQ1OThhYTkzZmI4MDRhMzQ4MGE5NmFlZjM2N2M2NDBhZjFhMTRmZTQzNWE0ZGVlZDdiODJiNmQ0NDQ5NWJiNWUwOTBjNGI4MWZlOGM1MDI=&masterId=29958135 b'--===============2005812308366057017==\r\nContent-Disposition: file; name="file"; filename="artifacts.zip.tail.bz"\r\nContent-Type: application/octet-stream\r\n\r\n31.27K bzt.log\n6.112K effective.json\n4.967K effective.yml\n2.12K error.jtl\n446  jmeter-bzt.properties'
+[2020-07-16 11:34:44,920 DEBUG HTTPClient] Making HTTP request POST https://data.blazemeter.com/api/v4/image/r-ext5f108191f1e0f/files?signature=ci1leHQ1ZjEwODE5MWYxZTBmOjE1OTYxMjY4NjY6OGRiN2QxYjNlZGJkYmZjZjRkZjI5MWJhODFiYTgxYTNjOGNiZTE1OGIxNGM4M2UxNDQ1OThhYTkzZmI4MDRhMzQ4MGE5NmFlZjM2N2M2NDBhZjFhMTRmZTQzNWE0ZGVlZDdiODJiNmQ0NDQ5NWJiNWUwOTBjNGI4MWZlOGM1MDI=&masterId=29958135
+[2020-07-16 11:34:45,770 DEBUG urllib3.connectionpool] https://data.blazemeter.com:443 "POST /api/v4/image/r-ext5f108191f1e0f/files?signature=ci1leHQ1ZjEwODE5MWYxZTBmOjE1OTYxMjY4NjY6OGRiN2QxYjNlZGJkYmZjZjRkZjI5MWJhODFiYTgxYTNjOGNiZTE1OGIxNGM4M2UxNDQ1OThhYTkzZmI4MDRhMzQ4MGE5NmFlZjM2N2M2NDBhZjFhMTRmZTQzNWE0ZGVlZDdiODJiNmQ0NDQ5NWJiNWUwOTBjNGI4MWZlOGM1MDI=&masterId=29958135 HTTP/1.1" 200 133
+[2020-07-16 11:34:45,771 DEBUG User] Response [200]: {
+    "api_version": 4,
+    "error": null,
+    "result": [
+        "artifacts.zip.tail.bz"
+    ],
+    "request_id": "5f1081a51d97f"
+}
+[2020-07-16 11:34:45,771 INFO Engine.blazemeter] Uploading /home/gsaha/Desktop/performance/taurus_bzt/2020-07-16_11-34-19.187229/bzt.log
+[2020-07-16 11:34:45,774 DEBUG User] Request: POST https://data.blazemeter.com/api/v4/image/r-ext5f108191f1e0f/files?signature=ci1leHQ1ZjEwODE5MWYxZTBmOjE1OTYxMjY4NjY6OGRiN2QxYjNlZGJkYmZjZjRkZjI5MWJhODFiYTgxYTNjOGNiZTE1OGIxNGM4M2UxNDQ1OThhYTkzZmI4MDRhMzQ4MGE5NmFlZjM2N2M2NDBhZjFhMTRmZTQzNWE0ZGVlZDdiODJiNmQ0NDQ5NWJiNWUwOTBjNGI4MWZlOGM1MDI=&masterId=29958135 b'--===============3771238059861782469==\r\nContent-Disposition: file; name="file"; filename="bzt.log"\r\nContent-Type: application/octet-stream\r\n\r\n[2020-07-16 11:34:19,136 INFO root] Taurus CLI Tool v1.14.2\n[2020-07-16 11:34:19,136 DEBUG root] Command-line opti'
+[2020-07-16 11:34:45,774 DEBUG HTTPClient] Making HTTP request POST https://data.blazemeter.com/api/v4/image/r-ext5f108191f1e0f/files?signature=ci1leHQ1ZjEwODE5MWYxZTBmOjE1OTYxMjY4NjY6OGRiN2QxYjNlZGJkYmZjZjRkZjI5MWJhODFiYTgxYTNjOGNiZTE1OGIxNGM4M2UxNDQ1OThhYTkzZmI4MDRhMzQ4MGE5NmFlZjM2N2M2NDBhZjFhMTRmZTQzNWE0ZGVlZDdiODJiNmQ0NDQ5NWJiNWUwOTBjNGI4MWZlOGM1MDI=&masterId=29958135
+[2020-07-16 11:34:46,923 DEBUG urllib3.connectionpool] https://data.blazemeter.com:443 "POST /api/v4/image/r-ext5f108191f1e0f/files?signature=ci1leHQ1ZjEwODE5MWYxZTBmOjE1OTYxMjY4NjY6OGRiN2QxYjNlZGJkYmZjZjRkZjI5MWJhODFiYTgxYTNjOGNiZTE1OGIxNGM4M2UxNDQ1OThhYTkzZmI4MDRhMzQ4MGE5NmFlZjM2N2M2NDBhZjFhMTRmZTQzNWE0ZGVlZDdiODJiNmQ0NDQ5NWJiNWUwOTBjNGI4MWZlOGM1MDI=&masterId=29958135 HTTP/1.1" 200 119
+[2020-07-16 11:34:46,929 DEBUG User] Response [200]: {
+    "api_version": 4,
+    "error": null,
+    "result": [
+        "bzt.log"
+    ],
+    "request_id": "5f1081a6381d0"
+}
+[2020-07-16 11:34:46,930 DEBUG User] Request: POST https://data.blazemeter.com/api/v4/image/r-ext5f108191f1e0f/files?signature=ci1leHQ1ZjEwODE5MWYxZTBmOjE1OTYxMjY4NjY6OGRiN2QxYjNlZGJkYmZjZjRkZjI5MWJhODFiYTgxYTNjOGNiZTE1OGIxNGM4M2UxNDQ1OThhYTkzZmI4MDRhMzQ4MGE5NmFlZjM2N2M2NDBhZjFhMTRmZTQzNWE0ZGVlZDdiODJiNmQ0NDQ5NWJiNWUwOTBjNGI4MWZlOGM1MDI=&masterId=29958135 b'--===============2310278441003029319==\r\nContent-Disposition: file; name="file"; filename="bzt.log.tail.bz"\r\nContent-Type: application/octet-stream\r\n\r\n[2020-07-16 11:34:44,911 DEBUG urllib3.connectionpool] https://data.blazemeter.com:443 "POST /api/v4/image'
+[2020-07-16 11:34:46,930 DEBUG HTTPClient] Making HTTP request POST https://data.blazemeter.com/api/v4/image/r-ext5f108191f1e0f/files?signature=ci1leHQ1ZjEwODE5MWYxZTBmOjE1OTYxMjY4NjY6OGRiN2QxYjNlZGJkYmZjZjRkZjI5MWJhODFiYTgxYTNjOGNiZTE1OGIxNGM4M2UxNDQ1OThhYTkzZmI4MDRhMzQ4MGE5NmFlZjM2N2M2NDBhZjFhMTRmZTQzNWE0ZGVlZDdiODJiNmQ0NDQ5NWJiNWUwOTBjNGI4MWZlOGM1MDI=&masterId=29958135
+[2020-07-16 11:34:47,844 DEBUG urllib3.connectionpool] https://data.blazemeter.com:443 "POST /api/v4/image/r-ext5f108191f1e0f/files?signature=ci1leHQ1ZjEwODE5MWYxZTBmOjE1OTYxMjY4NjY6OGRiN2QxYjNlZGJkYmZjZjRkZjI5MWJhODFiYTgxYTNjOGNiZTE1OGIxNGM4M2UxNDQ1OThhYTkzZmI4MDRhMzQ4MGE5NmFlZjM2N2M2NDBhZjFhMTRmZTQzNWE0ZGVlZDdiODJiNmQ0NDQ5NWJiNWUwOTBjNGI4MWZlOGM1MDI=&masterId=29958135 HTTP/1.1" 200 127
+[2020-07-16 11:34:47,847 DEBUG User] Response [200]: {
+    "api_version": 4,
+    "error": null,
+    "result": [
+        "bzt.log.tail.bz"
+    ],
+    "request_id": "5f1081a72407e"
+}
+[2020-07-16 11:34:47,847 DEBUG Engine.blazemeter] Set last check time to: 1594917263.409659
+[2020-07-16 11:34:47,848 INFO Engine.blazemeter] Ending data feeding...
+[2020-07-16 11:34:47,849 DEBUG User] Request: POST https://a.blazemeter.com/api/v4/sessions/r-ext5f108191f1e0f/stop None
+[2020-07-16 11:34:47,849 DEBUG HTTPClient] Making HTTP request POST https://a.blazemeter.com/api/v4/sessions/r-ext5f108191f1e0f/stop
+[2020-07-16 11:34:48,150 DEBUG urllib3.connectionpool] https://a.blazemeter.com:443 "POST /api/v4/sessions/r-ext5f108191f1e0f/stop HTTP/1.1" 202 104
+[2020-07-16 11:34:48,157 DEBUG User] Response [202]: {
+    "api_version": 4,
+    "error": null,
+    "result": "Stopping",
+    "request_id": "5f1081a809764"
+}
+[2020-07-16 11:34:48,157 INFO Engine.blazemeter] Online report link: https://a.blazemeter.com/app/#/masters/29958135
+[2020-07-16 11:34:48,163 INFO Engine.XUnitFileWriter] Writing JUnit XML report into: report.xml
+[2020-07-16 11:34:48,182 DEBUG Engine.Configuration] Dumping YAML config into /home/gsaha/Desktop/performance/taurus_bzt/2020-07-16_11-34-19.187229/effective.yml
+[2020-07-16 11:34:48,268 DEBUG Engine.Configuration] Dumping JSON config into /home/gsaha/Desktop/performance/taurus_bzt/2020-07-16_11-34-19.187229/effective.json
+[2020-07-16 11:34:48,271 INFO root] Artifacts dir: /home/gsaha/Desktop/performance/taurus_bzt/2020-07-16_11-34-19.187229
+[2020-07-16 11:34:48,271 INFO root] Done performing with code: 0
+[2020-07-16 11:34:48,271 DEBUG root] Closing log handler: /home/gsaha/Desktop/performance/taurus_bzt/2020-07-16_11-34-19.187229/bzt.log

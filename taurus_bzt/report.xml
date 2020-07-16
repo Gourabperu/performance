@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<testsuites>
+  <testsuite name="sample_labels" package_name="bzt">
+    <testcase classname="performance transaction" name="cargo">
+      <system-out>BlazeMeter report link: https://a.blazemeter.com/app/#/masters/29958135
+</system-out>
+      <error message="Internal Server Error" type="Error">Internal Server Error
+(status code is 500)
+(total errors of this type: 1)</error>
+    </testcase>
+    <testcase classname="performance transaction" name="token">
+      <system-out>BlazeMeter report link: https://a.blazemeter.com/app/#/masters/29958135
+</system-out>
+    </testcase>
+  </testsuite>
+</testsuites>
