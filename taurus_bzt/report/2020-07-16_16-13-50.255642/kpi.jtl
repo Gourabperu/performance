@@ -1,0 +1,449 @@
+timeStamp,elapsed,label,responseCode,responseMessage,threadName,success,bytes,grpThreads,allThreads,Latency,Hostname,Connect
+1594934040633,2655,token,201,Created,prueba_performance-ThreadStarter 1-1,true,988,15,15,2650,gs,945
+1594934041476,1990,token,201,Created,prueba_performance-ThreadStarter 1-3,true,988,15,15,1990,gs,490
+1594934041477,2256,token,201,Created,prueba_performance-ThreadStarter 1-6,true,988,15,15,2256,gs,495
+1594934041479,2376,token,201,Created,prueba_performance-ThreadStarter 1-5,true,988,15,15,2376,gs,495
+1594934041475,2420,token,201,Created,prueba_performance-ThreadStarter 1-8,true,988,15,15,2420,gs,498
+1594934041528,2942,token,201,Created,prueba_performance-ThreadStarter 1-2,true,988,15,15,2942,gs,532
+1594934041558,3019,token,201,Created,prueba_performance-ThreadStarter 1-15,true,988,15,15,3019,gs,541
+1594934041560,3307,token,201,Created,prueba_performance-ThreadStarter 1-9,true,988,15,15,3307,gs,539
+1594934043468,1524,cargo,500,Internal Server Error,prueba_performance-ThreadStarter 1-3,false,717,15,15,1524,gs,557
+1594934043374,1687,cargo,500,Internal Server Error,prueba_performance-ThreadStarter 1-1,false,717,15,15,1687,gs,512
+1594934041559,3532,token,201,Created,prueba_performance-ThreadStarter 1-14,true,988,15,15,3532,gs,558
+1594934043897,1384,cargo,500,Internal Server Error,prueba_performance-ThreadStarter 1-8,false,717,15,15,1384,gs,439
+1594934041514,4146,token,201,Created,prueba_performance-ThreadStarter 1-11,true,988,15,15,4146,gs,583
+1594934043856,1831,cargo,500,Internal Server Error,prueba_performance-ThreadStarter 1-5,false,717,15,15,1831,gs,456
+1594934043742,1945,cargo,500,Internal Server Error,prueba_performance-ThreadStarter 1-6,false,717,15,15,1944,gs,439
+1594934044472,1473,cargo,500,Internal Server Error,prueba_performance-ThreadStarter 1-2,false,717,15,15,1473,gs,809
+1594934044873,1641,cargo,500,Internal Server Error,prueba_performance-ThreadStarter 1-9,false,717,15,15,1641,gs,1073
+1594934045092,1707,cargo,500,Internal Server Error,prueba_performance-ThreadStarter 1-14,false,717,15,15,1707,gs,980
+1594934045664,1403,cargo,500,Internal Server Error,prueba_performance-ThreadStarter 1-11,false,717,15,15,1402,gs,674
+1594934045071,2192,token,201,Created,prueba_performance-ThreadStarter 1-3,true,988,15,15,2191,gs,1001
+1594934045071,2274,token,201,Created,prueba_performance-ThreadStarter 1-1,true,988,15,15,2274,gs,1002
+1594934044579,2793,cargo,500,Internal Server Error,prueba_performance-ThreadStarter 1-15,false,717,15,15,2793,gs,1979
+1594934045293,2218,token,201,Created,prueba_performance-ThreadStarter 1-8,true,988,15,15,2218,gs,1011
+1594934045727,1830,token,201,Created,prueba_performance-ThreadStarter 1-6,true,988,15,15,1830,gs,787
+1594934045956,1616,token,201,Created,prueba_performance-ThreadStarter 1-2,true,988,15,15,1615,gs,553
+1594934046548,1684,token,201,Created,prueba_performance-ThreadStarter 1-9,true,988,15,15,1684,gs,561
+1594934045705,2564,token,201,Created,prueba_performance-ThreadStarter 1-5,true,988,15,15,2564,gs,814
+1594934046836,1523,token,201,Created,prueba_performance-ThreadStarter 1-14,true,988,15,15,1522,gs,472
+1594934047266,1364,cargo,500,Internal Server Error,prueba_performance-ThreadStarter 1-3,false,717,15,15,1364,gs,558
+1594934047084,1574,token,201,Created,prueba_performance-ThreadStarter 1-11,true,988,15,15,1574,gs,413
+1594934047347,1319,cargo,500,Internal Server Error,prueba_performance-ThreadStarter 1-1,false,717,15,15,1318,gs,483
+1594934047515,1287,cargo,500,Internal Server Error,prueba_performance-ThreadStarter 1-8,false,717,15,15,1287,gs,512
+1594934047560,1392,cargo,500,Internal Server Error,prueba_performance-ThreadStarter 1-6,false,717,15,15,1392,gs,673
+1594934047378,1600,token,201,Created,prueba_performance-ThreadStarter 1-15,true,988,15,15,1599,gs,450
+1594934047574,1418,cargo,500,Internal Server Error,prueba_performance-ThreadStarter 1-2,false,717,15,15,1417,gs,659
+1594934048235,1067,cargo,500,Internal Server Error,prueba_performance-ThreadStarter 1-9,false,717,15,15,1067,gs,446
+1594934048272,1033,cargo,500,Internal Server Error,prueba_performance-ThreadStarter 1-5,false,717,15,15,1027,gs,415
+1594934048361,1026,cargo,500,Internal Server Error,prueba_performance-ThreadStarter 1-14,false,717,15,15,1026,gs,418
+1594934048659,971,cargo,500,Internal Server Error,prueba_performance-ThreadStarter 1-11,false,717,15,15,971,gs,425
+1594934048674,1512,token,201,Created,prueba_performance-ThreadStarter 1-1,true,988,15,15,1512,gs,493
+1594934048981,1244,cargo,500,Internal Server Error,prueba_performance-ThreadStarter 1-15,false,717,15,15,1244,gs,510
+1594934048639,1639,token,201,Created,prueba_performance-ThreadStarter 1-3,true,988,15,15,1639,gs,514
+1594934048992,1622,token,201,Created,prueba_performance-ThreadStarter 1-6,true,988,15,15,1622,gs,515
+1594934049028,1603,token,201,Created,prueba_performance-ThreadStarter 1-2,true,988,15,15,1601,gs,495
+1594934048809,1848,token,201,Created,prueba_performance-ThreadStarter 1-8,true,988,15,15,1848,gs,507
+1594934049395,1713,token,201,Created,prueba_performance-ThreadStarter 1-14,true,988,15,15,1713,gs,472
+1594934049357,1768,token,201,Created,prueba_performance-ThreadStarter 1-9,true,988,15,15,1768,gs,472
+1594934050278,1129,cargo,500,Internal Server Error,prueba_performance-ThreadStarter 1-3,false,717,15,15,1129,gs,420
+1594934050187,1220,cargo,500,Internal Server Error,prueba_performance-ThreadStarter 1-1,false,717,15,15,1220,gs,421
+1594934050636,1036,cargo,500,Internal Server Error,prueba_performance-ThreadStarter 1-2,false,717,15,15,1036,gs,423
+1594934050230,1459,token,201,Created,prueba_performance-ThreadStarter 1-15,true,988,15,15,1459,gs,410
+1594934050617,1088,cargo,500,Internal Server Error,prueba_performance-ThreadStarter 1-6,false,717,15,15,1088,gs,388
+1594934050659,1079,cargo,500,Internal Server Error,prueba_performance-ThreadStarter 1-8,false,717,15,15,1079,gs,400
+1594934049665,2282,token,201,Created,prueba_performance-ThreadStarter 1-11,true,988,15,15,2282,gs,481
+1594934049367,2580,token,201,Created,prueba_performance-ThreadStarter 1-5,true,988,15,15,2580,gs,479
+1594934051128,1099,cargo,500,Internal Server Error,prueba_performance-ThreadStarter 1-9,false,717,15,15,1098,gs,499
+1594934051111,1154,cargo,500,Internal Server Error,prueba_performance-ThreadStarter 1-14,false,717,15,15,1154,gs,516
+1594934051454,1504,token,201,Created,prueba_performance-ThreadStarter 1-1,true,988,15,15,1504,gs,448
+1594934051451,1577,token,201,Created,prueba_performance-ThreadStarter 1-3,true,988,15,15,1577,gs,452
+1594934051951,1154,cargo,500,Internal Server Error,prueba_performance-ThreadStarter 1-5,false,717,15,15,1154,gs,488
+1594934051951,1236,cargo,500,Internal Server Error,prueba_performance-ThreadStarter 1-11,false,717,15,15,1236,gs,490
+1594934051769,1656,token,201,Created,prueba_performance-ThreadStarter 1-8,true,988,15,15,1656,gs,459
+1594934051759,1667,token,201,Created,prueba_performance-ThreadStarter 1-6,true,988,15,15,1667,gs,499
+1594934051697,1732,token,201,Created,prueba_performance-ThreadStarter 1-2,true,988,15,15,1732,gs,530
+1594934052306,1478,token,201,Created,prueba_performance-ThreadStarter 1-14,true,988,15,15,1478,gs,466
+1594934051692,2094,cargo,500,Internal Server Error,prueba_performance-ThreadStarter 1-15,false,717,15,15,2094,gs,534
+1594934052292,1534,token,201,Created,prueba_performance-ThreadStarter 1-9,true,988,15,15,1533,gs,444
+1594934053031,968,cargo,500,Internal Server Error,prueba_performance-ThreadStarter 1-3,false,717,15,15,968,gs,413
+1594934052959,1040,cargo,500,Internal Server Error,prueba_performance-ThreadStarter 1-1,false,717,15,15,1040,gs,467
+1594934053428,1239,cargo,500,Internal Server Error,prueba_performance-ThreadStarter 1-8,false,717,15,15,1238,gs,465
+1594934053433,1333,cargo,500,Internal Server Error,prueba_performance-ThreadStarter 1-2,false,717,15,15,1333,gs,459
+1594934053112,1695,token,201,Created,prueba_performance-ThreadStarter 1-5,true,988,15,15,1695,gs,512
+1594934053202,1621,token,201,Created,prueba_performance-ThreadStarter 1-11,true,988,15,15,1620,gs,423
+1594934053440,1385,cargo,500,Internal Server Error,prueba_performance-ThreadStarter 1-6,false,717,15,15,1385,gs,476
+1594934053826,1053,cargo,500,Internal Server Error,prueba_performance-ThreadStarter 1-9,false,717,15,15,1053,gs,383
+1594934053785,1179,cargo,500,Internal Server Error,prueba_performance-ThreadStarter 1-14,false,717,15,15,1179,gs,414
+1594934053797,1464,token,201,Created,prueba_performance-ThreadStarter 1-15,true,988,15,15,1464,gs,412
+1594934054037,1527,token,201,Created,prueba_performance-ThreadStarter 1-3,true,988,15,15,1526,gs,425
+1594934054028,1536,token,201,Created,prueba_performance-ThreadStarter 1-1,true,988,15,15,1535,gs,403
+1594934054823,962,cargo,500,Internal Server Error,prueba_performance-ThreadStarter 1-11,false,717,15,15,962,gs,376
+1594934054807,1069,cargo,500,Internal Server Error,prueba_performance-ThreadStarter 1-5,false,717,15,15,1069,gs,435
+1594934054684,1446,token,201,Created,prueba_performance-ThreadStarter 1-8,true,988,15,15,1446,gs,394
+1594934054770,1530,token,201,Created,prueba_performance-ThreadStarter 1-2,true,988,15,15,1529,gs,429
+1594934054829,1555,token,201,Created,prueba_performance-ThreadStarter 1-6,true,988,15,15,1555,gs,428
+1594934054889,1583,token,201,Created,prueba_performance-ThreadStarter 1-9,true,988,15,15,1583,gs,453
+1594934055266,1281,cargo,500,Internal Server Error,prueba_performance-ThreadStarter 1-15,false,717,15,15,1281,gs,602
+1594934054978,1647,token,201,Created,prueba_performance-ThreadStarter 1-14,true,988,15,15,1647,gs,591
+1594934055565,1113,cargo,500,Internal Server Error,prueba_performance-ThreadStarter 1-3,false,717,15,15,1113,gs,439
+1594934055565,1109,cargo,500,Internal Server Error,prueba_performance-ThreadStarter 1-1,false,717,15,15,1109,gs,441
+1594934055790,1326,token,201,Created,prueba_performance-ThreadStarter 1-11,true,988,15,15,1326,gs,385
+1594934056133,983,cargo,500,Internal Server Error,prueba_performance-ThreadStarter 1-8,false,717,15,15,983,gs,432
+1594934056303,1063,cargo,500,Internal Server Error,prueba_performance-ThreadStarter 1-2,false,717,15,15,1063,gs,404
+1594934055879,1590,token,201,Created,prueba_performance-ThreadStarter 1-5,true,988,15,15,1590,gs,430
+1594934056385,1127,cargo,500,Internal Server Error,prueba_performance-ThreadStarter 1-6,false,717,15,15,1127,gs,445
+1594934056472,1074,cargo,500,Internal Server Error,prueba_performance-ThreadStarter 1-9,false,717,15,15,1074,gs,434
+1594934056626,1070,cargo,500,Internal Server Error,prueba_performance-ThreadStarter 1-14,false,717,15,15,1070,gs,452
+1594934057118,1061,cargo,500,Internal Server Error,prueba_performance-ThreadStarter 1-11,false,717,15,15,1061,gs,396
+1594934056567,1659,token,201,Created,prueba_performance-ThreadStarter 1-15,true,988,15,15,1659,gs,511
+1594934056714,1514,token,201,Created,prueba_performance-ThreadStarter 1-1,true,988,15,15,1514,gs,442
+1594934056716,1671,token,201,Created,prueba_performance-ThreadStarter 1-3,true,988,15,15,1670,gs,440
+1594934057471,996,cargo,500,Internal Server Error,prueba_performance-ThreadStarter 1-5,false,717,15,15,996,gs,418
+1594934057123,1523,token,201,Created,prueba_performance-ThreadStarter 1-8,true,988,15,15,1523,gs,424
+1594934057372,1494,token,201,Created,prueba_performance-ThreadStarter 1-2,true,988,15,15,1494,gs,449
+1594934057559,1439,token,201,Created,prueba_performance-ThreadStarter 1-9,true,988,15,15,1439,gs,423
+1594934057713,1515,token,201,Created,prueba_performance-ThreadStarter 1-14,true,988,15,15,1515,gs,452
+1594934058231,1196,cargo,500,Internal Server Error,prueba_performance-ThreadStarter 1-1,false,717,15,15,1196,gs,461
+1594934058228,1245,cargo,500,Internal Server Error,prueba_performance-ThreadStarter 1-15,false,717,15,15,1245,gs,454
+1594934058389,1149,cargo,500,Internal Server Error,prueba_performance-ThreadStarter 1-3,false,717,15,15,1149,gs,436
+1594934058184,1527,token,201,Created,prueba_performance-ThreadStarter 1-11,true,988,15,15,1527,gs,437
+1594934057531,2197,token,201,Created,prueba_performance-ThreadStarter 1-6,true,988,15,15,2197,gs,431
+1594934058647,1098,cargo,500,Internal Server Error,prueba_performance-ThreadStarter 1-8,false,717,15,15,1098,gs,407
+1594934058480,1396,token,201,Created,prueba_performance-ThreadStarter 1-5,true,988,15,15,1396,gs,396
+1594934058867,1089,cargo,500,Internal Server Error,prueba_performance-ThreadStarter 1-2,false,717,15,15,1089,gs,427
+1594934059000,1065,cargo,500,Internal Server Error,prueba_performance-ThreadStarter 1-9,false,717,15,15,1065,gs,439
+1594934059231,1063,cargo,500,Internal Server Error,prueba_performance-ThreadStarter 1-14,false,717,15,15,1063,gs,507
+1594934059712,1114,cargo,500,Internal Server Error,prueba_performance-ThreadStarter 1-11,false,717,15,15,1114,gs,401
+1594934059729,1138,cargo,500,Internal Server Error,prueba_performance-ThreadStarter 1-6,false,717,15,15,1137,gs,424
+1594934059442,1506,token,201,Created,prueba_performance-ThreadStarter 1-1,true,988,15,15,1506,gs,436
+1594934059552,1476,token,201,Created,prueba_performance-ThreadStarter 1-3,true,988,15,15,1476,gs,438
+1594934059478,1567,token,201,Created,prueba_performance-ThreadStarter 1-15,true,988,15,15,1567,gs,423
+1594934059877,1339,cargo,500,Internal Server Error,prueba_performance-ThreadStarter 1-5,false,717,15,15,1339,gs,424
+1594934059749,1557,token,201,Created,prueba_performance-ThreadStarter 1-8,true,988,15,15,1557,gs,389
+1594934059960,1687,token,201,Created,prueba_performance-ThreadStarter 1-2,true,988,15,15,1687,gs,424
+1594934060306,1721,token,201,Created,prueba_performance-ThreadStarter 1-14,true,988,15,15,1720,gs,654
+1594934060948,1230,cargo,500,Internal Server Error,prueba_performance-ThreadStarter 1-1,false,717,15,15,1230,gs,456
+1594934061048,1244,cargo,500,Internal Server Error,prueba_performance-ThreadStarter 1-15,false,717,15,15,1244,gs,430
+1594934060069,2348,token,201,Created,prueba_performance-ThreadStarter 1-9,true,988,15,15,2348,gs,554
+1594934060832,1596,token,201,Created,prueba_performance-ThreadStarter 1-11,true,988,15,15,1596,gs,417
+1594934061042,1403,cargo,500,Internal Server Error,prueba_performance-ThreadStarter 1-3,false,717,15,15,1403,gs,605
+1594934061307,1239,cargo,500,Internal Server Error,prueba_performance-ThreadStarter 1-8,false,717,15,15,1239,gs,497
+1594934060886,1701,token,201,Created,prueba_performance-ThreadStarter 1-6,true,988,15,15,1701,gs,519
+1594934061650,1071,cargo,500,Internal Server Error,prueba_performance-ThreadStarter 1-2,false,717,15,15,1071,gs,443
+1594934061241,1675,token,201,Created,prueba_performance-ThreadStarter 1-5,true,988,15,15,1675,gs,565
+1594934062029,1064,cargo,500,Internal Server Error,prueba_performance-ThreadStarter 1-14,false,717,15,15,1064,gs,426
+1594934062421,931,cargo,500,Internal Server Error,prueba_performance-ThreadStarter 1-9,false,717,15,15,931,gs,397
+1594934062431,1048,cargo,500,Internal Server Error,prueba_performance-ThreadStarter 1-11,false,717,15,15,1048,gs,470
+1594934062190,1468,token,201,Created,prueba_performance-ThreadStarter 1-1,true,988,15,15,1468,gs,433
+1594934062588,1235,cargo,500,Internal Server Error,prueba_performance-ThreadStarter 1-6,false,717,15,15,1235,gs,460
+1594934062306,1560,token,201,Created,prueba_performance-ThreadStarter 1-15,true,988,15,15,1560,gs,415
+1594934062457,1489,token,201,Created,prueba_performance-ThreadStarter 1-3,true,988,15,15,1489,gs,444
+1594934062551,1502,token,201,Created,prueba_performance-ThreadStarter 1-8,true,988,15,15,1502,gs,414
+1594934062917,1136,cargo,500,Internal Server Error,prueba_performance-ThreadStarter 1-5,false,717,15,15,1136,gs,433
+1594934062730,1458,token,201,Created,prueba_performance-ThreadStarter 1-2,true,988,15,15,1458,gs,399
+1594934063106,1396,token,201,Created,prueba_performance-ThreadStarter 1-14,true,988,15,15,1396,gs,422
+1594934063661,1089,cargo,500,Internal Server Error,prueba_performance-ThreadStarter 1-1,false,717,15,15,1088,gs,426
+1594934063369,1558,token,201,Created,prueba_performance-ThreadStarter 1-9,true,988,15,15,1557,gs,455
+1594934063867,1122,cargo,500,Internal Server Error,prueba_performance-ThreadStarter 1-15,false,717,15,15,1122,gs,499
+1594934063484,1576,token,201,Created,prueba_performance-ThreadStarter 1-11,true,988,15,15,1575,gs,419
+1594934063947,1274,cargo,500,Internal Server Error,prueba_performance-ThreadStarter 1-3,false,717,15,15,1274,gs,434
+1594934064189,1082,cargo,500,Internal Server Error,prueba_performance-ThreadStarter 1-2,false,717,15,15,1082,gs,479
+1594934064053,1221,cargo,500,Internal Server Error,prueba_performance-ThreadStarter 1-8,false,717,15,15,1221,gs,450
+1594934063828,1506,token,201,Created,prueba_performance-ThreadStarter 1-6,true,988,15,15,1506,gs,414
+1594934064057,1501,token,201,Created,prueba_performance-ThreadStarter 1-5,true,988,15,15,1501,gs,485
+1594934064503,1124,cargo,500,Internal Server Error,prueba_performance-ThreadStarter 1-14,false,717,15,15,1124,gs,565
+1594934064927,1059,cargo,500,Internal Server Error,prueba_performance-ThreadStarter 1-9,false,717,15,15,1059,gs,503
+1594934064767,1482,token,201,Created,prueba_performance-ThreadStarter 1-1,true,988,15,15,1482,gs,501
+1594934065063,1186,cargo,500,Internal Server Error,prueba_performance-ThreadStarter 1-11,false,717,15,15,1186,gs,498
+1594934065366,1181,cargo,500,Internal Server Error,prueba_performance-ThreadStarter 1-6,false,717,15,15,1181,gs,510
+1594934065016,1615,token,201,Created,prueba_performance-ThreadStarter 1-15,true,988,15,15,1615,gs,480
+1594934065559,1258,cargo,500,Internal Server Error,prueba_performance-ThreadStarter 1-5,false,717,15,15,1258,gs,488
+1594934065298,1522,token,201,Created,prueba_performance-ThreadStarter 1-2,true,988,15,15,1522,gs,478
+1594934065228,1597,token,201,Created,prueba_performance-ThreadStarter 1-3,true,988,15,15,1597,gs,496
+1594934065292,1548,token,201,Created,prueba_performance-ThreadStarter 1-8,true,988,15,15,1548,gs,463
+1594934065640,1481,token,201,Created,prueba_performance-ThreadStarter 1-14,true,988,15,15,1481,gs,447
+1594934066249,1011,cargo,500,Internal Server Error,prueba_performance-ThreadStarter 1-1,false,717,15,15,1011,gs,397
+1594934066000,1425,token,201,Created,prueba_performance-ThreadStarter 1-9,true,988,15,15,1425,gs,465
+1594934066632,1065,cargo,500,Internal Server Error,prueba_performance-ThreadStarter 1-15,false,717,15,15,1065,gs,436
+1594934066253,1522,token,201,Created,prueba_performance-ThreadStarter 1-11,true,988,15,15,1522,gs,513
+1594934066821,1130,cargo,500,Internal Server Error,prueba_performance-ThreadStarter 1-2,false,717,15,15,1130,gs,404
+1594934066826,1123,cargo,500,Internal Server Error,prueba_performance-ThreadStarter 1-3,false,717,15,15,1123,gs,431
+1594934066841,1184,cargo,500,Internal Server Error,prueba_performance-ThreadStarter 1-8,false,717,15,15,1184,gs,426
+1594934066562,1465,token,201,Created,prueba_performance-ThreadStarter 1-6,true,988,15,15,1465,gs,426
+1594934067122,1074,cargo,500,Internal Server Error,prueba_performance-ThreadStarter 1-14,false,717,15,15,1074,gs,409
+1594934066821,1432,token,201,Created,prueba_performance-ThreadStarter 1-5,true,988,15,15,1432,gs,436
+1594934067426,1088,cargo,500,Internal Server Error,prueba_performance-ThreadStarter 1-9,false,717,15,15,1088,gs,476
+1594934067263,1450,token,201,Created,prueba_performance-ThreadStarter 1-1,true,988,15,15,1450,gs,430
+1594934067776,1005,cargo,500,Internal Server Error,prueba_performance-ThreadStarter 1-11,false,717,15,15,1005,gs,441
+1594934068028,998,cargo,500,Internal Server Error,prueba_performance-ThreadStarter 1-6,false,717,15,15,998,gs,416
+1594934067702,1419,token,201,Created,prueba_performance-ThreadStarter 1-15,true,988,15,15,1419,gs,413
+1594934068253,999,cargo,500,Internal Server Error,prueba_performance-ThreadStarter 1-5,false,717,15,15,999,gs,435
+1594934067954,1394,token,201,Created,prueba_performance-ThreadStarter 1-2,true,988,15,15,1394,gs,389
+1594934067959,1479,token,201,Created,prueba_performance-ThreadStarter 1-3,true,988,15,15,1479,gs,464
+1594934068034,1431,token,201,Created,prueba_performance-ThreadStarter 1-8,true,988,15,15,1431,gs,411
+1594934068202,1490,token,201,Created,prueba_performance-ThreadStarter 1-14,true,988,15,15,1489,gs,416
+1594934068715,1110,cargo,500,Internal Server Error,prueba_performance-ThreadStarter 1-1,false,717,15,15,1110,gs,537
+1594934068519,1708,token,201,Created,prueba_performance-ThreadStarter 1-9,true,988,15,15,1708,gs,610
+1594934069122,1171,cargo,500,Internal Server Error,prueba_performance-ThreadStarter 1-15,false,717,15,15,1171,gs,406
+1594934068794,1714,token,201,Created,prueba_performance-ThreadStarter 1-11,true,988,15,15,1714,gs,541
+1594934069030,1531,token,201,Created,prueba_performance-ThreadStarter 1-6,true,988,15,15,1531,gs,449
+1594934069349,1211,cargo,500,Internal Server Error,prueba_performance-ThreadStarter 1-2,false,717,15,15,1211,gs,413
+1594934069466,1141,cargo,500,Internal Server Error,prueba_performance-ThreadStarter 1-8,false,717,15,15,1141,gs,393
+1594934069439,1275,cargo,500,Internal Server Error,prueba_performance-ThreadStarter 1-3,false,717,15,15,1274,gs,409
+1594934069259,1487,token,201,Created,prueba_performance-ThreadStarter 1-5,true,988,15,15,1487,gs,397
+1594934069692,1096,cargo,500,Internal Server Error,prueba_performance-ThreadStarter 1-14,false,717,15,15,1096,gs,380
+1594934041528,29267,token,201,Created,prueba_performance-ThreadStarter 1-4,true,988,15,15,29267,gs,513
+1594934069857,1295,token,201,Created,prueba_performance-ThreadStarter 1-1,true,988,15,15,1295,gs,395
+1594934041543,29683,token,504,Gateway Timeout,prueba_performance-ThreadStarter 1-12,false,324,15,15,29683,gs,557
+1594934041533,29694,token,504,Gateway Timeout,prueba_performance-ThreadStarter 1-10,false,324,15,15,29694,gs,564
+1594934041559,29670,token,504,Gateway Timeout,prueba_performance-ThreadStarter 1-7,false,324,15,15,29670,gs,539
+1594934041549,29677,token,504,Gateway Timeout,prueba_performance-ThreadStarter 1-13,false,324,15,15,29677,gs,548
+1594934070228,1038,cargo,500,Internal Server Error,prueba_performance-ThreadStarter 1-9,false,717,15,15,1038,gs,491
+1594934070509,1107,cargo,500,Internal Server Error,prueba_performance-ThreadStarter 1-11,false,717,15,15,1107,gs,523
+1594934070562,1063,cargo,500,Internal Server Error,prueba_performance-ThreadStarter 1-6,false,717,15,15,1063,gs,494
+1594934070297,1450,token,201,Created,prueba_performance-ThreadStarter 1-15,true,988,15,15,1450,gs,446
+1594934070748,1138,cargo,500,Internal Server Error,prueba_performance-ThreadStarter 1-5,false,717,15,15,1138,gs,417
+1594934071235,732,cargo,400,Bad Request,prueba_performance-ThreadStarter 1-12,false,686,15,15,732,gs,381
+1594934071237,773,cargo,400,Bad Request,prueba_performance-ThreadStarter 1-7,false,686,15,15,773,gs,389
+1594934070797,1214,cargo,500,Internal Server Error,prueba_performance-ThreadStarter 1-4,false,717,15,15,1214,gs,406
+1594934071236,801,cargo,400,Bad Request,prueba_performance-ThreadStarter 1-13,false,686,15,15,801,gs,420
+1594934071237,801,cargo,400,Bad Request,prueba_performance-ThreadStarter 1-10,false,686,15,15,801,gs,420
+1594934070613,1493,token,201,Created,prueba_performance-ThreadStarter 1-8,true,988,15,15,1493,gs,449
+1594934070568,1559,token,201,Created,prueba_performance-ThreadStarter 1-2,true,988,15,15,1559,gs,488
+1594934071153,1070,cargo,500,Internal Server Error,prueba_performance-ThreadStarter 1-1,false,717,15,15,1070,gs,394
+1594934070722,1543,token,201,Created,prueba_performance-ThreadStarter 1-3,true,988,15,15,1543,gs,473
+1594934070791,1522,token,201,Created,prueba_performance-ThreadStarter 1-14,true,988,15,15,1522,gs,432
+1594934071748,1099,cargo,500,Internal Server Error,prueba_performance-ThreadStarter 1-15,false,717,15,15,1099,gs,410
+1594934072128,1095,cargo,500,Internal Server Error,prueba_performance-ThreadStarter 1-2,false,717,15,15,1095,gs,409
+1594934071629,1596,token,201,Created,prueba_performance-ThreadStarter 1-6,true,988,15,15,1596,gs,424
+1594934072107,1178,cargo,500,Internal Server Error,prueba_performance-ThreadStarter 1-8,false,717,15,15,1178,gs,409
+1594934071890,1496,token,201,Created,prueba_performance-ThreadStarter 1-5,true,988,15,15,1496,gs,402
+1594934071620,1792,token,201,Created,prueba_performance-ThreadStarter 1-11,true,988,15,15,1792,gs,420
+1594934072016,1429,token,201,Created,prueba_performance-ThreadStarter 1-7,true,988,15,15,1429,gs,417
+1594934071974,1473,token,201,Created,prueba_performance-ThreadStarter 1-12,true,988,15,15,1473,gs,423
+1594934072265,1432,cargo,500,Internal Server Error,prueba_performance-ThreadStarter 1-3,false,717,15,15,1432,gs,425
+1594934072314,1474,cargo,500,Internal Server Error,prueba_performance-ThreadStarter 1-14,false,717,15,15,1473,gs,388
+1594934072229,1723,token,201,Created,prueba_performance-ThreadStarter 1-1,true,988,15,15,1723,gs,398
+1594934073225,1162,cargo,500,Internal Server Error,prueba_performance-ThreadStarter 1-6,false,717,15,15,1162,gs,416
+1594934072043,2402,token,201,Created,prueba_performance-ThreadStarter 1-13,true,988,15,15,2402,gs,403
+1594934072853,1650,token,201,Created,prueba_performance-ThreadStarter 1-15,true,988,15,15,1650,gs,512
+1594934071270,3472,token,201,Created,prueba_performance-ThreadStarter 1-9,true,988,15,15,3472,gs,405
+1594934073413,1329,cargo,500,Internal Server Error,prueba_performance-ThreadStarter 1-11,false,717,15,15,1329,gs,525
+1594934073448,1294,cargo,500,Internal Server Error,prueba_performance-ThreadStarter 1-12,false,717,15,15,1294,gs,488
+1594934073387,1381,cargo,500,Internal Server Error,prueba_performance-ThreadStarter 1-5,false,717,15,15,1381,gs,549
+1594934073289,1549,token,201,Created,prueba_performance-ThreadStarter 1-8,true,988,15,15,1549,gs,428
+1594934072042,2824,token,201,Created,prueba_performance-ThreadStarter 1-10,true,988,15,15,2824,gs,404
+1594934073446,1420,cargo,500,Internal Server Error,prueba_performance-ThreadStarter 1-7,false,717,15,15,1420,gs,492
+1594934073953,992,cargo,500,Internal Server Error,prueba_performance-ThreadStarter 1-1,false,717,15,15,992,gs,403
+1594934073796,1435,token,201,Created,prueba_performance-ThreadStarter 1-14,true,988,15,15,1435,gs,407
+1594934073226,2273,token,201,Created,prueba_performance-ThreadStarter 1-2,true,988,15,15,2273,gs,420
+1594934074446,1053,cargo,500,Internal Server Error,prueba_performance-ThreadStarter 1-13,false,717,15,15,1053,gs,464
+1594934074504,1155,cargo,500,Internal Server Error,prueba_performance-ThreadStarter 1-15,false,717,15,15,1155,gs,421
+1594934073701,2090,token,201,Created,prueba_performance-ThreadStarter 1-3,true,988,15,15,2090,gs,562
+1594934074391,1474,token,201,Created,prueba_performance-ThreadStarter 1-6,true,988,15,15,1474,gs,398
+1594934074744,1127,cargo,500,Internal Server Error,prueba_performance-ThreadStarter 1-9,false,717,15,15,1127,gs,418
+1594934074867,1116,cargo,500,Internal Server Error,prueba_performance-ThreadStarter 1-10,false,717,15,15,1116,gs,438
+1594934074841,1196,cargo,500,Internal Server Error,prueba_performance-ThreadStarter 1-8,false,717,15,15,1195,gs,430
+1594934074763,1344,token,201,Created,prueba_performance-ThreadStarter 1-12,true,988,15,15,1344,gs,399
+1594934074781,1440,token,201,Created,prueba_performance-ThreadStarter 1-5,true,988,15,15,1440,gs,415
+1594934074872,1394,token,201,Created,prueba_performance-ThreadStarter 1-7,true,988,15,15,1394,gs,420
+1594934075501,1024,cargo,500,Internal Server Error,prueba_performance-ThreadStarter 1-2,false,717,15,15,1024,gs,487
+1594934074947,1754,token,201,Created,prueba_performance-ThreadStarter 1-1,true,988,15,15,1754,gs,796
+1594934074758,2027,token,201,Created,prueba_performance-ThreadStarter 1-11,true,988,15,15,2027,gs,420
+1594934075793,1067,cargo,500,Internal Server Error,prueba_performance-ThreadStarter 1-3,false,717,15,15,1067,gs,433
+1594934075866,1237,cargo,500,Internal Server Error,prueba_performance-ThreadStarter 1-6,false,717,15,15,1237,gs,447
+1594934075510,1638,token,201,Created,prueba_performance-ThreadStarter 1-13,true,988,15,15,1638,gs,494
+1594934075680,1470,token,201,Created,prueba_performance-ThreadStarter 1-15,true,988,15,15,1470,gs,456
+1594934076108,1109,cargo,500,Internal Server Error,prueba_performance-ThreadStarter 1-12,false,717,15,15,1109,gs,394
+1594934076222,1083,cargo,500,Internal Server Error,prueba_performance-ThreadStarter 1-5,false,717,15,15,1083,gs,453
+1594934075897,1513,token,201,Created,prueba_performance-ThreadStarter 1-9,true,988,15,15,1511,gs,420
+1594934076267,1159,cargo,500,Internal Server Error,prueba_performance-ThreadStarter 1-7,false,717,15,15,1159,gs,434
+1594934076046,1492,token,201,Created,prueba_performance-ThreadStarter 1-8,true,988,15,15,1492,gs,456
+1594934075233,2481,cargo,500,Internal Server Error,prueba_performance-ThreadStarter 1-14,false,717,15,15,2480,gs,1868
+1594934076702,1327,cargo,500,Internal Server Error,prueba_performance-ThreadStarter 1-1,false,717,15,15,1327,gs,600
+1594934075990,2244,token,201,Created,prueba_performance-ThreadStarter 1-10,true,988,15,15,2244,gs,442
+1594934076530,1705,token,201,Created,prueba_performance-ThreadStarter 1-2,true,988,15,15,1705,gs,592
+1594934076786,1448,cargo,500,Internal Server Error,prueba_performance-ThreadStarter 1-11,false,717,15,15,1448,gs,623
+1594934077155,1152,cargo,500,Internal Server Error,prueba_performance-ThreadStarter 1-15,false,717,15,15,1152,gs,411
+1594934077150,1343,cargo,500,Internal Server Error,prueba_performance-ThreadStarter 1-13,false,717,15,15,1343,gs,407
+1594934076863,1725,token,201,Created,prueba_performance-ThreadStarter 1-3,true,988,15,15,1725,gs,607
+1594934077412,1178,cargo,500,Internal Server Error,prueba_performance-ThreadStarter 1-9,false,717,15,15,1178,gs,400
+1594934077141,1463,token,201,Created,prueba_performance-ThreadStarter 1-6,true,988,15,15,1462,gs,415
+1594934077223,1526,token,201,Created,prueba_performance-ThreadStarter 1-12,true,988,15,15,1526,gs,448
+1594934077538,1235,cargo,500,Internal Server Error,prueba_performance-ThreadStarter 1-8,false,717,15,15,1235,gs,491
+1594934077431,1474,token,201,Created,prueba_performance-ThreadStarter 1-7,true,988,15,15,1474,gs,416
+1594934078236,1407,cargo,500,Internal Server Error,prueba_performance-ThreadStarter 1-10,false,717,15,15,1407,gs,431
+1594934078589,1088,cargo,500,Internal Server Error,prueba_performance-ThreadStarter 1-3,false,717,15,15,1088,gs,428
+1594934078250,1458,token,201,Created,prueba_performance-ThreadStarter 1-11,true,988,15,15,1458,gs,411
+1594934078032,1681,token,201,Created,prueba_performance-ThreadStarter 1-1,true,988,15,15,1681,gs,558
+1594934078236,1531,cargo,500,Internal Server Error,prueba_performance-ThreadStarter 1-2,false,717,15,15,1531,gs,421
+1594934077310,2544,token,201,Created,prueba_performance-ThreadStarter 1-5,true,988,15,15,2544,gs,404
+1594934078321,1533,token,201,Created,prueba_performance-ThreadStarter 1-15,true,988,15,15,1533,gs,459
+1594934078605,1255,cargo,500,Internal Server Error,prueba_performance-ThreadStarter 1-6,false,717,15,15,1255,gs,447
+1594934078499,1603,token,201,Created,prueba_performance-ThreadStarter 1-13,true,988,15,15,1603,gs,434
+1594934077739,2367,token,201,Created,prueba_performance-ThreadStarter 1-14,true,988,15,15,2367,gs,692
+1594934078750,1388,cargo,500,Internal Server Error,prueba_performance-ThreadStarter 1-12,false,717,15,15,1388,gs,893
+1594934078777,1767,token,201,Created,prueba_performance-ThreadStarter 1-8,true,988,15,15,1766,gs,866
+1594934079709,1039,cargo,500,Internal Server Error,prueba_performance-ThreadStarter 1-11,false,717,15,15,1039,gs,459
+1594934079714,1073,cargo,500,Internal Server Error,prueba_performance-ThreadStarter 1-1,false,717,15,15,1073,gs,447
+1594934078596,2424,token,201,Created,prueba_performance-ThreadStarter 1-9,true,988,15,15,2424,gs,432
+1594934079854,1166,cargo,500,Internal Server Error,prueba_performance-ThreadStarter 1-5,false,717,15,15,1166,gs,503
+1594934079855,1208,cargo,500,Internal Server Error,prueba_performance-ThreadStarter 1-15,false,717,15,15,1208,gs,486
+1594934079648,1616,token,201,Created,prueba_performance-ThreadStarter 1-10,true,988,15,15,1616,gs,388
+1594934078905,2398,cargo,500,Internal Server Error,prueba_performance-ThreadStarter 1-7,false,717,15,15,2398,gs,1410
+1594934079683,1677,token,201,Created,prueba_performance-ThreadStarter 1-3,true,988,15,15,1677,gs,468
+1594934079772,1613,token,201,Created,prueba_performance-ThreadStarter 1-2,true,988,15,15,1613,gs,409
+1594934080103,1282,cargo,500,Internal Server Error,prueba_performance-ThreadStarter 1-13,false,717,15,15,1282,gs,408
+1594934080108,1279,cargo,500,Internal Server Error,prueba_performance-ThreadStarter 1-14,false,717,15,15,1279,gs,478
+1594934080543,1252,cargo,500,Internal Server Error,prueba_performance-ThreadStarter 1-8,false,717,15,15,1252,gs,476
+1594934080153,2392,token,201,Created,prueba_performance-ThreadStarter 1-12,true,988,15,15,2392,gs,428
+1594934079862,2695,token,201,Created,prueba_performance-ThreadStarter 1-6,true,988,15,15,2695,gs,440
+1594934080758,1799,token,201,Created,prueba_performance-ThreadStarter 1-11,true,988,15,15,1799,gs,410
+1594934081020,1537,cargo,500,Internal Server Error,prueba_performance-ThreadStarter 1-9,false,717,15,15,1537,gs,402
+1594934081066,1697,token,201,Created,prueba_performance-ThreadStarter 1-15,true,988,15,15,1697,gs,562
+1594934081360,1992,cargo,500,Internal Server Error,prueba_performance-ThreadStarter 1-3,false,717,15,15,1992,gs,1403
+1594934081385,2070,cargo,500,Internal Server Error,prueba_performance-ThreadStarter 1-2,false,717,15,15,2070,gs,1478
+1594934081305,2201,token,201,Created,prueba_performance-ThreadStarter 1-7,true,988,15,15,2201,gs,1252
+1594934081264,2313,cargo,500,Internal Server Error,prueba_performance-ThreadStarter 1-10,false,717,15,15,2313,gs,1292
+1594934081392,2388,token,201,Created,prueba_performance-ThreadStarter 1-14,true,988,15,15,2388,gs,1471
+1594934081389,2415,token,201,Created,prueba_performance-ThreadStarter 1-13,true,988,15,15,2415,gs,1375
+1594934082557,1838,cargo,500,Internal Server Error,prueba_performance-ThreadStarter 1-6,false,717,15,15,1838,gs,1214
+1594934082545,1935,cargo,500,Internal Server Error,prueba_performance-ThreadStarter 1-12,false,717,15,15,1935,gs,1300
+1594934082558,1962,cargo,500,Internal Server Error,prueba_performance-ThreadStarter 1-11,false,717,15,15,1962,gs,1291
+1594934083507,1013,cargo,500,Internal Server Error,prueba_performance-ThreadStarter 1-7,false,717,15,15,1013,gs,405
+1594934083357,1468,token,201,Created,prueba_performance-ThreadStarter 1-3,true,988,15,15,1468,gs,419
+1594934082564,2262,token,201,Created,prueba_performance-ThreadStarter 1-9,true,988,15,15,2262,gs,1171
+1594934083781,1086,cargo,500,Internal Server Error,prueba_performance-ThreadStarter 1-14,false,717,15,15,1084,gs,435
+1594934083459,1446,token,201,Created,prueba_performance-ThreadStarter 1-2,true,988,15,15,1446,gs,410
+1594934082764,2140,cargo,500,Internal Server Error,prueba_performance-ThreadStarter 1-15,false,717,15,15,2140,gs,1413
+1594934083806,1098,cargo,500,Internal Server Error,prueba_performance-ThreadStarter 1-13,false,717,15,15,1098,gs,449
+1594934083597,1419,token,201,Created,prueba_performance-ThreadStarter 1-10,true,988,15,15,1419,gs,420
+1594934084406,1507,token,201,Created,prueba_performance-ThreadStarter 1-6,true,988,15,15,1507,gs,427
+1594934084491,1451,token,201,Created,prueba_performance-ThreadStarter 1-12,true,988,15,15,1451,gs,419
+1594934084826,1120,cargo,500,Internal Server Error,prueba_performance-ThreadStarter 1-9,false,717,15,15,1120,gs,446
+1594934084534,1452,token,201,Created,prueba_performance-ThreadStarter 1-11,true,988,15,15,1452,gs,480
+1594934084906,1080,cargo,500,Internal Server Error,prueba_performance-ThreadStarter 1-2,false,717,15,15,1080,gs,395
+1594934084827,1160,cargo,500,Internal Server Error,prueba_performance-ThreadStarter 1-3,false,717,15,15,1160,gs,444
+1594934084539,1566,token,201,Created,prueba_performance-ThreadStarter 1-7,true,988,15,15,1566,gs,476
+1594934085017,1085,cargo,500,Internal Server Error,prueba_performance-ThreadStarter 1-10,false,717,15,15,1085,gs,407
+1594934084912,1472,token,201,Created,prueba_performance-ThreadStarter 1-15,true,988,15,15,1472,gs,405
+1594934085944,1001,cargo,500,Internal Server Error,prueba_performance-ThreadStarter 1-12,false,717,15,15,1001,gs,419
+1594934085914,1062,cargo,500,Internal Server Error,prueba_performance-ThreadStarter 1-6,false,717,15,15,1062,gs,485
+1594934085990,1109,cargo,500,Internal Server Error,prueba_performance-ThreadStarter 1-11,false,717,15,15,1109,gs,433
+1594934084911,2272,token,201,Created,prueba_performance-ThreadStarter 1-13,true,988,15,15,2271,gs,431
+1594934086105,1233,cargo,500,Internal Server Error,prueba_performance-ThreadStarter 1-7,false,717,15,15,1233,gs,617
+1594934085961,1494,token,201,Created,prueba_performance-ThreadStarter 1-9,true,988,15,15,1494,gs,462
+1594934086011,1459,token,201,Created,prueba_performance-ThreadStarter 1-3,true,988,15,15,1459,gs,412
+1594934086385,1109,cargo,500,Internal Server Error,prueba_performance-ThreadStarter 1-15,false,717,15,15,1109,gs,470
+1594934086008,1501,token,201,Created,prueba_performance-ThreadStarter 1-2,true,988,15,15,1501,gs,498
+1594934086108,1422,token,201,Created,prueba_performance-ThreadStarter 1-10,true,988,15,15,1422,gs,447
+1594934086947,1527,token,201,Created,prueba_performance-ThreadStarter 1-12,true,988,15,15,1527,gs,390
+1594934087183,1291,cargo,500,Internal Server Error,prueba_performance-ThreadStarter 1-13,false,717,15,15,1291,gs,439
+1594934086978,1527,token,201,Created,prueba_performance-ThreadStarter 1-6,true,988,15,15,1527,gs,404
+1594934087455,1089,cargo,500,Internal Server Error,prueba_performance-ThreadStarter 1-9,false,717,15,15,1089,gs,410
+1594934087106,1478,token,201,Created,prueba_performance-ThreadStarter 1-11,true,988,15,15,1478,gs,424
+1594934087531,1090,cargo,500,Internal Server Error,prueba_performance-ThreadStarter 1-10,false,717,15,15,1090,gs,411
+1594934087470,1153,cargo,500,Internal Server Error,prueba_performance-ThreadStarter 1-3,false,717,15,15,1153,gs,405
+1594934087509,1156,cargo,500,Internal Server Error,prueba_performance-ThreadStarter 1-2,false,717,15,15,1156,gs,448
+1594934087352,1538,token,201,Created,prueba_performance-ThreadStarter 1-7,true,988,15,15,1538,gs,448
+1594934087497,1428,token,201,Created,prueba_performance-ThreadStarter 1-15,true,988,15,15,1428,gs,445
+1594934088507,1092,cargo,500,Internal Server Error,prueba_performance-ThreadStarter 1-6,false,717,15,15,1092,gs,422
+1594934088585,1122,cargo,500,Internal Server Error,prueba_performance-ThreadStarter 1-11,false,717,15,15,1122,gs,464
+1594934088552,1472,token,201,Created,prueba_performance-ThreadStarter 1-9,true,988,15,15,1472,gs,414
+1594934088489,1561,token,201,Created,prueba_performance-ThreadStarter 1-13,true,988,15,15,1561,gs,431
+1594934088891,1200,cargo,500,Internal Server Error,prueba_performance-ThreadStarter 1-7,false,717,15,15,1200,gs,503
+1594934088640,1455,token,201,Created,prueba_performance-ThreadStarter 1-3,true,988,15,15,1455,gs,409
+1594934088925,1167,cargo,500,Internal Server Error,prueba_performance-ThreadStarter 1-15,false,717,15,15,1167,gs,469
+1594934088629,1510,token,201,Created,prueba_performance-ThreadStarter 1-10,true,988,15,15,1510,gs,431
+1594934088674,1466,token,201,Created,prueba_performance-ThreadStarter 1-2,true,988,15,15,1466,gs,393
+1594934088476,1931,cargo,500,Internal Server Error,prueba_performance-ThreadStarter 1-12,false,717,15,15,1931,gs,416
+1594934089609,1526,token,201,Created,prueba_performance-ThreadStarter 1-6,true,988,15,15,1526,gs,441
+1594934090051,1084,cargo,500,Internal Server Error,prueba_performance-ThreadStarter 1-13,false,717,15,15,1084,gs,465
+1594934090025,1112,cargo,500,Internal Server Error,prueba_performance-ThreadStarter 1-9,false,717,15,15,1112,gs,455
+1594934090096,1048,cargo,500,Internal Server Error,prueba_performance-ThreadStarter 1-3,false,717,15,15,1048,gs,427
+1594934089720,1436,token,201,Created,prueba_performance-ThreadStarter 1-11,true,988,15,15,1436,gs,375
+1594934090141,1112,cargo,500,Internal Server Error,prueba_performance-ThreadStarter 1-10,false,717,15,15,1111,gs,454
+1594934090142,1109,cargo,500,Internal Server Error,prueba_performance-ThreadStarter 1-2,false,717,15,15,1109,gs,485
+1594934090108,1399,token,201,Created,prueba_performance-ThreadStarter 1-15,true,988,15,15,1399,gs,409
+1594934090103,1442,token,201,Created,prueba_performance-ThreadStarter 1-7,true,988,15,15,1442,gs,413
+1594934090417,1539,token,201,Created,prueba_performance-ThreadStarter 1-12,true,988,15,15,1539,gs,449
+1594934091138,1005,cargo,500,Internal Server Error,prueba_performance-ThreadStarter 1-6,false,717,15,15,1005,gs,446
+1594934091159,1279,cargo,500,Internal Server Error,prueba_performance-ThreadStarter 1-11,false,717,15,15,1279,gs,622
+1594934091510,1167,cargo,500,Internal Server Error,prueba_performance-ThreadStarter 1-15,false,717,15,15,1167,gs,465
+1594934091148,1557,token,201,Created,prueba_performance-ThreadStarter 1-13,true,988,15,15,1557,gs,476
+1594934091549,1194,cargo,500,Internal Server Error,prueba_performance-ThreadStarter 1-7,false,717,15,15,1194,gs,553
+1594934091154,1649,token,201,Created,prueba_performance-ThreadStarter 1-3,true,988,15,15,1649,gs,579
+1594934091265,1612,token,201,Created,prueba_performance-ThreadStarter 1-2,true,988,15,15,1612,gs,504
+1594934091152,1725,token,201,Created,prueba_performance-ThreadStarter 1-9,true,988,15,15,1725,gs,600
+1594934091266,1666,token,201,Created,prueba_performance-ThreadStarter 1-10,true,988,15,15,1666,gs,491
+1594934091957,1181,cargo,500,Internal Server Error,prueba_performance-ThreadStarter 1-12,false,717,15,15,1181,gs,716
+1594934092707,1122,cargo,500,Internal Server Error,prueba_performance-ThreadStarter 1-13,false,717,15,15,1122,gs,437
+1594934092803,1067,cargo,500,Internal Server Error,prueba_performance-ThreadStarter 1-3,false,717,15,15,1067,gs,410
+1594934092462,1520,token,201,Created,prueba_performance-ThreadStarter 1-11,true,988,15,15,1520,gs,480
+1594934092877,1187,cargo,500,Internal Server Error,prueba_performance-ThreadStarter 1-9,false,717,15,15,1186,gs,523
+1594934092932,1134,cargo,500,Internal Server Error,prueba_performance-ThreadStarter 1-10,false,717,15,15,1134,gs,469
+1594934092877,1191,cargo,500,Internal Server Error,prueba_performance-ThreadStarter 1-2,false,717,15,15,1190,gs,528
+1594934092695,1487,token,201,Created,prueba_performance-ThreadStarter 1-15,true,988,15,15,1487,gs,443
+1594934092748,1468,token,201,Created,prueba_performance-ThreadStarter 1-7,true,988,15,15,1468,gs,434
+1594934092147,2708,token,201,Created,prueba_performance-ThreadStarter 1-6,true,988,15,15,2708,gs,1687
+1594934093982,1003,cargo,500,Internal Server Error,prueba_performance-ThreadStarter 1-11,false,717,15,15,1003,gs,420
+1594934094216,1118,cargo,500,Internal Server Error,prueba_performance-ThreadStarter 1-7,false,717,15,15,1118,gs,405
+1594934094182,1158,cargo,500,Internal Server Error,prueba_performance-ThreadStarter 1-15,false,717,15,15,1152,gs,439
+1594934093159,2226,token,201,Created,prueba_performance-ThreadStarter 1-12,true,988,15,15,2226,gs,1133
+1594934093833,1552,token,201,Created,prueba_performance-ThreadStarter 1-13,true,988,15,15,1552,gs,460
+1594934093873,1535,token,201,Created,prueba_performance-ThreadStarter 1-3,true,988,15,15,1535,gs,452
+1594934094086,1416,token,201,Created,prueba_performance-ThreadStarter 1-9,true,988,15,15,1416,gs,410
+1594934094856,1179,cargo,500,Internal Server Error,prueba_performance-ThreadStarter 1-6,false,717,15,15,1179,gs,486
+1594934094102,2209,token,201,Created,prueba_performance-ThreadStarter 1-10,true,988,15,15,2209,gs,428
+1594934094105,2340,token,201,Created,prueba_performance-ThreadStarter 1-2,true,988,15,15,2340,gs,425
+1594934094993,1687,token,201,Created,prueba_performance-ThreadStarter 1-11,true,988,15,15,1687,gs,509
+1594934095386,1322,cargo,500,Internal Server Error,prueba_performance-ThreadStarter 1-12,false,717,15,15,1322,gs,621
+1594934095386,1377,cargo,500,Internal Server Error,prueba_performance-ThreadStarter 1-13,false,717,15,15,1377,gs,621
+1594934095502,1261,cargo,500,Internal Server Error,prueba_performance-ThreadStarter 1-9,false,717,15,15,1261,gs,533
+1594934095409,1386,cargo,500,Internal Server Error,prueba_performance-ThreadStarter 1-3,false,717,15,15,1386,gs,625
+1594934095341,1538,token,201,Created,prueba_performance-ThreadStarter 1-7,true,988,15,15,1538,gs,464
+1594934095347,1718,token,201,Created,prueba_performance-ThreadStarter 1-15,true,988,15,15,1718,gs,660
+1594934096313,992,cargo,500,Internal Server Error,prueba_performance-ThreadStarter 1-10,false,717,15,15,992,gs,423
+1594934096447,1096,cargo,500,Internal Server Error,prueba_performance-ThreadStarter 1-2,false,717,15,15,1096,gs,522
+1594934096038,1545,token,201,Created,prueba_performance-ThreadStarter 1-6,true,988,15,15,1545,gs,544
+1594934096680,1065,cargo,500,Internal Server Error,prueba_performance-ThreadStarter 1-11,false,717,15,15,1065,gs,449
+1594934096880,1265,cargo,500,Internal Server Error,prueba_performance-ThreadStarter 1-7,false,717,15,15,1265,gs,430
+1594934097067,1173,cargo,500,Internal Server Error,prueba_performance-ThreadStarter 1-15,false,717,15,15,1173,gs,416
+1594934096768,1737,token,201,Created,prueba_performance-ThreadStarter 1-9,true,988,15,15,1737,gs,494
+1594934096797,1710,token,201,Created,prueba_performance-ThreadStarter 1-3,true,988,15,15,1710,gs,489
+1594934096714,1791,token,201,Created,prueba_performance-ThreadStarter 1-12,true,988,15,15,1791,gs,469
+1594934096766,1741,token,201,Created,prueba_performance-ThreadStarter 1-13,true,988,15,15,1740,gs,539
+1594934097584,1116,cargo,500,Internal Server Error,prueba_performance-ThreadStarter 1-6,false,717,15,15,1115,gs,528
+1594934097310,1399,token,201,Created,prueba_performance-ThreadStarter 1-10,true,988,15,15,1399,gs,435
+1594934097545,1496,token,201,Created,prueba_performance-ThreadStarter 1-2,true,988,15,15,1496,gs,567
+1594934097750,1428,token,201,Created,prueba_performance-ThreadStarter 1-11,true,988,15,15,1428,gs,491
+1594934098507,1075,cargo,500,Internal Server Error,prueba_performance-ThreadStarter 1-12,false,717,15,15,1075,gs,447
+1594934098506,1184,cargo,500,Internal Server Error,prueba_performance-ThreadStarter 1-9,false,717,15,15,1184,gs,491
+1594934098507,1184,cargo,500,Internal Server Error,prueba_performance-ThreadStarter 1-3,false,717,15,15,1184,gs,491
+1594934098507,1227,cargo,500,Internal Server Error,prueba_performance-ThreadStarter 1-13,false,717,15,15,1227,gs,490
+1594934098710,1292,cargo,500,Internal Server Error,prueba_performance-ThreadStarter 1-10,false,717,15,15,1291,gs,431
+1594934098249,1756,token,201,Created,prueba_performance-ThreadStarter 1-15,true,988,15,15,1756,gs,622
+1594934099042,1028,cargo,500,Internal Server Error,prueba_performance-ThreadStarter 1-2,false,717,15,15,1028,gs,434
+1594934098703,1474,token,201,Created,prueba_performance-ThreadStarter 1-6,true,988,15,15,1474,gs,433
+1594934099180,1004,cargo,500,Internal Server Error,prueba_performance-ThreadStarter 1-11,false,717,15,15,1004,gs,442
+1594934098156,2509,token,201,Created,prueba_performance-ThreadStarter 1-7,true,988,15,15,2509,gs,1442
+1594934100005,1185,cargo,500,Internal Server Error,prueba_performance-ThreadStarter 1-15,false,717,15,15,1185,gs,483
+1594934100177,1087,cargo,500,Internal Server Error,prueba_performance-ThreadStarter 1-6,false,717,15,15,1087,gs,448
+1594934099693,1649,token,201,Created,prueba_performance-ThreadStarter 1-9,true,988,15,15,1649,gs,626
+1594934099737,1684,token,201,Created,prueba_performance-ThreadStarter 1-13,true,988,15,15,1684,gs,578
+1594934099600,1946,token,201,Created,prueba_performance-ThreadStarter 1-12,true,988,15,15,1946,gs,888
+1594934100006,1541,token,201,Created,prueba_performance-ThreadStarter 1-10,true,988,15,15,1541,gs,504
+1594934099695,1855,token,201,Created,prueba_performance-ThreadStarter 1-3,true,988,13,13,1855,gs,661
+1594934072015,29566,token,504,Gateway Timeout,prueba_performance-ThreadStarter 1-4,false,324,12,12,29566,gs,410
+1594934100666,998,cargo,500,Internal Server Error,prueba_performance-ThreadStarter 1-7,false,717,11,11,998,gs,438
+1594934100073,1903,token,201,Created,prueba_performance-ThreadStarter 1-2,true,988,10,10,1902,gs,414
+1594934101342,901,cargo,500,Internal Server Error,prueba_performance-ThreadStarter 1-9,false,717,9,9,901,gs,454
+1594934101193,1512,token,201,Created,prueba_performance-ThreadStarter 1-15,true,988,8,8,1512,gs,590
+1594934101267,1475,token,201,Created,prueba_performance-ThreadStarter 1-6,true,988,7,7,1475,gs,522
+1594934100189,2557,token,201,Created,prueba_performance-ThreadStarter 1-11,true,988,6,6,2557,gs,449
+1594934101423,2001,cargo,500,Internal Server Error,prueba_performance-ThreadStarter 1-13,false,717,5,5,2001,gs,501
+1594934080804,29888,token,504,Gateway Timeout,prueba_performance-ThreadStarter 1-1,false,324,4,4,29888,gs,407
+1594934081024,29785,token,504,Gateway Timeout,prueba_performance-ThreadStarter 1-5,false,324,3,3,29785,gs,590
+1594934084880,29754,token,504,Gateway Timeout,prueba_performance-ThreadStarter 1-14,false,324,2,2,29754,gs,436
+1594934081799,32835,token,504,Gateway Timeout,prueba_performance-ThreadStarter 1-8,false,324,2,2,32835,gs,3463

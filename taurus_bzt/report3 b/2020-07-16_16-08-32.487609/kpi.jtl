@@ -1,0 +1,10 @@
+timeStamp,elapsed,label,responseCode,responseMessage,threadName,success,bytes,grpThreads,allThreads,Latency,Hostname,Connect
+1594933724530,29930,token,504,Gateway Timeout,prueba_performance-ThreadStarter 1-2,false,324,3,3,29927,gs,681
+1594933724530,29930,token,504,Gateway Timeout,prueba_performance-ThreadStarter 1-3,false,324,3,3,29927,gs,597
+1594933723750,30710,token,504,Gateway Timeout,prueba_performance-ThreadStarter 1-1,false,324,3,3,30707,gs,1216
+1594933754532,2070,cargo,400,Bad Request,prueba_performance-ThreadStarter 1-3,false,686,3,3,2070,gs,1050
+1594933754529,2073,cargo,400,Bad Request,prueba_performance-ThreadStarter 1-2,false,686,3,3,2073,gs,1054
+1594933754529,2302,cargo,400,Bad Request,prueba_performance-ThreadStarter 1-1,false,686,3,3,2302,gs,1055
+1594933756647,29751,token,504,Gateway Timeout,prueba_performance-ThreadStarter 1-3,false,324,3,3,29751,gs,567
+1594933756647,29751,token,504,Gateway Timeout,prueba_performance-ThreadStarter 1-2,false,324,3,3,29751,gs,567
+1594933756853,29732,token,504,Gateway Timeout,prueba_performance-ThreadStarter 1-1,false,324,1,1,29732,gs,565

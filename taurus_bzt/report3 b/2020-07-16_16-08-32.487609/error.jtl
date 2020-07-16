@@ -1,0 +1,358 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testResults version="1.2">
+<httpSample t="29930" lt="29927" ts="1594933724530" s="false" lb="token" rc="504" rm="Gateway Timeout" tn="prueba_performance-ThreadStarter 1-2" dt="text" de="" by="324" ng="3" na="3">
+  <assertionResult>
+    <name>Response Assertion</name>
+    <failure>true</failure>
+    <error>false</error>
+    <failureMessage>Test failed: code expected to contain /201/</failureMessage>
+  </assertionResult>
+  <responseHeader class="java.lang.String">HTTP/1.1 504 Gateway Timeout
+Date: Thu, 16 Jul 2020 21:09:14 GMT
+Content-Type: application/json
+Content-Length: 41
+Connection: keep-alive
+x-amzn-RequestId: 4f49b408-8387-4f08-85b0-657e7bb5bb9a
+x-amzn-ErrorType: InternalServerErrorException
+x-amz-apigw-id: PyM6sF0QoAMFeVw=
+</responseHeader>
+  <requestHeader class="java.lang.String">Connection: keep-alive
+Content-Type: application/json
+Authorization: Bearer pk_test_512d7b0959ac8315
+
+Content-Length: 144
+Host: qa-secure.culqi.xyz
+User-Agent: Apache-HttpClient/4.5.10 (Java/11.0.6)
+</requestHeader>
+  <responseData class="java.lang.String">{&quot;message&quot;: &quot;Endpoint request timed out&quot;}</responseData>
+  <cookies class="java.lang.String"></cookies>
+  <method class="java.lang.String">POST</method>
+  <queryString class="java.lang.String">{&#xd;
+  &quot;card_number&quot;: &quot;4111111111111111&quot;,&#xd;
+  &quot;cvv&quot;: &quot;123&quot;,&#xd;
+  &quot;expiration_month&quot;: &quot;9&quot;,&#xd;
+  &quot;expiration_year&quot;: &quot;2025&quot;,&#xd;
+  &quot;email&quot;: &quot;gs@culqi.com&quot;&#xd;
+}</queryString>
+  <java.net.URL>https://qa-secure.culqi.xyz/v2/tokens</java.net.URL>
+</httpSample>
+<httpSample t="30710" lt="30707" ts="1594933723750" s="false" lb="token" rc="504" rm="Gateway Timeout" tn="prueba_performance-ThreadStarter 1-1" dt="text" de="" by="324" ng="3" na="3">
+  <assertionResult>
+    <name>Response Assertion</name>
+    <failure>true</failure>
+    <error>false</error>
+    <failureMessage>Test failed: code expected to contain /201/</failureMessage>
+  </assertionResult>
+  <responseHeader class="java.lang.String">HTTP/1.1 504 Gateway Timeout
+Date: Thu, 16 Jul 2020 21:09:14 GMT
+Content-Type: application/json
+Content-Length: 41
+Connection: keep-alive
+x-amzn-RequestId: e7d8b5a9-9946-45a2-a224-479d63726e8c
+x-amzn-ErrorType: InternalServerErrorException
+x-amz-apigw-id: PyM6qFDmIAMF4mg=
+</responseHeader>
+  <requestHeader class="java.lang.String">Connection: keep-alive
+Content-Type: application/json
+Authorization: Bearer pk_test_512d7b0959ac8315
+
+Content-Length: 144
+Host: qa-secure.culqi.xyz
+User-Agent: Apache-HttpClient/4.5.10 (Java/11.0.6)
+</requestHeader>
+  <responseData class="java.lang.String">{&quot;message&quot;: &quot;Endpoint request timed out&quot;}</responseData>
+  <cookies class="java.lang.String"></cookies>
+  <method class="java.lang.String">POST</method>
+  <queryString class="java.lang.String">{&#xd;
+  &quot;card_number&quot;: &quot;4111111111111111&quot;,&#xd;
+  &quot;cvv&quot;: &quot;123&quot;,&#xd;
+  &quot;expiration_month&quot;: &quot;9&quot;,&#xd;
+  &quot;expiration_year&quot;: &quot;2025&quot;,&#xd;
+  &quot;email&quot;: &quot;gs@culqi.com&quot;&#xd;
+}</queryString>
+  <java.net.URL>https://qa-secure.culqi.xyz/v2/tokens</java.net.URL>
+</httpSample>
+<httpSample t="29930" lt="29927" ts="1594933724530" s="false" lb="token" rc="504" rm="Gateway Timeout" tn="prueba_performance-ThreadStarter 1-3" dt="text" de="" by="324" ng="3" na="3">
+  <assertionResult>
+    <name>Response Assertion</name>
+    <failure>true</failure>
+    <error>false</error>
+    <failureMessage>Test failed: code expected to contain /201/</failureMessage>
+  </assertionResult>
+  <responseHeader class="java.lang.String">HTTP/1.1 504 Gateway Timeout
+Date: Thu, 16 Jul 2020 21:09:14 GMT
+Content-Type: application/json
+Content-Length: 41
+Connection: keep-alive
+x-amzn-RequestId: c29ee5e3-66b9-4741-bfae-fef891c366af
+x-amzn-ErrorType: InternalServerErrorException
+x-amz-apigw-id: PyM6rFHnIAMFqJA=
+</responseHeader>
+  <requestHeader class="java.lang.String">Connection: keep-alive
+Content-Type: application/json
+Authorization: Bearer pk_test_512d7b0959ac8315
+
+Content-Length: 144
+Host: qa-secure.culqi.xyz
+User-Agent: Apache-HttpClient/4.5.10 (Java/11.0.6)
+</requestHeader>
+  <responseData class="java.lang.String">{&quot;message&quot;: &quot;Endpoint request timed out&quot;}</responseData>
+  <cookies class="java.lang.String"></cookies>
+  <method class="java.lang.String">POST</method>
+  <queryString class="java.lang.String">{&#xd;
+  &quot;card_number&quot;: &quot;4111111111111111&quot;,&#xd;
+  &quot;cvv&quot;: &quot;123&quot;,&#xd;
+  &quot;expiration_month&quot;: &quot;9&quot;,&#xd;
+  &quot;expiration_year&quot;: &quot;2025&quot;,&#xd;
+  &quot;email&quot;: &quot;gs@culqi.com&quot;&#xd;
+}</queryString>
+  <java.net.URL>https://qa-secure.culqi.xyz/v2/tokens</java.net.URL>
+</httpSample>
+<httpSample t="2070" lt="2070" ts="1594933754532" s="false" lb="cargo" rc="400" rm="Bad Request" tn="prueba_performance-ThreadStarter 1-3" dt="text" de="UTF-8" by="686" ng="3" na="3">
+  <assertionResult>
+    <name>Response Assertion</name>
+    <failure>true</failure>
+    <error>false</error>
+    <failureMessage>Test failed: code expected to contain /201/</failureMessage>
+  </assertionResult>
+  <responseHeader class="java.lang.String">HTTP/1.1 400 Bad Request
+Date: Thu, 16 Jul 2020 21:09:17 GMT
+Content-Type: application/json;charset=UTF-8
+Content-Length: 134
+Connection: keep-alive
+x-amzn-RequestId: 5cdd450a-1313-42c8-82c6-7b9a35c39da4
+X-CULQI-TRACKING-ID: 7743131
+X-CULQI-ENVIRONMENT: test
+X-CULQI-VERSION: 2.0.0
+x-amzn-Remapped-Connection: close
+Set-Cookie: JSESSIONID=F7EC26E8F80096E4B32248CD9F45C6BB; Path=/api; HttpOnly
+x-amz-apigw-id: PyM_cH0xoAMF8MQ=
+X-Amzn-Trace-Id: Root=1-5f10c1fc-2db1f20430e11cd3a68679de
+x-amzn-Remapped-Date: Thu, 16 Jul 2020 21:09:17 GMT
+</responseHeader>
+  <requestHeader class="java.lang.String">Connection: keep-alive
+Content-Type: application/json
+Authorization: Bearer sk_test_7434267b66d61045
+
+Content-Length: 168
+Host: qa-api.culqi.xyz
+User-Agent: Apache-HttpClient/4.5.10 (Java/11.0.6)
+</requestHeader>
+  <responseData class="java.lang.String">{&quot;object&quot;:&quot;error&quot;,&quot;type&quot;:&quot;parameter_error&quot;,&quot;merchant_message&quot;:&quot;El campo &apos;source_id&apos; es inválido o está vacío.&quot;,&quot;param&quot;:&quot;source_id&quot;}</responseData>
+  <cookies class="java.lang.String"></cookies>
+  <method class="java.lang.String">POST</method>
+  <queryString class="java.lang.String">{&#xd;
+  &quot;amount&quot;: &quot;400&quot;,&#xd;
+  &quot;currency_code&quot;: &quot;PEN&quot;,&#xd;
+  &quot;email&quot;: &quot;gs@culqi.com&quot;,&#xd;
+  &quot;source_id&quot;:&quot;&quot;, &#xd;
+    &quot;antifraud_details&quot;: {&#xd;
+  	&quot;phone_number&quot;: 123456789&#xd;
+  }&#xd;
+&#xd;
+  &#xd;
+}</queryString>
+  <java.net.URL>https://qa-api.culqi.xyz/v2/charges</java.net.URL>
+</httpSample>
+<httpSample t="2073" lt="2073" ts="1594933754529" s="false" lb="cargo" rc="400" rm="Bad Request" tn="prueba_performance-ThreadStarter 1-2" dt="text" de="UTF-8" by="686" ng="3" na="3">
+  <assertionResult>
+    <name>Response Assertion</name>
+    <failure>true</failure>
+    <error>false</error>
+    <failureMessage>Test failed: code expected to contain /201/</failureMessage>
+  </assertionResult>
+  <responseHeader class="java.lang.String">HTTP/1.1 400 Bad Request
+Date: Thu, 16 Jul 2020 21:09:17 GMT
+Content-Type: application/json;charset=UTF-8
+Content-Length: 134
+Connection: keep-alive
+x-amzn-RequestId: 6c2a994d-64d4-4d20-92ce-192398d07279
+X-CULQI-TRACKING-ID: 7743130
+X-CULQI-ENVIRONMENT: test
+X-CULQI-VERSION: 2.0.0
+x-amzn-Remapped-Connection: close
+Set-Cookie: JSESSIONID=4CB40B9B919E8B0F1009F5AC7BB8FB93; Path=/api; HttpOnly
+x-amz-apigw-id: PyM_cFsUoAMF7iw=
+X-Amzn-Trace-Id: Root=1-5f10c1fc-567c84df2c9e70da78b918b9
+x-amzn-Remapped-Date: Thu, 16 Jul 2020 21:09:17 GMT
+</responseHeader>
+  <requestHeader class="java.lang.String">Connection: keep-alive
+Content-Type: application/json
+Authorization: Bearer sk_test_7434267b66d61045
+
+Content-Length: 168
+Host: qa-api.culqi.xyz
+User-Agent: Apache-HttpClient/4.5.10 (Java/11.0.6)
+</requestHeader>
+  <responseData class="java.lang.String">{&quot;object&quot;:&quot;error&quot;,&quot;type&quot;:&quot;parameter_error&quot;,&quot;merchant_message&quot;:&quot;El campo &apos;source_id&apos; es inválido o está vacío.&quot;,&quot;param&quot;:&quot;source_id&quot;}</responseData>
+  <cookies class="java.lang.String"></cookies>
+  <method class="java.lang.String">POST</method>
+  <queryString class="java.lang.String">{&#xd;
+  &quot;amount&quot;: &quot;400&quot;,&#xd;
+  &quot;currency_code&quot;: &quot;PEN&quot;,&#xd;
+  &quot;email&quot;: &quot;gs@culqi.com&quot;,&#xd;
+  &quot;source_id&quot;:&quot;&quot;, &#xd;
+    &quot;antifraud_details&quot;: {&#xd;
+  	&quot;phone_number&quot;: 123456789&#xd;
+  }&#xd;
+&#xd;
+  &#xd;
+}</queryString>
+  <java.net.URL>https://qa-api.culqi.xyz/v2/charges</java.net.URL>
+</httpSample>
+<httpSample t="2302" lt="2302" ts="1594933754529" s="false" lb="cargo" rc="400" rm="Bad Request" tn="prueba_performance-ThreadStarter 1-1" dt="text" de="UTF-8" by="686" ng="3" na="3">
+  <assertionResult>
+    <name>Response Assertion</name>
+    <failure>true</failure>
+    <error>false</error>
+    <failureMessage>Test failed: code expected to contain /201/</failureMessage>
+  </assertionResult>
+  <responseHeader class="java.lang.String">HTTP/1.1 400 Bad Request
+Date: Thu, 16 Jul 2020 21:09:17 GMT
+Content-Type: application/json;charset=UTF-8
+Content-Length: 134
+Connection: keep-alive
+x-amzn-RequestId: 592ce977-830e-4f2b-ae7c-d3a2d7643192
+X-CULQI-TRACKING-ID: 7743132
+X-CULQI-ENVIRONMENT: test
+X-CULQI-VERSION: 2.0.0
+x-amzn-Remapped-Connection: close
+Set-Cookie: JSESSIONID=83053A8AA6E434B6D555501CB4E644D5; Path=/api; HttpOnly
+x-amz-apigw-id: PyM_cExfoAMFlaA=
+X-Amzn-Trace-Id: Root=1-5f10c1fc-9229d0ac831e6408415e7330
+x-amzn-Remapped-Date: Thu, 16 Jul 2020 21:09:17 GMT
+</responseHeader>
+  <requestHeader class="java.lang.String">Connection: keep-alive
+Content-Type: application/json
+Authorization: Bearer sk_test_7434267b66d61045
+
+Content-Length: 168
+Host: qa-api.culqi.xyz
+User-Agent: Apache-HttpClient/4.5.10 (Java/11.0.6)
+</requestHeader>
+  <responseData class="java.lang.String">{&quot;object&quot;:&quot;error&quot;,&quot;type&quot;:&quot;parameter_error&quot;,&quot;merchant_message&quot;:&quot;El campo &apos;source_id&apos; es inválido o está vacío.&quot;,&quot;param&quot;:&quot;source_id&quot;}</responseData>
+  <cookies class="java.lang.String"></cookies>
+  <method class="java.lang.String">POST</method>
+  <queryString class="java.lang.String">{&#xd;
+  &quot;amount&quot;: &quot;400&quot;,&#xd;
+  &quot;currency_code&quot;: &quot;PEN&quot;,&#xd;
+  &quot;email&quot;: &quot;gs@culqi.com&quot;,&#xd;
+  &quot;source_id&quot;:&quot;&quot;, &#xd;
+    &quot;antifraud_details&quot;: {&#xd;
+  	&quot;phone_number&quot;: 123456789&#xd;
+  }&#xd;
+&#xd;
+  &#xd;
+}</queryString>
+  <java.net.URL>https://qa-api.culqi.xyz/v2/charges</java.net.URL>
+</httpSample>
+<httpSample t="29751" lt="29751" ts="1594933756647" s="false" lb="token" rc="504" rm="Gateway Timeout" tn="prueba_performance-ThreadStarter 1-3" dt="text" de="" by="324" ng="3" na="3">
+  <assertionResult>
+    <name>Response Assertion</name>
+    <failure>true</failure>
+    <error>false</error>
+    <failureMessage>Test failed: code expected to contain /201/</failureMessage>
+  </assertionResult>
+  <responseHeader class="java.lang.String">HTTP/1.1 504 Gateway Timeout
+Date: Thu, 16 Jul 2020 21:09:46 GMT
+Content-Type: application/json
+Content-Length: 41
+Connection: keep-alive
+x-amzn-RequestId: 8109c399-c209-43b6-9f4e-70a472ca8120
+x-amzn-ErrorType: InternalServerErrorException
+x-amz-apigw-id: PyM_sHaZIAMFc9A=
+</responseHeader>
+  <requestHeader class="java.lang.String">Connection: keep-alive
+Content-Type: application/json
+Authorization: Bearer pk_test_512d7b0959ac8315
+
+Content-Length: 144
+Host: qa-secure.culqi.xyz
+User-Agent: Apache-HttpClient/4.5.10 (Java/11.0.6)
+</requestHeader>
+  <responseData class="java.lang.String">{&quot;message&quot;: &quot;Endpoint request timed out&quot;}</responseData>
+  <cookies class="java.lang.String"></cookies>
+  <method class="java.lang.String">POST</method>
+  <queryString class="java.lang.String">{&#xd;
+  &quot;card_number&quot;: &quot;4111111111111111&quot;,&#xd;
+  &quot;cvv&quot;: &quot;123&quot;,&#xd;
+  &quot;expiration_month&quot;: &quot;9&quot;,&#xd;
+  &quot;expiration_year&quot;: &quot;2025&quot;,&#xd;
+  &quot;email&quot;: &quot;gs@culqi.com&quot;&#xd;
+}</queryString>
+  <java.net.URL>https://qa-secure.culqi.xyz/v2/tokens</java.net.URL>
+</httpSample>
+<httpSample t="29751" lt="29751" ts="1594933756647" s="false" lb="token" rc="504" rm="Gateway Timeout" tn="prueba_performance-ThreadStarter 1-2" dt="text" de="" by="324" ng="3" na="3">
+  <assertionResult>
+    <name>Response Assertion</name>
+    <failure>true</failure>
+    <error>false</error>
+    <failureMessage>Test failed: code expected to contain /201/</failureMessage>
+  </assertionResult>
+  <responseHeader class="java.lang.String">HTTP/1.1 504 Gateway Timeout
+Date: Thu, 16 Jul 2020 21:09:46 GMT
+Content-Type: application/json
+Content-Length: 41
+Connection: keep-alive
+x-amzn-RequestId: af875122-e139-4874-8262-fe7d2772b7a1
+x-amzn-ErrorType: InternalServerErrorException
+x-amz-apigw-id: PyM_sEX5oAMFm5g=
+</responseHeader>
+  <requestHeader class="java.lang.String">Connection: keep-alive
+Content-Type: application/json
+Authorization: Bearer pk_test_512d7b0959ac8315
+
+Content-Length: 144
+Host: qa-secure.culqi.xyz
+User-Agent: Apache-HttpClient/4.5.10 (Java/11.0.6)
+</requestHeader>
+  <responseData class="java.lang.String">{&quot;message&quot;: &quot;Endpoint request timed out&quot;}</responseData>
+  <cookies class="java.lang.String"></cookies>
+  <method class="java.lang.String">POST</method>
+  <queryString class="java.lang.String">{&#xd;
+  &quot;card_number&quot;: &quot;4111111111111111&quot;,&#xd;
+  &quot;cvv&quot;: &quot;123&quot;,&#xd;
+  &quot;expiration_month&quot;: &quot;9&quot;,&#xd;
+  &quot;expiration_year&quot;: &quot;2025&quot;,&#xd;
+  &quot;email&quot;: &quot;gs@culqi.com&quot;&#xd;
+}</queryString>
+  <java.net.URL>https://qa-secure.culqi.xyz/v2/tokens</java.net.URL>
+</httpSample>
+<httpSample t="29732" lt="29732" ts="1594933756853" s="false" lb="token" rc="504" rm="Gateway Timeout" tn="prueba_performance-ThreadStarter 1-1" dt="text" de="" by="324" ng="1" na="1">
+  <assertionResult>
+    <name>Response Assertion</name>
+    <failure>true</failure>
+    <error>false</error>
+    <failureMessage>Test failed: code expected to contain /201/</failureMessage>
+  </assertionResult>
+  <responseHeader class="java.lang.String">HTTP/1.1 504 Gateway Timeout
+Date: Thu, 16 Jul 2020 21:09:47 GMT
+Content-Type: application/json
+Content-Length: 41
+Connection: keep-alive
+x-amzn-RequestId: 777d26c1-a6c6-4b7b-84a8-8536a03ca689
+x-amzn-ErrorType: InternalServerErrorException
+x-amz-apigw-id: PyM_uGI6oAMFY2g=
+</responseHeader>
+  <requestHeader class="java.lang.String">Connection: keep-alive
+Content-Type: application/json
+Authorization: Bearer pk_test_512d7b0959ac8315
+
+Content-Length: 144
+Host: qa-secure.culqi.xyz
+User-Agent: Apache-HttpClient/4.5.10 (Java/11.0.6)
+</requestHeader>
+  <responseData class="java.lang.String">{&quot;message&quot;: &quot;Endpoint request timed out&quot;}</responseData>
+  <cookies class="java.lang.String"></cookies>
+  <method class="java.lang.String">POST</method>
+  <queryString class="java.lang.String">{&#xd;
+  &quot;card_number&quot;: &quot;4111111111111111&quot;,&#xd;
+  &quot;cvv&quot;: &quot;123&quot;,&#xd;
+  &quot;expiration_month&quot;: &quot;9&quot;,&#xd;
+  &quot;expiration_year&quot;: &quot;2025&quot;,&#xd;
+  &quot;email&quot;: &quot;gs@culqi.com&quot;&#xd;
+}</queryString>
+  <java.net.URL>https://qa-secure.culqi.xyz/v2/tokens</java.net.URL>
+</httpSample>
+
+</testResults>

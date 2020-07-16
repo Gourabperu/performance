@@ -1,0 +1,22 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<testsuites>
+  <testsuite name="sample_labels" package_name="bzt">
+    <testcase classname="performance transaction" name="cargo">
+      <system-out>BlazeMeter report link: https://a.blazemeter.com/app/#/masters/29962431
+</system-out>
+      <error message="Internal Server Error" type="Error">Internal Server Error
+(status code is 500)
+(total errors of this type: 214)</error>
+      <error message="Bad Request" type="Error">Bad Request
+(status code is 400)
+(total errors of this type: 4)</error>
+    </testcase>
+    <testcase classname="performance transaction" name="token">
+      <system-out>BlazeMeter report link: https://a.blazemeter.com/app/#/masters/29962431
+</system-out>
+      <error message="Gateway Timeout" type="Error">Gateway Timeout
+(status code is 504)
+(total errors of this type: 9)</error>
+    </testcase>
+  </testsuite>
+</testsuites>
