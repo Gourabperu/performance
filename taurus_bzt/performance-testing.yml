@@ -1,8 +1,8 @@
 execution:
-  concurrency: 15
-  ramp-up: 1s
-  hold-for: 1m
-  # iterations: 1
+  concurrency: 14  #// usuario paralelo
+  ramp-up: 1s      #// devision concurrency rump up :2 = 14/2 =7 vas alanzar cada segundo
+  hold-for: 1m     #// cuanto tiempo vas a ejecuar en script
+  # iterations: 1  // total usuario
   scenario:
     script: "../script_jmeter/performance_gateway.jmx"
     properties: 
