@@ -1,0 +1,67 @@
+2020-07-17 09:49:54,132 INFO o.a.j.u.JMeterUtils: Setting Locale to en_GB
+2020-07-17 09:49:54,189 INFO o.a.j.JMeter: Loading user properties from: /home/gsaha/.bzt/jmeter-taurus/5.2.1/bin/user.properties
+2020-07-17 09:49:54,191 INFO o.a.j.JMeter: Loading system properties from: /home/gsaha/.bzt/jmeter-taurus/5.2.1/bin/system.properties
+2020-07-17 09:49:54,193 INFO o.a.j.JMeter: Loading additional properties from: /home/gsaha/Desktop/performance/taurus_bzt/2020-07-17_09-49-44.338857/jmeter-bzt.properties
+2020-07-17 09:49:54,205 INFO o.a.j.JMeter: Copyright (c) 1998-2019 The Apache Software Foundation
+2020-07-17 09:49:54,210 INFO o.a.j.JMeter: Version 5.2.1
+2020-07-17 09:49:54,213 INFO o.a.j.JMeter: java.version=11.0.6
+2020-07-17 09:49:54,213 INFO o.a.j.JMeter: java.vm.name=OpenJDK 64-Bit Server VM
+2020-07-17 09:49:54,213 INFO o.a.j.JMeter: os.name=Linux
+2020-07-17 09:49:54,213 INFO o.a.j.JMeter: os.arch=amd64
+2020-07-17 09:49:54,214 INFO o.a.j.JMeter: os.version=5.0.0-32-generic
+2020-07-17 09:49:54,214 INFO o.a.j.JMeter: file.encoding=UTF-8
+2020-07-17 09:49:54,214 INFO o.a.j.JMeter: java.awt.headless=true
+2020-07-17 09:49:54,214 INFO o.a.j.JMeter: Max memory     =4123000832
+2020-07-17 09:49:54,214 INFO o.a.j.JMeter: Available Processors =4
+2020-07-17 09:49:54,233 INFO o.a.j.JMeter: Default Locale=English (United Kingdom)
+2020-07-17 09:49:54,233 INFO o.a.j.JMeter: JMeter  Locale=English (United Kingdom)
+2020-07-17 09:49:54,234 INFO o.a.j.JMeter: JMeterHome=/home/gsaha/.bzt/jmeter-taurus/5.2.1
+2020-07-17 09:49:54,234 INFO o.a.j.JMeter: user.dir  =/home/gsaha/Desktop/performance/taurus_bzt
+2020-07-17 09:49:54,234 INFO o.a.j.JMeter: PWD       =/home/gsaha/Desktop/performance/taurus_bzt
+2020-07-17 09:49:54,429 INFO o.a.j.JMeter: IP: 192.168.1.35 Name: gs FullName: gs.home
+2020-07-17 09:49:54,429 INFO o.a.j.JMeter: user.classpath=/home/gsaha/Desktop/performance/taurus_bzt/2020-07-17_09-49-44.338857:/home/gsaha/Desktop/performance/script_jmeter
+2020-07-17 09:49:54,430 INFO o.a.j.JMeter: Adding to classpath and loader: /home/gsaha/Desktop/performance/taurus_bzt/2020-07-17_09-49-44.338857
+2020-07-17 09:49:54,431 INFO o.a.j.JMeter: Adding to classpath and loader: /home/gsaha/Desktop/performance/script_jmeter
+2020-07-17 09:49:54,440 INFO o.a.j.s.FileServer: Default base='/home/gsaha/Desktop/performance/taurus_bzt'
+2020-07-17 09:49:54,442 INFO o.a.j.s.FileServer: Set new base='/home/gsaha/Desktop/performance/script_jmeter'
+2020-07-17 09:49:54,708 INFO o.a.j.s.SaveService: Testplan (JMX) version: 2.2. Testlog (JTL) version: 2.2
+2020-07-17 09:49:54,730 INFO o.a.j.s.SaveService: Using SaveService properties version 5.0
+2020-07-17 09:49:54,738 INFO o.a.j.s.SaveService: Using SaveService properties file encoding UTF-8
+2020-07-17 09:49:54,746 INFO o.a.j.s.SaveService: Loading file: /home/gsaha/Desktop/performance/script_jmeter/modified_performance_gateway.jmx
+2020-07-17 09:49:54,862 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/html is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2020-07-17 09:49:54,863 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for application/xhtml+xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2020-07-17 09:49:54,863 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for application/xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2020-07-17 09:49:54,863 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2020-07-17 09:49:54,863 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/vnd.wap.wml is org.apache.jmeter.protocol.http.parser.RegexpHTMLParser
+2020-07-17 09:49:54,863 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/css is org.apache.jmeter.protocol.http.parser.CssParser
+2020-07-17 09:49:54,954 INFO o.a.j.e.StandardJMeterEngine: Running the test!
+2020-07-17 09:49:54,974 INFO o.a.j.s.SampleEvent: List of sample_variables: []
+2020-07-17 09:49:54,975 INFO o.a.j.s.SampleEvent: List of sample_variables: []
+2020-07-17 09:49:54,988 INFO o.a.j.e.u.CompoundVariable: Note: Function class names must contain the string: '.functions.'
+2020-07-17 09:49:54,989 INFO o.a.j.e.u.CompoundVariable: Note: Function class names must not contain the string: '.gui.'
+2020-07-17 09:49:55,483 INFO o.a.j.JMeter: Running test (1594997395483)
+2020-07-17 09:49:55,518 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 1 : prueba_performance
+2020-07-17 09:49:55,519 INFO o.a.j.e.StandardJMeterEngine: Starting 1 threads for group prueba_performance.
+2020-07-17 09:49:55,519 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
+2020-07-17 09:49:55,519 INFO o.a.j.t.ThreadGroup: Starting thread group... number=1 threads=1 ramp-up=1 delayedStart=false
+2020-07-17 09:49:55,526 INFO o.a.j.t.ThreadGroup: Started thread group number 1
+2020-07-17 09:49:55,526 INFO o.a.j.e.StandardJMeterEngine: All thread groups have been started
+2020-07-17 09:49:55,591 INFO o.a.j.t.JMeterThread: Thread started: prueba_performance 1-1
+2020-07-17 09:49:55,593 INFO o.a.j.s.FileServer: Stored: /home/gsaha/Desktop/performance/data_excel/info.csv
+2020-07-17 09:49:55,628 INFO o.a.j.p.h.s.HTTPHCAbstractImpl: Local host = gs
+2020-07-17 09:49:55,639 INFO o.a.j.p.h.s.HTTPHC4Impl: HTTP request retry count = 0
+2020-07-17 09:49:55,642 INFO o.a.j.s.SampleResult: Note: Sample TimeStamps are START times
+2020-07-17 09:49:55,643 INFO o.a.j.s.SampleResult: sampleresult.default.encoding is set to UTF-8
+2020-07-17 09:49:55,643 INFO o.a.j.s.SampleResult: sampleresult.useNanoTime=true
+2020-07-17 09:49:55,643 INFO o.a.j.s.SampleResult: sampleresult.nanoThreadSleep=5000
+2020-07-17 09:49:56,044 INFO o.a.j.p.h.s.h.LazyLayeredConnectionSocketFactory: Setting up HTTPS TrustAll Socket Factory
+2020-07-17 09:49:56,052 INFO o.a.j.u.JsseSSLManager: Using default SSL protocol: TLS
+2020-07-17 09:49:56,053 INFO o.a.j.u.JsseSSLManager: SSL session context: per-thread
+2020-07-17 09:49:56,416 INFO o.a.j.u.SSLManager: JmeterKeyStore Location:  type JKS
+2020-07-17 09:49:56,427 INFO o.a.j.u.SSLManager: KeyStore created OK
+2020-07-17 09:49:56,428 WARN o.a.j.u.SSLManager: Keystore file not found, loading empty keystore
+2020-07-17 09:50:15,021 INFO o.a.j.t.JMeterThread: Thread is done: prueba_performance 1-1
+2020-07-17 09:50:15,021 INFO o.a.j.t.JMeterThread: Thread finished: prueba_performance 1-1
+2020-07-17 09:50:15,022 INFO o.a.j.e.StandardJMeterEngine: Notifying test listeners of end of test
+2020-07-17 09:50:15,025 INFO o.a.j.s.FileServer: Close: /home/gsaha/Desktop/performance/data_excel/info.csv
+2020-07-17 09:50:15,033 INFO o.a.j.e.StandardJMeterEngine: Forced JVM shutdown requested at end of test

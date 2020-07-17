@@ -1,0 +1,4 @@
+timeStamp,elapsed,label,responseCode,responseMessage,threadName,success,bytes,grpThreads,allThreads,Latency,Hostname,Connect
+1594998151532,2370,token,201,Created,prueba_performance 1-1,true,960,1,1,2364,gs,892
+1594998153986,6707,cargo,201,Created,prueba_performance 1-1,true,1957,1,1,6707,gs,508
+1594998160712,3255,Devolucion,201,Created,prueba_performance 1-1,true,752,1,1,3255,gs,594

@@ -1,0 +1,1324 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testResults version="1.2">
+<httpSample t="1070" lt="1069" ts="1594997029948" s="false" lb="cargo" rc="500" rm="Internal Server Error" tn="prueba_performance-ThreadStarter 1-1" dt="text" de="UTF-8" by="717" ng="1" na="1">
+  <assertionResult>
+    <name>Response Assertion</name>
+    <failure>true</failure>
+    <error>false</error>
+    <failureMessage>Test failed: code expected to contain /201/</failureMessage>
+  </assertionResult>
+  <responseHeader class="java.lang.String">HTTP/1.1 500 Internal Server Error
+Date: Fri, 17 Jul 2020 14:43:51 GMT
+Content-Type: application/json;charset=UTF-8
+Content-Length: 155
+Connection: keep-alive
+x-amzn-RequestId: 31a02fec-3770-4f3f-881a-cf44feec7d25
+X-CULQI-TRACKING-ID: 7743831
+X-CULQI-ENVIRONMENT: test
+X-CULQI-VERSION: 2.0.0
+x-amzn-Remapped-Connection: close
+Set-Cookie: JSESSIONID=7D938C336AD9720674996A77D4DB2D7F; Path=/api; HttpOnly
+x-amz-apigw-id: P0neCFH6IAMFnpg=
+X-Amzn-Trace-Id: Root=1-5f11b926-98d34810756bcad8c3635204
+x-amzn-Remapped-Date: Fri, 17 Jul 2020 14:43:50 GMT
+</responseHeader>
+  <requestHeader class="java.lang.String">Connection: keep-alive
+Content-Type: application/json
+Authorization: Bearer sk_test_7434267b66d61045
+
+Content-Length: 193
+Host: qa-api.culqi.xyz
+User-Agent: Apache-HttpClient/4.5.10 (Java/11.0.6)
+</requestHeader>
+  <responseData class="java.lang.String">{&quot;object&quot;:&quot;error&quot;,&quot;type&quot;:&quot;api_error&quot;,&quot;merchant_message&quot;:&quot;Ups! Algo salió mal en Culqi. Contáctate con soporte@culqi.com  para obtener mas información.&quot;}</responseData>
+  <cookies class="java.lang.String"></cookies>
+  <method class="java.lang.String">POST</method>
+  <queryString class="java.lang.String">{&#xd;
+  &quot;amount&quot;: &quot;400&quot;,&#xd;
+  &quot;currency_code&quot;: &quot;PEN&quot;,&#xd;
+  &quot;email&quot;: &quot;gs@culqi.com&quot;,&#xd;
+  &quot;source_id&quot;:&quot;tkn_test_1bgtOcdSKBAj2Ana&quot;, &#xd;
+    &quot;antifraud_details&quot;: {&#xd;
+  	&quot;phone_number&quot;: 123456789&#xd;
+  }&#xd;
+&#xd;
+  &#xd;
+}</queryString>
+  <java.net.URL>https://qa-api.culqi.xyz/v2/charges</java.net.URL>
+</httpSample>
+<httpSample t="835" lt="835" ts="1594997031104" s="false" lb="Devolucion" rc="401" rm="Unauthorized" tn="prueba_performance-ThreadStarter 1-1" dt="text" de="UTF-8" by="717" ng="1" na="1">
+  <assertionResult>
+    <name>Response Assertion</name>
+    <failure>true</failure>
+    <error>false</error>
+    <failureMessage>Test failed: code expected to contain /201/</failureMessage>
+  </assertionResult>
+  <responseHeader class="java.lang.String">HTTP/1.1 401 Unauthorized
+Date: Fri, 17 Jul 2020 14:43:51 GMT
+Content-Type: application/json;charset=UTF-8
+Content-Length: 159
+Connection: keep-alive
+x-amzn-RequestId: b0e10ba0-67e6-44db-bd48-273889c2cce2
+X-CULQI-TRACKING-ID: 7743832
+X-CULQI-ENVIRONMENT: test
+X-CULQI-VERSION: 2.0.0
+x-amzn-Remapped-Connection: keep-alive
+Set-Cookie: JSESSIONID=C19DC56EE3C2D22136FDDDEC6D363182; Path=/api; HttpOnly
+x-amz-apigw-id: P0neKHAxIAMFcDQ=
+X-Amzn-Trace-Id: Root=1-5f11b927-5c01e7bcbff2b724af5ee578
+x-amzn-Remapped-Date: Fri, 17 Jul 2020 14:43:50 GMT
+</responseHeader>
+  <requestHeader class="java.lang.String">Connection: keep-alive
+Content-Type: application/json
+Authorization: Bearer sk_test_7434267b66d61045
+
+Content-Length: 85
+Host: qa-api.culqi.xyz
+User-Agent: Apache-HttpClient/4.5.10 (Java/11.0.6)
+</requestHeader>
+  <responseData class="java.lang.String">{&quot;object&quot;:&quot;error&quot;,&quot;type&quot;:&quot;parameter_error&quot;,&quot;merchant_message&quot;:&quot;No existe el cargo que intentas devolver: &apos;&apos; o tiene un formato inválido.&quot;,&quot;param&quot;:&quot;charge_id&quot;}</responseData>
+  <cookies class="java.lang.String"></cookies>
+  <method class="java.lang.String">POST</method>
+  <queryString class="java.lang.String">{&#xd;
+  &quot;amount&quot;: &quot;400&quot;,&#xd;
+  &quot;charge_id&quot;: &quot;&quot;,&#xd;
+  &quot;reason&quot;: &quot;solicitud_comprador&quot;&#xd;
+&#xd;
+  &#xd;
+}</queryString>
+  <java.net.URL>https://qa-api.culqi.xyz/v2/refunds</java.net.URL>
+</httpSample>
+<httpSample t="917" lt="916" ts="1594997033818" s="false" lb="cargo" rc="500" rm="Internal Server Error" tn="prueba_performance-ThreadStarter 1-1" dt="text" de="UTF-8" by="717" ng="1" na="1">
+  <assertionResult>
+    <name>Response Assertion</name>
+    <failure>true</failure>
+    <error>false</error>
+    <failureMessage>Test failed: code expected to contain /201/</failureMessage>
+  </assertionResult>
+  <responseHeader class="java.lang.String">HTTP/1.1 500 Internal Server Error
+Date: Fri, 17 Jul 2020 14:43:54 GMT
+Content-Type: application/json;charset=UTF-8
+Content-Length: 155
+Connection: keep-alive
+x-amzn-RequestId: 09990137-3e81-4af2-a64a-f5255b400f26
+X-CULQI-TRACKING-ID: 7743835
+X-CULQI-ENVIRONMENT: test
+X-CULQI-VERSION: 2.0.0
+x-amzn-Remapped-Connection: close
+Set-Cookie: JSESSIONID=608FCE89705A6CB8DCCFD452F0BEDA1F; Path=/api; HttpOnly
+x-amz-apigw-id: P0nepGScoAMFYvQ=
+X-Amzn-Trace-Id: Root=1-5f11b92a-b3e12900831e6a04ad2268b6
+x-amzn-Remapped-Date: Fri, 17 Jul 2020 14:43:54 GMT
+</responseHeader>
+  <requestHeader class="java.lang.String">Connection: keep-alive
+Content-Type: application/json
+Authorization: Bearer sk_test_7434267b66d61045
+
+Content-Length: 193
+Host: qa-api.culqi.xyz
+User-Agent: Apache-HttpClient/4.5.10 (Java/11.0.6)
+</requestHeader>
+  <responseData class="java.lang.String">{&quot;object&quot;:&quot;error&quot;,&quot;type&quot;:&quot;api_error&quot;,&quot;merchant_message&quot;:&quot;Ups! Algo salió mal en Culqi. Contáctate con soporte@culqi.com  para obtener mas información.&quot;}</responseData>
+  <cookies class="java.lang.String"></cookies>
+  <method class="java.lang.String">POST</method>
+  <queryString class="java.lang.String">{&#xd;
+  &quot;amount&quot;: &quot;400&quot;,&#xd;
+  &quot;currency_code&quot;: &quot;PEN&quot;,&#xd;
+  &quot;email&quot;: &quot;gs@culqi.com&quot;,&#xd;
+  &quot;source_id&quot;:&quot;tkn_test_DEKCFKXkuNNTVDGx&quot;, &#xd;
+    &quot;antifraud_details&quot;: {&#xd;
+  	&quot;phone_number&quot;: 123456789&#xd;
+  }&#xd;
+&#xd;
+  &#xd;
+}</queryString>
+  <java.net.URL>https://qa-api.culqi.xyz/v2/charges</java.net.URL>
+</httpSample>
+<httpSample t="778" lt="778" ts="1594997034744" s="false" lb="Devolucion" rc="401" rm="Unauthorized" tn="prueba_performance-ThreadStarter 1-1" dt="text" de="UTF-8" by="717" ng="1" na="1">
+  <assertionResult>
+    <name>Response Assertion</name>
+    <failure>true</failure>
+    <error>false</error>
+    <failureMessage>Test failed: code expected to contain /201/</failureMessage>
+  </assertionResult>
+  <responseHeader class="java.lang.String">HTTP/1.1 401 Unauthorized
+Date: Fri, 17 Jul 2020 14:43:55 GMT
+Content-Type: application/json;charset=UTF-8
+Content-Length: 159
+Connection: keep-alive
+x-amzn-RequestId: e52525ea-5afc-40bd-9484-8eaee5198e29
+X-CULQI-TRACKING-ID: 7743836
+X-CULQI-ENVIRONMENT: test
+X-CULQI-VERSION: 2.0.0
+x-amzn-Remapped-Connection: keep-alive
+Set-Cookie: JSESSIONID=DDA332D8989F79108B129A3B231FA9D0; Path=/api; HttpOnly
+x-amz-apigw-id: P0neuElKIAMFV5A=
+X-Amzn-Trace-Id: Root=1-5f11b92a-e8b9a5005a4fb3ea25df7ee2
+x-amzn-Remapped-Date: Fri, 17 Jul 2020 14:43:54 GMT
+</responseHeader>
+  <requestHeader class="java.lang.String">Connection: keep-alive
+Content-Type: application/json
+Authorization: Bearer sk_test_7434267b66d61045
+
+Content-Length: 85
+Host: qa-api.culqi.xyz
+User-Agent: Apache-HttpClient/4.5.10 (Java/11.0.6)
+</requestHeader>
+  <responseData class="java.lang.String">{&quot;object&quot;:&quot;error&quot;,&quot;type&quot;:&quot;parameter_error&quot;,&quot;merchant_message&quot;:&quot;No existe el cargo que intentas devolver: &apos;&apos; o tiene un formato inválido.&quot;,&quot;param&quot;:&quot;charge_id&quot;}</responseData>
+  <cookies class="java.lang.String"></cookies>
+  <method class="java.lang.String">POST</method>
+  <queryString class="java.lang.String">{&#xd;
+  &quot;amount&quot;: &quot;400&quot;,&#xd;
+  &quot;charge_id&quot;: &quot;&quot;,&#xd;
+  &quot;reason&quot;: &quot;solicitud_comprador&quot;&#xd;
+&#xd;
+  &#xd;
+}</queryString>
+  <java.net.URL>https://qa-api.culqi.xyz/v2/refunds</java.net.URL>
+</httpSample>
+<httpSample t="974" lt="974" ts="1594997037315" s="false" lb="cargo" rc="500" rm="Internal Server Error" tn="prueba_performance-ThreadStarter 1-1" dt="text" de="UTF-8" by="717" ng="1" na="1">
+  <assertionResult>
+    <name>Response Assertion</name>
+    <failure>true</failure>
+    <error>false</error>
+    <failureMessage>Test failed: code expected to contain /201/</failureMessage>
+  </assertionResult>
+  <responseHeader class="java.lang.String">HTTP/1.1 500 Internal Server Error
+Date: Fri, 17 Jul 2020 14:43:58 GMT
+Content-Type: application/json;charset=UTF-8
+Content-Length: 155
+Connection: keep-alive
+x-amzn-RequestId: 45dd58b8-b90a-4fdb-9c3c-12ce6e392490
+X-CULQI-TRACKING-ID: 7743839
+X-CULQI-ENVIRONMENT: test
+X-CULQI-VERSION: 2.0.0
+x-amzn-Remapped-Connection: close
+Set-Cookie: JSESSIONID=F487FF0D0414D637D7BD467D420B9BF7; Path=/api; HttpOnly
+x-amz-apigw-id: P0nfNFlAoAMFnpg=
+X-Amzn-Trace-Id: Root=1-5f11b92d-c023a98cb3a60e5099fe3f7c
+x-amzn-Remapped-Date: Fri, 17 Jul 2020 14:43:58 GMT
+</responseHeader>
+  <requestHeader class="java.lang.String">Connection: keep-alive
+Content-Type: application/json
+Authorization: Bearer sk_test_7434267b66d61045
+
+Content-Length: 193
+Host: qa-api.culqi.xyz
+User-Agent: Apache-HttpClient/4.5.10 (Java/11.0.6)
+</requestHeader>
+  <responseData class="java.lang.String">{&quot;object&quot;:&quot;error&quot;,&quot;type&quot;:&quot;api_error&quot;,&quot;merchant_message&quot;:&quot;Ups! Algo salió mal en Culqi. Contáctate con soporte@culqi.com  para obtener mas información.&quot;}</responseData>
+  <cookies class="java.lang.String"></cookies>
+  <method class="java.lang.String">POST</method>
+  <queryString class="java.lang.String">{&#xd;
+  &quot;amount&quot;: &quot;400&quot;,&#xd;
+  &quot;currency_code&quot;: &quot;PEN&quot;,&#xd;
+  &quot;email&quot;: &quot;gs@culqi.com&quot;,&#xd;
+  &quot;source_id&quot;:&quot;tkn_test_hl1bykn0p6ZahmTp&quot;, &#xd;
+    &quot;antifraud_details&quot;: {&#xd;
+  	&quot;phone_number&quot;: 123456789&#xd;
+  }&#xd;
+&#xd;
+  &#xd;
+}</queryString>
+  <java.net.URL>https://qa-api.culqi.xyz/v2/charges</java.net.URL>
+</httpSample>
+<httpSample t="711" lt="711" ts="1594997038313" s="false" lb="Devolucion" rc="401" rm="Unauthorized" tn="prueba_performance-ThreadStarter 1-1" dt="text" de="UTF-8" by="717" ng="1" na="1">
+  <assertionResult>
+    <name>Response Assertion</name>
+    <failure>true</failure>
+    <error>false</error>
+    <failureMessage>Test failed: code expected to contain /201/</failureMessage>
+  </assertionResult>
+  <responseHeader class="java.lang.String">HTTP/1.1 401 Unauthorized
+Date: Fri, 17 Jul 2020 14:43:59 GMT
+Content-Type: application/json;charset=UTF-8
+Content-Length: 159
+Connection: keep-alive
+x-amzn-RequestId: efb59280-ee90-4a92-a492-93ebb80e7499
+X-CULQI-TRACKING-ID: 7743840
+X-CULQI-ENVIRONMENT: test
+X-CULQI-VERSION: 2.0.0
+x-amzn-Remapped-Connection: keep-alive
+Set-Cookie: JSESSIONID=63F99AF8F8D7D8ED292681D727FA172E; Path=/api; HttpOnly
+x-amz-apigw-id: P0nfSHeZoAMFcDQ=
+X-Amzn-Trace-Id: Root=1-5f11b92e-ae67d71417618328d2847724
+x-amzn-Remapped-Date: Fri, 17 Jul 2020 14:43:58 GMT
+</responseHeader>
+  <requestHeader class="java.lang.String">Connection: keep-alive
+Content-Type: application/json
+Authorization: Bearer sk_test_7434267b66d61045
+
+Content-Length: 85
+Host: qa-api.culqi.xyz
+User-Agent: Apache-HttpClient/4.5.10 (Java/11.0.6)
+</requestHeader>
+  <responseData class="java.lang.String">{&quot;object&quot;:&quot;error&quot;,&quot;type&quot;:&quot;parameter_error&quot;,&quot;merchant_message&quot;:&quot;No existe el cargo que intentas devolver: &apos;&apos; o tiene un formato inválido.&quot;,&quot;param&quot;:&quot;charge_id&quot;}</responseData>
+  <cookies class="java.lang.String"></cookies>
+  <method class="java.lang.String">POST</method>
+  <queryString class="java.lang.String">{&#xd;
+  &quot;amount&quot;: &quot;400&quot;,&#xd;
+  &quot;charge_id&quot;: &quot;&quot;,&#xd;
+  &quot;reason&quot;: &quot;solicitud_comprador&quot;&#xd;
+&#xd;
+  &#xd;
+}</queryString>
+  <java.net.URL>https://qa-api.culqi.xyz/v2/refunds</java.net.URL>
+</httpSample>
+<httpSample t="1199" lt="1199" ts="1594997040417" s="false" lb="cargo" rc="500" rm="Internal Server Error" tn="prueba_performance-ThreadStarter 1-1" dt="text" de="UTF-8" by="717" ng="1" na="1">
+  <assertionResult>
+    <name>Response Assertion</name>
+    <failure>true</failure>
+    <error>false</error>
+    <failureMessage>Test failed: code expected to contain /201/</failureMessage>
+  </assertionResult>
+  <responseHeader class="java.lang.String">HTTP/1.1 500 Internal Server Error
+Date: Fri, 17 Jul 2020 14:44:01 GMT
+Content-Type: application/json;charset=UTF-8
+Content-Length: 155
+Connection: keep-alive
+x-amzn-RequestId: 18f64a12-c8d7-4994-ae59-8aa7f0bcb6ff
+X-CULQI-TRACKING-ID: 7743843
+X-CULQI-ENVIRONMENT: test
+X-CULQI-VERSION: 2.0.0
+x-amzn-Remapped-Connection: close
+Set-Cookie: JSESSIONID=02750289E2ADF652508E5969F45AFFE2; Path=/api; HttpOnly
+x-amz-apigw-id: P0nftHpeIAMFUew=
+X-Amzn-Trace-Id: Root=1-5f11b931-5d527b604b7fdac07486cd40
+x-amzn-Remapped-Date: Fri, 17 Jul 2020 14:44:01 GMT
+</responseHeader>
+  <requestHeader class="java.lang.String">Connection: keep-alive
+Content-Type: application/json
+Authorization: Bearer sk_test_7434267b66d61045
+
+Content-Length: 193
+Host: qa-api.culqi.xyz
+User-Agent: Apache-HttpClient/4.5.10 (Java/11.0.6)
+</requestHeader>
+  <responseData class="java.lang.String">{&quot;object&quot;:&quot;error&quot;,&quot;type&quot;:&quot;api_error&quot;,&quot;merchant_message&quot;:&quot;Ups! Algo salió mal en Culqi. Contáctate con soporte@culqi.com  para obtener mas información.&quot;}</responseData>
+  <cookies class="java.lang.String"></cookies>
+  <method class="java.lang.String">POST</method>
+  <queryString class="java.lang.String">{&#xd;
+  &quot;amount&quot;: &quot;400&quot;,&#xd;
+  &quot;currency_code&quot;: &quot;PEN&quot;,&#xd;
+  &quot;email&quot;: &quot;gs@culqi.com&quot;,&#xd;
+  &quot;source_id&quot;:&quot;tkn_test_tWqtq22cyvpkGgqX&quot;, &#xd;
+    &quot;antifraud_details&quot;: {&#xd;
+  	&quot;phone_number&quot;: 123456789&#xd;
+  }&#xd;
+&#xd;
+  &#xd;
+}</queryString>
+  <java.net.URL>https://qa-api.culqi.xyz/v2/charges</java.net.URL>
+</httpSample>
+<httpSample t="744" lt="744" ts="1594997041635" s="false" lb="Devolucion" rc="401" rm="Unauthorized" tn="prueba_performance-ThreadStarter 1-1" dt="text" de="UTF-8" by="717" ng="1" na="1">
+  <assertionResult>
+    <name>Response Assertion</name>
+    <failure>true</failure>
+    <error>false</error>
+    <failureMessage>Test failed: code expected to contain /201/</failureMessage>
+  </assertionResult>
+  <responseHeader class="java.lang.String">HTTP/1.1 401 Unauthorized
+Date: Fri, 17 Jul 2020 14:44:02 GMT
+Content-Type: application/json;charset=UTF-8
+Content-Length: 159
+Connection: keep-alive
+x-amzn-RequestId: 8541c33f-9263-4266-b2fc-237c35b4854a
+X-CULQI-TRACKING-ID: 7743844
+X-CULQI-ENVIRONMENT: test
+X-CULQI-VERSION: 2.0.0
+x-amzn-Remapped-Connection: keep-alive
+Set-Cookie: JSESSIONID=C0A2D62F00F1B1394896D5B723BA7DBA; Path=/api; HttpOnly
+x-amz-apigw-id: P0nfzEz1IAMFmXQ=
+X-Amzn-Trace-Id: Root=1-5f11b931-29cf8b8010b5610015ebe9e0
+x-amzn-Remapped-Date: Fri, 17 Jul 2020 14:44:01 GMT
+</responseHeader>
+  <requestHeader class="java.lang.String">Connection: keep-alive
+Content-Type: application/json
+Authorization: Bearer sk_test_7434267b66d61045
+
+Content-Length: 85
+Host: qa-api.culqi.xyz
+User-Agent: Apache-HttpClient/4.5.10 (Java/11.0.6)
+</requestHeader>
+  <responseData class="java.lang.String">{&quot;object&quot;:&quot;error&quot;,&quot;type&quot;:&quot;parameter_error&quot;,&quot;merchant_message&quot;:&quot;No existe el cargo que intentas devolver: &apos;&apos; o tiene un formato inválido.&quot;,&quot;param&quot;:&quot;charge_id&quot;}</responseData>
+  <cookies class="java.lang.String"></cookies>
+  <method class="java.lang.String">POST</method>
+  <queryString class="java.lang.String">{&#xd;
+  &quot;amount&quot;: &quot;400&quot;,&#xd;
+  &quot;charge_id&quot;: &quot;&quot;,&#xd;
+  &quot;reason&quot;: &quot;solicitud_comprador&quot;&#xd;
+&#xd;
+  &#xd;
+}</queryString>
+  <java.net.URL>https://qa-api.culqi.xyz/v2/refunds</java.net.URL>
+</httpSample>
+<httpSample t="995" lt="995" ts="1594997043721" s="false" lb="cargo" rc="500" rm="Internal Server Error" tn="prueba_performance-ThreadStarter 1-1" dt="text" de="UTF-8" by="717" ng="1" na="1">
+  <assertionResult>
+    <name>Response Assertion</name>
+    <failure>true</failure>
+    <error>false</error>
+    <failureMessage>Test failed: code expected to contain /201/</failureMessage>
+  </assertionResult>
+  <responseHeader class="java.lang.String">HTTP/1.1 500 Internal Server Error
+Date: Fri, 17 Jul 2020 14:44:04 GMT
+Content-Type: application/json;charset=UTF-8
+Content-Length: 155
+Connection: keep-alive
+x-amzn-RequestId: 1ea71478-abde-4674-a135-377b7aa94724
+X-CULQI-TRACKING-ID: 7743847
+X-CULQI-ENVIRONMENT: test
+X-CULQI-VERSION: 2.0.0
+x-amzn-Remapped-Connection: close
+Set-Cookie: JSESSIONID=50A6FF766E90FDA0C58C876D97D3D8C8; Path=/api; HttpOnly
+x-amz-apigw-id: P0ngNFRYIAMFaZQ=
+X-Amzn-Trace-Id: Root=1-5f11b934-70529280592e02f804f29264
+x-amzn-Remapped-Date: Fri, 17 Jul 2020 14:44:04 GMT
+</responseHeader>
+  <requestHeader class="java.lang.String">Connection: keep-alive
+Content-Type: application/json
+Authorization: Bearer sk_test_7434267b66d61045
+
+Content-Length: 193
+Host: qa-api.culqi.xyz
+User-Agent: Apache-HttpClient/4.5.10 (Java/11.0.6)
+</requestHeader>
+  <responseData class="java.lang.String">{&quot;object&quot;:&quot;error&quot;,&quot;type&quot;:&quot;api_error&quot;,&quot;merchant_message&quot;:&quot;Ups! Algo salió mal en Culqi. Contáctate con soporte@culqi.com  para obtener mas información.&quot;}</responseData>
+  <cookies class="java.lang.String"></cookies>
+  <method class="java.lang.String">POST</method>
+  <queryString class="java.lang.String">{&#xd;
+  &quot;amount&quot;: &quot;400&quot;,&#xd;
+  &quot;currency_code&quot;: &quot;PEN&quot;,&#xd;
+  &quot;email&quot;: &quot;gs@culqi.com&quot;,&#xd;
+  &quot;source_id&quot;:&quot;tkn_test_OYbZGKNVpqj0uxbN&quot;, &#xd;
+    &quot;antifraud_details&quot;: {&#xd;
+  	&quot;phone_number&quot;: 123456789&#xd;
+  }&#xd;
+&#xd;
+  &#xd;
+}</queryString>
+  <java.net.URL>https://qa-api.culqi.xyz/v2/charges</java.net.URL>
+</httpSample>
+<httpSample t="807" lt="807" ts="1594997044723" s="false" lb="Devolucion" rc="401" rm="Unauthorized" tn="prueba_performance-ThreadStarter 1-1" dt="text" de="UTF-8" by="717" ng="1" na="1">
+  <assertionResult>
+    <name>Response Assertion</name>
+    <failure>true</failure>
+    <error>false</error>
+    <failureMessage>Test failed: code expected to contain /201/</failureMessage>
+  </assertionResult>
+  <responseHeader class="java.lang.String">HTTP/1.1 401 Unauthorized
+Date: Fri, 17 Jul 2020 14:44:05 GMT
+Content-Type: application/json;charset=UTF-8
+Content-Length: 159
+Connection: keep-alive
+x-amzn-RequestId: 333e4f05-f5da-44ac-bd83-02c072a834eb
+X-CULQI-TRACKING-ID: 7743848
+X-CULQI-ENVIRONMENT: test
+X-CULQI-VERSION: 2.0.0
+x-amzn-Remapped-Connection: keep-alive
+Set-Cookie: JSESSIONID=5FE75D81B365F3EC3C1C1952F65B069F; Path=/api; HttpOnly
+x-amz-apigw-id: P0ngSGNwIAMFZYQ=
+X-Amzn-Trace-Id: Root=1-5f11b934-ba987a748feafa42363bea46
+x-amzn-Remapped-Date: Fri, 17 Jul 2020 14:44:04 GMT
+</responseHeader>
+  <requestHeader class="java.lang.String">Connection: keep-alive
+Content-Type: application/json
+Authorization: Bearer sk_test_7434267b66d61045
+
+Content-Length: 85
+Host: qa-api.culqi.xyz
+User-Agent: Apache-HttpClient/4.5.10 (Java/11.0.6)
+</requestHeader>
+  <responseData class="java.lang.String">{&quot;object&quot;:&quot;error&quot;,&quot;type&quot;:&quot;parameter_error&quot;,&quot;merchant_message&quot;:&quot;No existe el cargo que intentas devolver: &apos;&apos; o tiene un formato inválido.&quot;,&quot;param&quot;:&quot;charge_id&quot;}</responseData>
+  <cookies class="java.lang.String"></cookies>
+  <method class="java.lang.String">POST</method>
+  <queryString class="java.lang.String">{&#xd;
+  &quot;amount&quot;: &quot;400&quot;,&#xd;
+  &quot;charge_id&quot;: &quot;&quot;,&#xd;
+  &quot;reason&quot;: &quot;solicitud_comprador&quot;&#xd;
+&#xd;
+  &#xd;
+}</queryString>
+  <java.net.URL>https://qa-api.culqi.xyz/v2/refunds</java.net.URL>
+</httpSample>
+<httpSample t="1142" lt="1142" ts="1594997047081" s="false" lb="cargo" rc="500" rm="Internal Server Error" tn="prueba_performance-ThreadStarter 1-1" dt="text" de="UTF-8" by="717" ng="1" na="1">
+  <assertionResult>
+    <name>Response Assertion</name>
+    <failure>true</failure>
+    <error>false</error>
+    <failureMessage>Test failed: code expected to contain /201/</failureMessage>
+  </assertionResult>
+  <responseHeader class="java.lang.String">HTTP/1.1 500 Internal Server Error
+Date: Fri, 17 Jul 2020 14:44:08 GMT
+Content-Type: application/json;charset=UTF-8
+Content-Length: 155
+Connection: keep-alive
+x-amzn-RequestId: d842870c-0b5b-4ced-aaf5-5769f0e8d4d4
+X-CULQI-TRACKING-ID: 7743851
+X-CULQI-ENVIRONMENT: test
+X-CULQI-VERSION: 2.0.0
+x-amzn-Remapped-Connection: close
+Set-Cookie: JSESSIONID=2AE7E0B532EE688F49CB9C9E0D54AB6B; Path=/api; HttpOnly
+x-amz-apigw-id: P0nguFERIAMFaAQ=
+X-Amzn-Trace-Id: Root=1-5f11b937-5ebd9a1dfb06dc578d5e307b
+x-amzn-Remapped-Date: Fri, 17 Jul 2020 14:44:07 GMT
+</responseHeader>
+  <requestHeader class="java.lang.String">Connection: keep-alive
+Content-Type: application/json
+Authorization: Bearer sk_test_7434267b66d61045
+
+Content-Length: 193
+Host: qa-api.culqi.xyz
+User-Agent: Apache-HttpClient/4.5.10 (Java/11.0.6)
+</requestHeader>
+  <responseData class="java.lang.String">{&quot;object&quot;:&quot;error&quot;,&quot;type&quot;:&quot;api_error&quot;,&quot;merchant_message&quot;:&quot;Ups! Algo salió mal en Culqi. Contáctate con soporte@culqi.com  para obtener mas información.&quot;}</responseData>
+  <cookies class="java.lang.String"></cookies>
+  <method class="java.lang.String">POST</method>
+  <queryString class="java.lang.String">{&#xd;
+  &quot;amount&quot;: &quot;400&quot;,&#xd;
+  &quot;currency_code&quot;: &quot;PEN&quot;,&#xd;
+  &quot;email&quot;: &quot;gs@culqi.com&quot;,&#xd;
+  &quot;source_id&quot;:&quot;tkn_test_zHr3UT6ZlSIAohV0&quot;, &#xd;
+    &quot;antifraud_details&quot;: {&#xd;
+  	&quot;phone_number&quot;: 123456789&#xd;
+  }&#xd;
+&#xd;
+  &#xd;
+}</queryString>
+  <java.net.URL>https://qa-api.culqi.xyz/v2/charges</java.net.URL>
+</httpSample>
+<httpSample t="709" lt="708" ts="1594997048227" s="false" lb="Devolucion" rc="401" rm="Unauthorized" tn="prueba_performance-ThreadStarter 1-1" dt="text" de="UTF-8" by="717" ng="1" na="1">
+  <assertionResult>
+    <name>Response Assertion</name>
+    <failure>true</failure>
+    <error>false</error>
+    <failureMessage>Test failed: code expected to contain /201/</failureMessage>
+  </assertionResult>
+  <responseHeader class="java.lang.String">HTTP/1.1 401 Unauthorized
+Date: Fri, 17 Jul 2020 14:44:09 GMT
+Content-Type: application/json;charset=UTF-8
+Content-Length: 159
+Connection: keep-alive
+x-amzn-RequestId: 748fe2e1-2e0d-4d06-bf13-435ca86e2c9f
+X-CULQI-TRACKING-ID: 7743852
+X-CULQI-ENVIRONMENT: test
+X-CULQI-VERSION: 2.0.0
+x-amzn-Remapped-Connection: keep-alive
+Set-Cookie: JSESSIONID=95900356859E2A980C16B9B274CA0327; Path=/api; HttpOnly
+x-amz-apigw-id: P0ng1GfBoAMFYUw=
+X-Amzn-Trace-Id: Root=1-5f11b938-7fc185779b8ecf7fecbec7f3
+x-amzn-Remapped-Date: Fri, 17 Jul 2020 14:44:08 GMT
+</responseHeader>
+  <requestHeader class="java.lang.String">Connection: keep-alive
+Content-Type: application/json
+Authorization: Bearer sk_test_7434267b66d61045
+
+Content-Length: 85
+Host: qa-api.culqi.xyz
+User-Agent: Apache-HttpClient/4.5.10 (Java/11.0.6)
+</requestHeader>
+  <responseData class="java.lang.String">{&quot;object&quot;:&quot;error&quot;,&quot;type&quot;:&quot;parameter_error&quot;,&quot;merchant_message&quot;:&quot;No existe el cargo que intentas devolver: &apos;&apos; o tiene un formato inválido.&quot;,&quot;param&quot;:&quot;charge_id&quot;}</responseData>
+  <cookies class="java.lang.String"></cookies>
+  <method class="java.lang.String">POST</method>
+  <queryString class="java.lang.String">{&#xd;
+  &quot;amount&quot;: &quot;400&quot;,&#xd;
+  &quot;charge_id&quot;: &quot;&quot;,&#xd;
+  &quot;reason&quot;: &quot;solicitud_comprador&quot;&#xd;
+&#xd;
+  &#xd;
+}</queryString>
+  <java.net.URL>https://qa-api.culqi.xyz/v2/refunds</java.net.URL>
+</httpSample>
+<httpSample t="1131" lt="1131" ts="1594997050381" s="false" lb="cargo" rc="500" rm="Internal Server Error" tn="prueba_performance-ThreadStarter 1-1" dt="text" de="UTF-8" by="717" ng="1" na="1">
+  <assertionResult>
+    <name>Response Assertion</name>
+    <failure>true</failure>
+    <error>false</error>
+    <failureMessage>Test failed: code expected to contain /201/</failureMessage>
+  </assertionResult>
+  <responseHeader class="java.lang.String">HTTP/1.1 500 Internal Server Error
+Date: Fri, 17 Jul 2020 14:44:11 GMT
+Content-Type: application/json;charset=UTF-8
+Content-Length: 155
+Connection: keep-alive
+x-amzn-RequestId: c7f72a61-fa28-48ee-b9e2-2662257694f6
+X-CULQI-TRACKING-ID: 7743855
+X-CULQI-ENVIRONMENT: test
+X-CULQI-VERSION: 2.0.0
+x-amzn-Remapped-Connection: close
+Set-Cookie: JSESSIONID=440C8F641E209E9FA504EF47A78B69EE; Path=/api; HttpOnly
+x-amz-apigw-id: P0nhQEYNoAMFSIQ=
+X-Amzn-Trace-Id: Root=1-5f11b93b-4e914a9ecf3c9dc7605f8fca
+x-amzn-Remapped-Date: Fri, 17 Jul 2020 14:44:11 GMT
+</responseHeader>
+  <requestHeader class="java.lang.String">Connection: keep-alive
+Content-Type: application/json
+Authorization: Bearer sk_test_7434267b66d61045
+
+Content-Length: 193
+Host: qa-api.culqi.xyz
+User-Agent: Apache-HttpClient/4.5.10 (Java/11.0.6)
+</requestHeader>
+  <responseData class="java.lang.String">{&quot;object&quot;:&quot;error&quot;,&quot;type&quot;:&quot;api_error&quot;,&quot;merchant_message&quot;:&quot;Ups! Algo salió mal en Culqi. Contáctate con soporte@culqi.com  para obtener mas información.&quot;}</responseData>
+  <cookies class="java.lang.String"></cookies>
+  <method class="java.lang.String">POST</method>
+  <queryString class="java.lang.String">{&#xd;
+  &quot;amount&quot;: &quot;400&quot;,&#xd;
+  &quot;currency_code&quot;: &quot;PEN&quot;,&#xd;
+  &quot;email&quot;: &quot;gs@culqi.com&quot;,&#xd;
+  &quot;source_id&quot;:&quot;tkn_test_dpcPuP1GjF8OoMfE&quot;, &#xd;
+    &quot;antifraud_details&quot;: {&#xd;
+  	&quot;phone_number&quot;: 123456789&#xd;
+  }&#xd;
+&#xd;
+  &#xd;
+}</queryString>
+  <java.net.URL>https://qa-api.culqi.xyz/v2/charges</java.net.URL>
+</httpSample>
+<httpSample t="758" lt="758" ts="1594997051517" s="false" lb="Devolucion" rc="401" rm="Unauthorized" tn="prueba_performance-ThreadStarter 1-1" dt="text" de="UTF-8" by="717" ng="1" na="1">
+  <assertionResult>
+    <name>Response Assertion</name>
+    <failure>true</failure>
+    <error>false</error>
+    <failureMessage>Test failed: code expected to contain /201/</failureMessage>
+  </assertionResult>
+  <responseHeader class="java.lang.String">HTTP/1.1 401 Unauthorized
+Date: Fri, 17 Jul 2020 14:44:12 GMT
+Content-Type: application/json;charset=UTF-8
+Content-Length: 159
+Connection: keep-alive
+x-amzn-RequestId: e2461aeb-7619-486d-a676-e78eb255f1a8
+X-CULQI-TRACKING-ID: 7743856
+X-CULQI-ENVIRONMENT: test
+X-CULQI-VERSION: 2.0.0
+x-amzn-Remapped-Connection: keep-alive
+Set-Cookie: JSESSIONID=6F2D11E1CCE819505FC250FF67176C7C; Path=/api; HttpOnly
+x-amz-apigw-id: P0nhWF-soAMFsoQ=
+X-Amzn-Trace-Id: Root=1-5f11b93b-ccff3474c1e7ac4bcccbe5b3
+x-amzn-Remapped-Date: Fri, 17 Jul 2020 14:44:11 GMT
+</responseHeader>
+  <requestHeader class="java.lang.String">Connection: keep-alive
+Content-Type: application/json
+Authorization: Bearer sk_test_7434267b66d61045
+
+Content-Length: 85
+Host: qa-api.culqi.xyz
+User-Agent: Apache-HttpClient/4.5.10 (Java/11.0.6)
+</requestHeader>
+  <responseData class="java.lang.String">{&quot;object&quot;:&quot;error&quot;,&quot;type&quot;:&quot;parameter_error&quot;,&quot;merchant_message&quot;:&quot;No existe el cargo que intentas devolver: &apos;&apos; o tiene un formato inválido.&quot;,&quot;param&quot;:&quot;charge_id&quot;}</responseData>
+  <cookies class="java.lang.String"></cookies>
+  <method class="java.lang.String">POST</method>
+  <queryString class="java.lang.String">{&#xd;
+  &quot;amount&quot;: &quot;400&quot;,&#xd;
+  &quot;charge_id&quot;: &quot;&quot;,&#xd;
+  &quot;reason&quot;: &quot;solicitud_comprador&quot;&#xd;
+&#xd;
+  &#xd;
+}</queryString>
+  <java.net.URL>https://qa-api.culqi.xyz/v2/refunds</java.net.URL>
+</httpSample>
+<httpSample t="875" lt="875" ts="1594997055025" s="false" lb="cargo" rc="500" rm="Internal Server Error" tn="prueba_performance-ThreadStarter 1-1" dt="text" de="UTF-8" by="717" ng="1" na="1">
+  <assertionResult>
+    <name>Response Assertion</name>
+    <failure>true</failure>
+    <error>false</error>
+    <failureMessage>Test failed: code expected to contain /201/</failureMessage>
+  </assertionResult>
+  <responseHeader class="java.lang.String">HTTP/1.1 500 Internal Server Error
+Date: Fri, 17 Jul 2020 14:44:15 GMT
+Content-Type: application/json;charset=UTF-8
+Content-Length: 155
+Connection: keep-alive
+x-amzn-RequestId: 2497d12b-e350-48d9-b67c-205dbcd2e682
+X-CULQI-TRACKING-ID: 7743859
+X-CULQI-ENVIRONMENT: test
+X-CULQI-VERSION: 2.0.0
+x-amzn-Remapped-Connection: close
+Set-Cookie: JSESSIONID=ABE89A1CBE32B5627337F2F8E56BD78D; Path=/api; HttpOnly
+x-amz-apigw-id: P0nh9F3ToAMFnhQ=
+X-Amzn-Trace-Id: Root=1-5f11b93f-ecd79abc44fba62c5adba930
+x-amzn-Remapped-Date: Fri, 17 Jul 2020 14:44:15 GMT
+</responseHeader>
+  <requestHeader class="java.lang.String">Connection: keep-alive
+Content-Type: application/json
+Authorization: Bearer sk_test_7434267b66d61045
+
+Content-Length: 193
+Host: qa-api.culqi.xyz
+User-Agent: Apache-HttpClient/4.5.10 (Java/11.0.6)
+</requestHeader>
+  <responseData class="java.lang.String">{&quot;object&quot;:&quot;error&quot;,&quot;type&quot;:&quot;api_error&quot;,&quot;merchant_message&quot;:&quot;Ups! Algo salió mal en Culqi. Contáctate con soporte@culqi.com  para obtener mas información.&quot;}</responseData>
+  <cookies class="java.lang.String"></cookies>
+  <method class="java.lang.String">POST</method>
+  <queryString class="java.lang.String">{&#xd;
+  &quot;amount&quot;: &quot;400&quot;,&#xd;
+  &quot;currency_code&quot;: &quot;PEN&quot;,&#xd;
+  &quot;email&quot;: &quot;gs@culqi.com&quot;,&#xd;
+  &quot;source_id&quot;:&quot;tkn_test_qy1jYJuIzRpUCFub&quot;, &#xd;
+    &quot;antifraud_details&quot;: {&#xd;
+  	&quot;phone_number&quot;: 123456789&#xd;
+  }&#xd;
+&#xd;
+  &#xd;
+}</queryString>
+  <java.net.URL>https://qa-api.culqi.xyz/v2/charges</java.net.URL>
+</httpSample>
+<httpSample t="926" lt="925" ts="1594997055903" s="false" lb="Devolucion" rc="401" rm="Unauthorized" tn="prueba_performance-ThreadStarter 1-1" dt="text" de="UTF-8" by="717" ng="1" na="1">
+  <assertionResult>
+    <name>Response Assertion</name>
+    <failure>true</failure>
+    <error>false</error>
+    <failureMessage>Test failed: code expected to contain /201/</failureMessage>
+  </assertionResult>
+  <responseHeader class="java.lang.String">HTTP/1.1 401 Unauthorized
+Date: Fri, 17 Jul 2020 14:44:16 GMT
+Content-Type: application/json;charset=UTF-8
+Content-Length: 159
+Connection: keep-alive
+x-amzn-RequestId: 16923e5a-adab-4df8-be62-e379e5d85778
+X-CULQI-TRACKING-ID: 7743860
+X-CULQI-ENVIRONMENT: test
+X-CULQI-VERSION: 2.0.0
+x-amzn-Remapped-Connection: keep-alive
+Set-Cookie: JSESSIONID=0D61A657D90187F821A24484A522799A; Path=/api; HttpOnly
+x-amz-apigw-id: P0niCFqEoAMFm9w=
+X-Amzn-Trace-Id: Root=1-5f11b940-b9787eecd698be2832a83764
+x-amzn-Remapped-Date: Fri, 17 Jul 2020 14:44:15 GMT
+</responseHeader>
+  <requestHeader class="java.lang.String">Connection: keep-alive
+Content-Type: application/json
+Authorization: Bearer sk_test_7434267b66d61045
+
+Content-Length: 85
+Host: qa-api.culqi.xyz
+User-Agent: Apache-HttpClient/4.5.10 (Java/11.0.6)
+</requestHeader>
+  <responseData class="java.lang.String">{&quot;object&quot;:&quot;error&quot;,&quot;type&quot;:&quot;parameter_error&quot;,&quot;merchant_message&quot;:&quot;No existe el cargo que intentas devolver: &apos;&apos; o tiene un formato inválido.&quot;,&quot;param&quot;:&quot;charge_id&quot;}</responseData>
+  <cookies class="java.lang.String"></cookies>
+  <method class="java.lang.String">POST</method>
+  <queryString class="java.lang.String">{&#xd;
+  &quot;amount&quot;: &quot;400&quot;,&#xd;
+  &quot;charge_id&quot;: &quot;&quot;,&#xd;
+  &quot;reason&quot;: &quot;solicitud_comprador&quot;&#xd;
+&#xd;
+  &#xd;
+}</queryString>
+  <java.net.URL>https://qa-api.culqi.xyz/v2/refunds</java.net.URL>
+</httpSample>
+<httpSample t="961" lt="961" ts="1594997058182" s="false" lb="cargo" rc="500" rm="Internal Server Error" tn="prueba_performance-ThreadStarter 1-1" dt="text" de="UTF-8" by="717" ng="1" na="1">
+  <assertionResult>
+    <name>Response Assertion</name>
+    <failure>true</failure>
+    <error>false</error>
+    <failureMessage>Test failed: code expected to contain /201/</failureMessage>
+  </assertionResult>
+  <responseHeader class="java.lang.String">HTTP/1.1 500 Internal Server Error
+Date: Fri, 17 Jul 2020 14:44:19 GMT
+Content-Type: application/json;charset=UTF-8
+Content-Length: 155
+Connection: keep-alive
+x-amzn-RequestId: c030ba1a-29c4-44ac-a63e-bfb2f9812ec1
+X-CULQI-TRACKING-ID: 7743863
+X-CULQI-ENVIRONMENT: test
+X-CULQI-VERSION: 2.0.0
+x-amzn-Remapped-Connection: close
+Set-Cookie: JSESSIONID=FD0136C01E533969B13A160129071D1D; Path=/api; HttpOnly
+x-amz-apigw-id: P0nidEbYIAMFfdQ=
+X-Amzn-Trace-Id: Root=1-5f11b942-334f938dbef3db1ce501a920
+x-amzn-Remapped-Date: Fri, 17 Jul 2020 14:44:19 GMT
+</responseHeader>
+  <requestHeader class="java.lang.String">Connection: keep-alive
+Content-Type: application/json
+Authorization: Bearer sk_test_7434267b66d61045
+
+Content-Length: 193
+Host: qa-api.culqi.xyz
+User-Agent: Apache-HttpClient/4.5.10 (Java/11.0.6)
+</requestHeader>
+  <responseData class="java.lang.String">{&quot;object&quot;:&quot;error&quot;,&quot;type&quot;:&quot;api_error&quot;,&quot;merchant_message&quot;:&quot;Ups! Algo salió mal en Culqi. Contáctate con soporte@culqi.com  para obtener mas información.&quot;}</responseData>
+  <cookies class="java.lang.String"></cookies>
+  <method class="java.lang.String">POST</method>
+  <queryString class="java.lang.String">{&#xd;
+  &quot;amount&quot;: &quot;400&quot;,&#xd;
+  &quot;currency_code&quot;: &quot;PEN&quot;,&#xd;
+  &quot;email&quot;: &quot;gs@culqi.com&quot;,&#xd;
+  &quot;source_id&quot;:&quot;tkn_test_SXRD65Cqp6GiFVuR&quot;, &#xd;
+    &quot;antifraud_details&quot;: {&#xd;
+  	&quot;phone_number&quot;: 123456789&#xd;
+  }&#xd;
+&#xd;
+  &#xd;
+}</queryString>
+  <java.net.URL>https://qa-api.culqi.xyz/v2/charges</java.net.URL>
+</httpSample>
+<httpSample t="947" lt="947" ts="1594997059152" s="false" lb="Devolucion" rc="401" rm="Unauthorized" tn="prueba_performance-ThreadStarter 1-1" dt="text" de="UTF-8" by="717" ng="1" na="1">
+  <assertionResult>
+    <name>Response Assertion</name>
+    <failure>true</failure>
+    <error>false</error>
+    <failureMessage>Test failed: code expected to contain /201/</failureMessage>
+  </assertionResult>
+  <responseHeader class="java.lang.String">HTTP/1.1 401 Unauthorized
+Date: Fri, 17 Jul 2020 14:44:19 GMT
+Content-Type: application/json;charset=UTF-8
+Content-Length: 159
+Connection: keep-alive
+x-amzn-RequestId: ff31c1c8-56c0-472e-9ab4-8f5f51917053
+X-CULQI-TRACKING-ID: 7743864
+X-CULQI-ENVIRONMENT: test
+X-CULQI-VERSION: 2.0.0
+x-amzn-Remapped-Connection: keep-alive
+Set-Cookie: JSESSIONID=CED4D1A2C3B30E9D5BC578A382C01784; Path=/api; HttpOnly
+x-amz-apigw-id: P0niiGsioAMFrXA=
+X-Amzn-Trace-Id: Root=1-5f11b943-0124639acb53b62a26a19ec1
+x-amzn-Remapped-Date: Fri, 17 Jul 2020 14:44:19 GMT
+</responseHeader>
+  <requestHeader class="java.lang.String">Connection: keep-alive
+Content-Type: application/json
+Authorization: Bearer sk_test_7434267b66d61045
+
+Content-Length: 85
+Host: qa-api.culqi.xyz
+User-Agent: Apache-HttpClient/4.5.10 (Java/11.0.6)
+</requestHeader>
+  <responseData class="java.lang.String">{&quot;object&quot;:&quot;error&quot;,&quot;type&quot;:&quot;parameter_error&quot;,&quot;merchant_message&quot;:&quot;No existe el cargo que intentas devolver: &apos;&apos; o tiene un formato inválido.&quot;,&quot;param&quot;:&quot;charge_id&quot;}</responseData>
+  <cookies class="java.lang.String"></cookies>
+  <method class="java.lang.String">POST</method>
+  <queryString class="java.lang.String">{&#xd;
+  &quot;amount&quot;: &quot;400&quot;,&#xd;
+  &quot;charge_id&quot;: &quot;&quot;,&#xd;
+  &quot;reason&quot;: &quot;solicitud_comprador&quot;&#xd;
+&#xd;
+  &#xd;
+}</queryString>
+  <java.net.URL>https://qa-api.culqi.xyz/v2/refunds</java.net.URL>
+</httpSample>
+<httpSample t="1022" lt="1022" ts="1594997061737" s="false" lb="cargo" rc="500" rm="Internal Server Error" tn="prueba_performance-ThreadStarter 1-1" dt="text" de="UTF-8" by="717" ng="1" na="1">
+  <assertionResult>
+    <name>Response Assertion</name>
+    <failure>true</failure>
+    <error>false</error>
+    <failureMessage>Test failed: code expected to contain /201/</failureMessage>
+  </assertionResult>
+  <responseHeader class="java.lang.String">HTTP/1.1 500 Internal Server Error
+Date: Fri, 17 Jul 2020 14:44:22 GMT
+Content-Type: application/json;charset=UTF-8
+Content-Length: 155
+Connection: keep-alive
+x-amzn-RequestId: c0654a87-2f67-4f1f-aab3-e2d7a7245b50
+X-CULQI-TRACKING-ID: 7743867
+X-CULQI-ENVIRONMENT: test
+X-CULQI-VERSION: 2.0.0
+x-amzn-Remapped-Connection: close
+Set-Cookie: JSESSIONID=DE5A842FB5705704F3A71D2FFFB27C43; Path=/api; HttpOnly
+x-amz-apigw-id: P0njBHnSIAMFuqg=
+X-Amzn-Trace-Id: Root=1-5f11b946-5215b10cab1a78aef5b77d4e
+x-amzn-Remapped-Date: Fri, 17 Jul 2020 14:44:22 GMT
+</responseHeader>
+  <requestHeader class="java.lang.String">Connection: keep-alive
+Content-Type: application/json
+Authorization: Bearer sk_test_7434267b66d61045
+
+Content-Length: 193
+Host: qa-api.culqi.xyz
+User-Agent: Apache-HttpClient/4.5.10 (Java/11.0.6)
+</requestHeader>
+  <responseData class="java.lang.String">{&quot;object&quot;:&quot;error&quot;,&quot;type&quot;:&quot;api_error&quot;,&quot;merchant_message&quot;:&quot;Ups! Algo salió mal en Culqi. Contáctate con soporte@culqi.com  para obtener mas información.&quot;}</responseData>
+  <cookies class="java.lang.String"></cookies>
+  <method class="java.lang.String">POST</method>
+  <queryString class="java.lang.String">{&#xd;
+  &quot;amount&quot;: &quot;400&quot;,&#xd;
+  &quot;currency_code&quot;: &quot;PEN&quot;,&#xd;
+  &quot;email&quot;: &quot;gs@culqi.com&quot;,&#xd;
+  &quot;source_id&quot;:&quot;tkn_test_Ia67Y3EDiVk6ed9k&quot;, &#xd;
+    &quot;antifraud_details&quot;: {&#xd;
+  	&quot;phone_number&quot;: 123456789&#xd;
+  }&#xd;
+&#xd;
+  &#xd;
+}</queryString>
+  <java.net.URL>https://qa-api.culqi.xyz/v2/charges</java.net.URL>
+</httpSample>
+<httpSample t="920" lt="919" ts="1594997062763" s="false" lb="Devolucion" rc="401" rm="Unauthorized" tn="prueba_performance-ThreadStarter 1-1" dt="text" de="UTF-8" by="717" ng="1" na="1">
+  <assertionResult>
+    <name>Response Assertion</name>
+    <failure>true</failure>
+    <error>false</error>
+    <failureMessage>Test failed: code expected to contain /201/</failureMessage>
+  </assertionResult>
+  <responseHeader class="java.lang.String">HTTP/1.1 401 Unauthorized
+Date: Fri, 17 Jul 2020 14:44:23 GMT
+Content-Type: application/json;charset=UTF-8
+Content-Length: 159
+Connection: keep-alive
+x-amzn-RequestId: 511b0c78-452a-47f2-906d-dedc080ef901
+X-CULQI-TRACKING-ID: 7743868
+X-CULQI-ENVIRONMENT: test
+X-CULQI-VERSION: 2.0.0
+x-amzn-Remapped-Connection: keep-alive
+Set-Cookie: JSESSIONID=861C46C27C57D0D94494F3A2627246A6; Path=/api; HttpOnly
+x-amz-apigw-id: P0njGGcJIAMF9kw=
+X-Amzn-Trace-Id: Root=1-5f11b946-605896a0cb5aa9e018b5ab92
+x-amzn-Remapped-Date: Fri, 17 Jul 2020 14:44:23 GMT
+</responseHeader>
+  <requestHeader class="java.lang.String">Connection: keep-alive
+Content-Type: application/json
+Authorization: Bearer sk_test_7434267b66d61045
+
+Content-Length: 85
+Host: qa-api.culqi.xyz
+User-Agent: Apache-HttpClient/4.5.10 (Java/11.0.6)
+</requestHeader>
+  <responseData class="java.lang.String">{&quot;object&quot;:&quot;error&quot;,&quot;type&quot;:&quot;parameter_error&quot;,&quot;merchant_message&quot;:&quot;No existe el cargo que intentas devolver: &apos;&apos; o tiene un formato inválido.&quot;,&quot;param&quot;:&quot;charge_id&quot;}</responseData>
+  <cookies class="java.lang.String"></cookies>
+  <method class="java.lang.String">POST</method>
+  <queryString class="java.lang.String">{&#xd;
+  &quot;amount&quot;: &quot;400&quot;,&#xd;
+  &quot;charge_id&quot;: &quot;&quot;,&#xd;
+  &quot;reason&quot;: &quot;solicitud_comprador&quot;&#xd;
+&#xd;
+  &#xd;
+}</queryString>
+  <java.net.URL>https://qa-api.culqi.xyz/v2/refunds</java.net.URL>
+</httpSample>
+<httpSample t="1007" lt="1007" ts="1594997065085" s="false" lb="cargo" rc="500" rm="Internal Server Error" tn="prueba_performance-ThreadStarter 1-1" dt="text" de="UTF-8" by="717" ng="1" na="1">
+  <assertionResult>
+    <name>Response Assertion</name>
+    <failure>true</failure>
+    <error>false</error>
+    <failureMessage>Test failed: code expected to contain /201/</failureMessage>
+  </assertionResult>
+  <responseHeader class="java.lang.String">HTTP/1.1 500 Internal Server Error
+Date: Fri, 17 Jul 2020 14:44:26 GMT
+Content-Type: application/json;charset=UTF-8
+Content-Length: 155
+Connection: keep-alive
+x-amzn-RequestId: b3d1f785-f04d-401c-a954-5e0aef575c01
+X-CULQI-TRACKING-ID: 7743871
+X-CULQI-ENVIRONMENT: test
+X-CULQI-VERSION: 2.0.0
+x-amzn-Remapped-Connection: close
+Set-Cookie: JSESSIONID=7B6A7CB656348760D045BE3882A2C12E; Path=/api; HttpOnly
+x-amz-apigw-id: P0njiF6eoAMFvqQ=
+X-Amzn-Trace-Id: Root=1-5f11b949-a9c8685bea83afe51d81d208
+x-amzn-Remapped-Date: Fri, 17 Jul 2020 14:44:25 GMT
+</responseHeader>
+  <requestHeader class="java.lang.String">Connection: keep-alive
+Content-Type: application/json
+Authorization: Bearer sk_test_7434267b66d61045
+
+Content-Length: 193
+Host: qa-api.culqi.xyz
+User-Agent: Apache-HttpClient/4.5.10 (Java/11.0.6)
+</requestHeader>
+  <responseData class="java.lang.String">{&quot;object&quot;:&quot;error&quot;,&quot;type&quot;:&quot;api_error&quot;,&quot;merchant_message&quot;:&quot;Ups! Algo salió mal en Culqi. Contáctate con soporte@culqi.com  para obtener mas información.&quot;}</responseData>
+  <cookies class="java.lang.String"></cookies>
+  <method class="java.lang.String">POST</method>
+  <queryString class="java.lang.String">{&#xd;
+  &quot;amount&quot;: &quot;400&quot;,&#xd;
+  &quot;currency_code&quot;: &quot;PEN&quot;,&#xd;
+  &quot;email&quot;: &quot;gs@culqi.com&quot;,&#xd;
+  &quot;source_id&quot;:&quot;tkn_test_jyYKxG2QcFPpiWiR&quot;, &#xd;
+    &quot;antifraud_details&quot;: {&#xd;
+  	&quot;phone_number&quot;: 123456789&#xd;
+  }&#xd;
+&#xd;
+  &#xd;
+}</queryString>
+  <java.net.URL>https://qa-api.culqi.xyz/v2/charges</java.net.URL>
+</httpSample>
+<httpSample t="946" lt="946" ts="1594997066116" s="false" lb="Devolucion" rc="401" rm="Unauthorized" tn="prueba_performance-ThreadStarter 1-1" dt="text" de="UTF-8" by="717" ng="1" na="1">
+  <assertionResult>
+    <name>Response Assertion</name>
+    <failure>true</failure>
+    <error>false</error>
+    <failureMessage>Test failed: code expected to contain /201/</failureMessage>
+  </assertionResult>
+  <responseHeader class="java.lang.String">HTTP/1.1 401 Unauthorized
+Date: Fri, 17 Jul 2020 14:44:26 GMT
+Content-Type: application/json;charset=UTF-8
+Content-Length: 159
+Connection: keep-alive
+x-amzn-RequestId: b54d7ff4-6d7d-4d5e-a0c6-fd0da1b8f50a
+X-CULQI-TRACKING-ID: 7743872
+X-CULQI-ENVIRONMENT: test
+X-CULQI-VERSION: 2.0.0
+x-amzn-Remapped-Connection: keep-alive
+Set-Cookie: JSESSIONID=CC441C0A4E485D383E53A102DE6F499A; Path=/api; HttpOnly
+x-amz-apigw-id: P0njoEV7oAMFYvQ=
+X-Amzn-Trace-Id: Root=1-5f11b94a-ffa4eb5e06c48c147c41130d
+x-amzn-Remapped-Date: Fri, 17 Jul 2020 14:44:25 GMT
+</responseHeader>
+  <requestHeader class="java.lang.String">Connection: keep-alive
+Content-Type: application/json
+Authorization: Bearer sk_test_7434267b66d61045
+
+Content-Length: 85
+Host: qa-api.culqi.xyz
+User-Agent: Apache-HttpClient/4.5.10 (Java/11.0.6)
+</requestHeader>
+  <responseData class="java.lang.String">{&quot;object&quot;:&quot;error&quot;,&quot;type&quot;:&quot;parameter_error&quot;,&quot;merchant_message&quot;:&quot;No existe el cargo que intentas devolver: &apos;&apos; o tiene un formato inválido.&quot;,&quot;param&quot;:&quot;charge_id&quot;}</responseData>
+  <cookies class="java.lang.String"></cookies>
+  <method class="java.lang.String">POST</method>
+  <queryString class="java.lang.String">{&#xd;
+  &quot;amount&quot;: &quot;400&quot;,&#xd;
+  &quot;charge_id&quot;: &quot;&quot;,&#xd;
+  &quot;reason&quot;: &quot;solicitud_comprador&quot;&#xd;
+&#xd;
+  &#xd;
+}</queryString>
+  <java.net.URL>https://qa-api.culqi.xyz/v2/refunds</java.net.URL>
+</httpSample>
+<httpSample t="989" lt="989" ts="1594997068704" s="false" lb="cargo" rc="500" rm="Internal Server Error" tn="prueba_performance-ThreadStarter 1-1" dt="text" de="UTF-8" by="717" ng="1" na="1">
+  <assertionResult>
+    <name>Response Assertion</name>
+    <failure>true</failure>
+    <error>false</error>
+    <failureMessage>Test failed: code expected to contain /201/</failureMessage>
+  </assertionResult>
+  <responseHeader class="java.lang.String">HTTP/1.1 500 Internal Server Error
+Date: Fri, 17 Jul 2020 14:44:29 GMT
+Content-Type: application/json;charset=UTF-8
+Content-Length: 155
+Connection: keep-alive
+x-amzn-RequestId: 6cbc6943-64a8-4845-81ad-33b85336cdfd
+X-CULQI-TRACKING-ID: 7743875
+X-CULQI-ENVIRONMENT: test
+X-CULQI-VERSION: 2.0.0
+x-amzn-Remapped-Connection: close
+Set-Cookie: JSESSIONID=6BA85FB86FB73A381108EADB26793FB6; Path=/api; HttpOnly
+x-amz-apigw-id: P0nkHE_eoAMFZDA=
+X-Amzn-Trace-Id: Root=1-5f11b94d-b095ddc037eda3d042ca0bd0
+x-amzn-Remapped-Date: Fri, 17 Jul 2020 14:44:29 GMT
+</responseHeader>
+  <requestHeader class="java.lang.String">Connection: keep-alive
+Content-Type: application/json
+Authorization: Bearer sk_test_7434267b66d61045
+
+Content-Length: 193
+Host: qa-api.culqi.xyz
+User-Agent: Apache-HttpClient/4.5.10 (Java/11.0.6)
+</requestHeader>
+  <responseData class="java.lang.String">{&quot;object&quot;:&quot;error&quot;,&quot;type&quot;:&quot;api_error&quot;,&quot;merchant_message&quot;:&quot;Ups! Algo salió mal en Culqi. Contáctate con soporte@culqi.com  para obtener mas información.&quot;}</responseData>
+  <cookies class="java.lang.String"></cookies>
+  <method class="java.lang.String">POST</method>
+  <queryString class="java.lang.String">{&#xd;
+  &quot;amount&quot;: &quot;400&quot;,&#xd;
+  &quot;currency_code&quot;: &quot;PEN&quot;,&#xd;
+  &quot;email&quot;: &quot;gs@culqi.com&quot;,&#xd;
+  &quot;source_id&quot;:&quot;tkn_test_TonkiER5jTndlgDk&quot;, &#xd;
+    &quot;antifraud_details&quot;: {&#xd;
+  	&quot;phone_number&quot;: 123456789&#xd;
+  }&#xd;
+&#xd;
+  &#xd;
+}</queryString>
+  <java.net.URL>https://qa-api.culqi.xyz/v2/charges</java.net.URL>
+</httpSample>
+<httpSample t="950" lt="950" ts="1594997069695" s="false" lb="Devolucion" rc="401" rm="Unauthorized" tn="prueba_performance-ThreadStarter 1-1" dt="text" de="UTF-8" by="717" ng="1" na="1">
+  <assertionResult>
+    <name>Response Assertion</name>
+    <failure>true</failure>
+    <error>false</error>
+    <failureMessage>Test failed: code expected to contain /201/</failureMessage>
+  </assertionResult>
+  <responseHeader class="java.lang.String">HTTP/1.1 401 Unauthorized
+Date: Fri, 17 Jul 2020 14:44:30 GMT
+Content-Type: application/json;charset=UTF-8
+Content-Length: 159
+Connection: keep-alive
+x-amzn-RequestId: de7cfd70-b18c-4e86-8b7d-fc4b8822703f
+X-CULQI-TRACKING-ID: 7743876
+X-CULQI-ENVIRONMENT: test
+X-CULQI-VERSION: 2.0.0
+x-amzn-Remapped-Connection: keep-alive
+Set-Cookie: JSESSIONID=C97CA05C06AA4AFB0D09ED925ECC9C23; Path=/api; HttpOnly
+x-amz-apigw-id: P0nkMFI8oAMFYzg=
+X-Amzn-Trace-Id: Root=1-5f11b94d-718d49f0d9c38030d4e0a050
+x-amzn-Remapped-Date: Fri, 17 Jul 2020 14:44:29 GMT
+</responseHeader>
+  <requestHeader class="java.lang.String">Connection: keep-alive
+Content-Type: application/json
+Authorization: Bearer sk_test_7434267b66d61045
+
+Content-Length: 85
+Host: qa-api.culqi.xyz
+User-Agent: Apache-HttpClient/4.5.10 (Java/11.0.6)
+</requestHeader>
+  <responseData class="java.lang.String">{&quot;object&quot;:&quot;error&quot;,&quot;type&quot;:&quot;parameter_error&quot;,&quot;merchant_message&quot;:&quot;No existe el cargo que intentas devolver: &apos;&apos; o tiene un formato inválido.&quot;,&quot;param&quot;:&quot;charge_id&quot;}</responseData>
+  <cookies class="java.lang.String"></cookies>
+  <method class="java.lang.String">POST</method>
+  <queryString class="java.lang.String">{&#xd;
+  &quot;amount&quot;: &quot;400&quot;,&#xd;
+  &quot;charge_id&quot;: &quot;&quot;,&#xd;
+  &quot;reason&quot;: &quot;solicitud_comprador&quot;&#xd;
+&#xd;
+  &#xd;
+}</queryString>
+  <java.net.URL>https://qa-api.culqi.xyz/v2/refunds</java.net.URL>
+</httpSample>
+<httpSample t="1070" lt="1070" ts="1594997072137" s="false" lb="cargo" rc="500" rm="Internal Server Error" tn="prueba_performance-ThreadStarter 1-1" dt="text" de="UTF-8" by="717" ng="1" na="1">
+  <assertionResult>
+    <name>Response Assertion</name>
+    <failure>true</failure>
+    <error>false</error>
+    <failureMessage>Test failed: code expected to contain /201/</failureMessage>
+  </assertionResult>
+  <responseHeader class="java.lang.String">HTTP/1.1 500 Internal Server Error
+Date: Fri, 17 Jul 2020 14:44:33 GMT
+Content-Type: application/json;charset=UTF-8
+Content-Length: 155
+Connection: keep-alive
+x-amzn-RequestId: 00ef355a-dd50-4e6b-8d94-afa2b89b96f8
+X-CULQI-TRACKING-ID: 7743879
+X-CULQI-ENVIRONMENT: test
+X-CULQI-VERSION: 2.0.0
+x-amzn-Remapped-Connection: close
+Set-Cookie: JSESSIONID=F3FE98D23A3F343E73C5EA8F21683AE7; Path=/api; HttpOnly
+x-amz-apigw-id: P0nkpG9nIAMFieQ=
+X-Amzn-Trace-Id: Root=1-5f11b950-0376676c201ca7fe96bea482
+x-amzn-Remapped-Date: Fri, 17 Jul 2020 14:44:33 GMT
+</responseHeader>
+  <requestHeader class="java.lang.String">Connection: keep-alive
+Content-Type: application/json
+Authorization: Bearer sk_test_7434267b66d61045
+
+Content-Length: 193
+Host: qa-api.culqi.xyz
+User-Agent: Apache-HttpClient/4.5.10 (Java/11.0.6)
+</requestHeader>
+  <responseData class="java.lang.String">{&quot;object&quot;:&quot;error&quot;,&quot;type&quot;:&quot;api_error&quot;,&quot;merchant_message&quot;:&quot;Ups! Algo salió mal en Culqi. Contáctate con soporte@culqi.com  para obtener mas información.&quot;}</responseData>
+  <cookies class="java.lang.String"></cookies>
+  <method class="java.lang.String">POST</method>
+  <queryString class="java.lang.String">{&#xd;
+  &quot;amount&quot;: &quot;400&quot;,&#xd;
+  &quot;currency_code&quot;: &quot;PEN&quot;,&#xd;
+  &quot;email&quot;: &quot;gs@culqi.com&quot;,&#xd;
+  &quot;source_id&quot;:&quot;tkn_test_yDiEuMNwELqJBCO8&quot;, &#xd;
+    &quot;antifraud_details&quot;: {&#xd;
+  	&quot;phone_number&quot;: 123456789&#xd;
+  }&#xd;
+&#xd;
+  &#xd;
+}</queryString>
+  <java.net.URL>https://qa-api.culqi.xyz/v2/charges</java.net.URL>
+</httpSample>
+<httpSample t="721" lt="721" ts="1594997073213" s="false" lb="Devolucion" rc="401" rm="Unauthorized" tn="prueba_performance-ThreadStarter 1-1" dt="text" de="UTF-8" by="717" ng="1" na="1">
+  <assertionResult>
+    <name>Response Assertion</name>
+    <failure>true</failure>
+    <error>false</error>
+    <failureMessage>Test failed: code expected to contain /201/</failureMessage>
+  </assertionResult>
+  <responseHeader class="java.lang.String">HTTP/1.1 401 Unauthorized
+Date: Fri, 17 Jul 2020 14:44:33 GMT
+Content-Type: application/json;charset=UTF-8
+Content-Length: 159
+Connection: keep-alive
+x-amzn-RequestId: 6cd628a2-9328-4731-8601-8de5c0f4042b
+X-CULQI-TRACKING-ID: 7743880
+X-CULQI-ENVIRONMENT: test
+X-CULQI-VERSION: 2.0.0
+x-amzn-Remapped-Connection: keep-alive
+Set-Cookie: JSESSIONID=EFC3526CA522679E58297CBF647DAEC3; Path=/api; HttpOnly
+x-amz-apigw-id: P0nkvHdtoAMFedQ=
+X-Amzn-Trace-Id: Root=1-5f11b951-e505101e9820249caa031b9e
+x-amzn-Remapped-Date: Fri, 17 Jul 2020 14:44:33 GMT
+</responseHeader>
+  <requestHeader class="java.lang.String">Connection: keep-alive
+Content-Type: application/json
+Authorization: Bearer sk_test_7434267b66d61045
+
+Content-Length: 85
+Host: qa-api.culqi.xyz
+User-Agent: Apache-HttpClient/4.5.10 (Java/11.0.6)
+</requestHeader>
+  <responseData class="java.lang.String">{&quot;object&quot;:&quot;error&quot;,&quot;type&quot;:&quot;parameter_error&quot;,&quot;merchant_message&quot;:&quot;No existe el cargo que intentas devolver: &apos;&apos; o tiene un formato inválido.&quot;,&quot;param&quot;:&quot;charge_id&quot;}</responseData>
+  <cookies class="java.lang.String"></cookies>
+  <method class="java.lang.String">POST</method>
+  <queryString class="java.lang.String">{&#xd;
+  &quot;amount&quot;: &quot;400&quot;,&#xd;
+  &quot;charge_id&quot;: &quot;&quot;,&#xd;
+  &quot;reason&quot;: &quot;solicitud_comprador&quot;&#xd;
+&#xd;
+  &#xd;
+}</queryString>
+  <java.net.URL>https://qa-api.culqi.xyz/v2/refunds</java.net.URL>
+</httpSample>
+<httpSample t="1153" lt="1153" ts="1594997075341" s="false" lb="cargo" rc="500" rm="Internal Server Error" tn="prueba_performance-ThreadStarter 1-1" dt="text" de="UTF-8" by="717" ng="1" na="1">
+  <assertionResult>
+    <name>Response Assertion</name>
+    <failure>true</failure>
+    <error>false</error>
+    <failureMessage>Test failed: code expected to contain /201/</failureMessage>
+  </assertionResult>
+  <responseHeader class="java.lang.String">HTTP/1.1 500 Internal Server Error
+Date: Fri, 17 Jul 2020 14:44:36 GMT
+Content-Type: application/json;charset=UTF-8
+Content-Length: 155
+Connection: keep-alive
+x-amzn-RequestId: 71980226-5753-4d69-a733-1d9f3fbc5c20
+X-CULQI-TRACKING-ID: 7743883
+X-CULQI-ENVIRONMENT: test
+X-CULQI-VERSION: 2.0.0
+x-amzn-Remapped-Connection: close
+Set-Cookie: JSESSIONID=424419A2898802F8BA7E1274C68545C4; Path=/api; HttpOnly
+x-amz-apigw-id: P0nlJGhUoAMFu3g=
+X-Amzn-Trace-Id: Root=1-5f11b954-942ced22eb679b96c17085ba
+x-amzn-Remapped-Date: Fri, 17 Jul 2020 14:44:36 GMT
+</responseHeader>
+  <requestHeader class="java.lang.String">Connection: keep-alive
+Content-Type: application/json
+Authorization: Bearer sk_test_7434267b66d61045
+
+Content-Length: 193
+Host: qa-api.culqi.xyz
+User-Agent: Apache-HttpClient/4.5.10 (Java/11.0.6)
+</requestHeader>
+  <responseData class="java.lang.String">{&quot;object&quot;:&quot;error&quot;,&quot;type&quot;:&quot;api_error&quot;,&quot;merchant_message&quot;:&quot;Ups! Algo salió mal en Culqi. Contáctate con soporte@culqi.com  para obtener mas información.&quot;}</responseData>
+  <cookies class="java.lang.String"></cookies>
+  <method class="java.lang.String">POST</method>
+  <queryString class="java.lang.String">{&#xd;
+  &quot;amount&quot;: &quot;400&quot;,&#xd;
+  &quot;currency_code&quot;: &quot;PEN&quot;,&#xd;
+  &quot;email&quot;: &quot;gs@culqi.com&quot;,&#xd;
+  &quot;source_id&quot;:&quot;tkn_test_YgLTBCjG3Z4aW7D8&quot;, &#xd;
+    &quot;antifraud_details&quot;: {&#xd;
+  	&quot;phone_number&quot;: 123456789&#xd;
+  }&#xd;
+&#xd;
+  &#xd;
+}</queryString>
+  <java.net.URL>https://qa-api.culqi.xyz/v2/charges</java.net.URL>
+</httpSample>
+<httpSample t="803" lt="803" ts="1594997076498" s="false" lb="Devolucion" rc="401" rm="Unauthorized" tn="prueba_performance-ThreadStarter 1-1" dt="text" de="UTF-8" by="717" ng="1" na="1">
+  <assertionResult>
+    <name>Response Assertion</name>
+    <failure>true</failure>
+    <error>false</error>
+    <failureMessage>Test failed: code expected to contain /201/</failureMessage>
+  </assertionResult>
+  <responseHeader class="java.lang.String">HTTP/1.1 401 Unauthorized
+Date: Fri, 17 Jul 2020 14:44:37 GMT
+Content-Type: application/json;charset=UTF-8
+Content-Length: 159
+Connection: keep-alive
+x-amzn-RequestId: 0e63b393-34b9-4bf7-ae54-8150a1de74c7
+X-CULQI-TRACKING-ID: 7743884
+X-CULQI-ENVIRONMENT: test
+X-CULQI-VERSION: 2.0.0
+x-amzn-Remapped-Connection: keep-alive
+Set-Cookie: JSESSIONID=5C44C35EE7CA5A755FAFA6597AAE7572; Path=/api; HttpOnly
+x-amz-apigw-id: P0nlQEabIAMF_cg=
+X-Amzn-Trace-Id: Root=1-5f11b954-fdb769008e8e7cd4a0e791c4
+x-amzn-Remapped-Date: Fri, 17 Jul 2020 14:44:37 GMT
+</responseHeader>
+  <requestHeader class="java.lang.String">Connection: keep-alive
+Content-Type: application/json
+Authorization: Bearer sk_test_7434267b66d61045
+
+Content-Length: 85
+Host: qa-api.culqi.xyz
+User-Agent: Apache-HttpClient/4.5.10 (Java/11.0.6)
+</requestHeader>
+  <responseData class="java.lang.String">{&quot;object&quot;:&quot;error&quot;,&quot;type&quot;:&quot;parameter_error&quot;,&quot;merchant_message&quot;:&quot;No existe el cargo que intentas devolver: &apos;&apos; o tiene un formato inválido.&quot;,&quot;param&quot;:&quot;charge_id&quot;}</responseData>
+  <cookies class="java.lang.String"></cookies>
+  <method class="java.lang.String">POST</method>
+  <queryString class="java.lang.String">{&#xd;
+  &quot;amount&quot;: &quot;400&quot;,&#xd;
+  &quot;charge_id&quot;: &quot;&quot;,&#xd;
+  &quot;reason&quot;: &quot;solicitud_comprador&quot;&#xd;
+&#xd;
+  &#xd;
+}</queryString>
+  <java.net.URL>https://qa-api.culqi.xyz/v2/refunds</java.net.URL>
+</httpSample>
+<httpSample t="954" lt="954" ts="1594997078735" s="false" lb="cargo" rc="500" rm="Internal Server Error" tn="prueba_performance-ThreadStarter 1-1" dt="text" de="UTF-8" by="717" ng="1" na="1">
+  <assertionResult>
+    <name>Response Assertion</name>
+    <failure>true</failure>
+    <error>false</error>
+    <failureMessage>Test failed: code expected to contain /201/</failureMessage>
+  </assertionResult>
+  <responseHeader class="java.lang.String">HTTP/1.1 500 Internal Server Error
+Date: Fri, 17 Jul 2020 14:44:39 GMT
+Content-Type: application/json;charset=UTF-8
+Content-Length: 155
+Connection: keep-alive
+x-amzn-RequestId: db3bca00-2eb3-4ad8-abd6-402eebfc61c6
+X-CULQI-TRACKING-ID: 7743887
+X-CULQI-ENVIRONMENT: test
+X-CULQI-VERSION: 2.0.0
+x-amzn-Remapped-Connection: close
+Set-Cookie: JSESSIONID=3859878693B47D08DAAA8C305F5D7A80; Path=/api; HttpOnly
+x-amz-apigw-id: P0nlqGthoAMF-ww=
+X-Amzn-Trace-Id: Root=1-5f11b957-a591294ebc0211980fd6dd4c
+x-amzn-Remapped-Date: Fri, 17 Jul 2020 14:44:39 GMT
+</responseHeader>
+  <requestHeader class="java.lang.String">Connection: keep-alive
+Content-Type: application/json
+Authorization: Bearer sk_test_7434267b66d61045
+
+Content-Length: 193
+Host: qa-api.culqi.xyz
+User-Agent: Apache-HttpClient/4.5.10 (Java/11.0.6)
+</requestHeader>
+  <responseData class="java.lang.String">{&quot;object&quot;:&quot;error&quot;,&quot;type&quot;:&quot;api_error&quot;,&quot;merchant_message&quot;:&quot;Ups! Algo salió mal en Culqi. Contáctate con soporte@culqi.com  para obtener mas información.&quot;}</responseData>
+  <cookies class="java.lang.String"></cookies>
+  <method class="java.lang.String">POST</method>
+  <queryString class="java.lang.String">{&#xd;
+  &quot;amount&quot;: &quot;400&quot;,&#xd;
+  &quot;currency_code&quot;: &quot;PEN&quot;,&#xd;
+  &quot;email&quot;: &quot;gs@culqi.com&quot;,&#xd;
+  &quot;source_id&quot;:&quot;tkn_test_ogqPhZtqB5SSGeVD&quot;, &#xd;
+    &quot;antifraud_details&quot;: {&#xd;
+  	&quot;phone_number&quot;: 123456789&#xd;
+  }&#xd;
+&#xd;
+  &#xd;
+}</queryString>
+  <java.net.URL>https://qa-api.culqi.xyz/v2/charges</java.net.URL>
+</httpSample>
+<httpSample t="733" lt="733" ts="1594997079691" s="false" lb="Devolucion" rc="401" rm="Unauthorized" tn="prueba_performance-ThreadStarter 1-1" dt="text" de="UTF-8" by="717" ng="1" na="1">
+  <assertionResult>
+    <name>Response Assertion</name>
+    <failure>true</failure>
+    <error>false</error>
+    <failureMessage>Test failed: code expected to contain /201/</failureMessage>
+  </assertionResult>
+  <responseHeader class="java.lang.String">HTTP/1.1 401 Unauthorized
+Date: Fri, 17 Jul 2020 14:44:40 GMT
+Content-Type: application/json;charset=UTF-8
+Content-Length: 159
+Connection: keep-alive
+x-amzn-RequestId: 95e08ae3-537e-48f1-a0dd-b2c4c5cafcda
+X-CULQI-TRACKING-ID: 7743888
+X-CULQI-ENVIRONMENT: test
+X-CULQI-VERSION: 2.0.0
+x-amzn-Remapped-Connection: keep-alive
+Set-Cookie: JSESSIONID=CF4CA3C6D8FDC5BD0BEDEC09E7613271; Path=/api; HttpOnly
+x-amz-apigw-id: P0nlwGL4IAMFlTQ=
+X-Amzn-Trace-Id: Root=1-5f11b957-61942fced3e029b0907181ac
+x-amzn-Remapped-Date: Fri, 17 Jul 2020 14:44:39 GMT
+</responseHeader>
+  <requestHeader class="java.lang.String">Connection: keep-alive
+Content-Type: application/json
+Authorization: Bearer sk_test_7434267b66d61045
+
+Content-Length: 85
+Host: qa-api.culqi.xyz
+User-Agent: Apache-HttpClient/4.5.10 (Java/11.0.6)
+</requestHeader>
+  <responseData class="java.lang.String">{&quot;object&quot;:&quot;error&quot;,&quot;type&quot;:&quot;parameter_error&quot;,&quot;merchant_message&quot;:&quot;No existe el cargo que intentas devolver: &apos;&apos; o tiene un formato inválido.&quot;,&quot;param&quot;:&quot;charge_id&quot;}</responseData>
+  <cookies class="java.lang.String"></cookies>
+  <method class="java.lang.String">POST</method>
+  <queryString class="java.lang.String">{&#xd;
+  &quot;amount&quot;: &quot;400&quot;,&#xd;
+  &quot;charge_id&quot;: &quot;&quot;,&#xd;
+  &quot;reason&quot;: &quot;solicitud_comprador&quot;&#xd;
+&#xd;
+  &#xd;
+}</queryString>
+  <java.net.URL>https://qa-api.culqi.xyz/v2/refunds</java.net.URL>
+</httpSample>
+
+</testResults>

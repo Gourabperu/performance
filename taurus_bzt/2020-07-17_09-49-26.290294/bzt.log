@@ -1,0 +1,154 @@
+[2020-07-17 09:49:26,235 INFO root] Taurus CLI Tool v1.14.2
+[2020-07-17 09:49:26,236 DEBUG root] Command-line options: {'log': '/tmp/bzt_c4mr5_u2.log', 'option': None, 'quiet': None, 'verbose': None, 'no_system_configs': None, 'aliases': []}
+[2020-07-17 09:49:26,236 DEBUG root] Python: CPython 3.6.9
+[2020-07-17 09:49:26,236 DEBUG root] OS: uname_result(system='Linux', node='gs', release='5.0.0-32-generic', version='#34~18.04.2-Ubuntu SMP Thu Oct 10 10:36:02 UTC 2019', machine='x86_64', processor='x86_64')
+[2020-07-17 09:49:26,236 INFO root] Starting with configs: ['performance-testing.yml']
+[2020-07-17 09:49:26,237 DEBUG root] Using personal config: /home/gsaha/.bzt-rc
+[2020-07-17 09:49:26,237 INFO Engine] Configuring...
+[2020-07-17 09:49:26,252 DEBUG Engine] Base configs list: ['/usr/local/lib/python3.6/dist-packages/bzt/resources/10-base-config.yml']
+[2020-07-17 09:49:26,252 DEBUG Engine.Configuration] Configs: ['/usr/local/lib/python3.6/dist-packages/bzt/resources/10-base-config.yml']
+[2020-07-17 09:49:26,253 DEBUG Engine.Configuration] Reading /usr/local/lib/python3.6/dist-packages/bzt/resources/10-base-config.yml as YAML
+[2020-07-17 09:49:26,274 DEBUG Engine] User configs list: ['/home/gsaha/.bzt-rc', 'performance-testing.yml']
+[2020-07-17 09:49:26,274 DEBUG Engine.Configuration] Configs: ['/home/gsaha/.bzt-rc', 'performance-testing.yml']
+[2020-07-17 09:49:26,275 DEBUG Engine.Configuration] Reading /home/gsaha/.bzt-rc as YAML
+[2020-07-17 09:49:26,279 DEBUG Engine.Configuration] Reading performance-testing.yml as YAML
+[2020-07-17 09:49:26,282 DEBUG Engine.Configuration] Configs: ['/home/gsaha/.bzt-rc', 'performance-testing.yml']
+[2020-07-17 09:49:26,283 DEBUG Engine.Configuration] Reading /home/gsaha/.bzt-rc as YAML
+[2020-07-17 09:49:26,287 DEBUG Engine.Configuration] Reading performance-testing.yml as YAML
+[2020-07-17 09:49:26,290 DEBUG Engine] Requesting updates info: https://gettaurus.org/updates/?version=1.14.2&installID=linux-2816ad55131f
+[2020-07-17 09:49:26,290 INFO Engine] Artifacts dir: /home/gsaha/Desktop/performance/taurus_bzt/2020-07-17_09-49-26.290294
+[2020-07-17 09:49:26,290 DEBUG HTTPClient] Making HTTP request GET https://gettaurus.org/updates/?version=1.14.2&installID=linux-2816ad55131f
+[2020-07-17 09:49:26,290 DEBUG Engine] New artifact filename: /home/gsaha/Desktop/performance/taurus_bzt/2020-07-17_09-49-26.290294/effective
+[2020-07-17 09:49:26,292 DEBUG Engine.Configuration] Dumping YAML config into /home/gsaha/Desktop/performance/taurus_bzt/2020-07-17_09-49-26.290294/effective.yml
+[2020-07-17 09:49:26,311 DEBUG urllib3.connectionpool] Starting new HTTPS connection (1): gettaurus.org
+[2020-07-17 09:49:26,311 DEBUG Engine.Configuration] Dumping JSON config into /home/gsaha/Desktop/performance/taurus_bzt/2020-07-17_09-49-26.290294/effective.json
+[2020-07-17 09:49:26,314 DEBUG Engine] New artifact filename: /home/gsaha/Desktop/performance/taurus_bzt/2020-07-17_09-49-26.290294/merged.yml
+[2020-07-17 09:49:26,315 DEBUG Engine.Configuration] Dumping YAML config into /home/gsaha/Desktop/performance/taurus_bzt/2020-07-17_09-49-26.290294/merged.yml
+[2020-07-17 09:49:26,318 DEBUG Engine] New artifact filename: /home/gsaha/Desktop/performance/taurus_bzt/2020-07-17_09-49-26.290294/merged.json
+[2020-07-17 09:49:26,318 DEBUG Engine.Configuration] Dumping JSON config into /home/gsaha/Desktop/performance/taurus_bzt/2020-07-17_09-49-26.290294/merged.json
+[2020-07-17 09:49:26,320 DEBUG Engine] Add existing artifact (move=False): performance-testing.yml
+[2020-07-17 09:49:26,320 DEBUG Engine] Copying performance-testing.yml to /home/gsaha/Desktop/performance/taurus_bzt/2020-07-17_09-49-26.290294/performance-testing.yml
+[2020-07-17 09:49:26,322 DEBUG root] Closing log handler: /tmp/bzt_c4mr5_u2.log
+[2020-07-17 09:49:26,323 DEBUG root] Switched writing logs to /home/gsaha/Desktop/performance/taurus_bzt/2020-07-17_09-49-26.290294/bzt.log
+[2020-07-17 09:49:26,323 DEBUG root] Linting config
+[2020-07-17 09:49:26,325 WARNING root] at path 'execution': 'execution' should be a list
+[2020-07-17 09:49:26,326 INFO Engine] Preparing...
+[2020-07-17 09:49:26,326 DEBUG Engine] Module config: consolidator {'class': 'bzt.modules.aggregator.ConsolidatingAggregator'}
+[2020-07-17 09:49:26,326 DEBUG root] Importing module: bzt.modules.aggregator
+[2020-07-17 09:49:26,500 DEBUG root] Loading class: 'ConsolidatingAggregator' from <module 'bzt.modules.aggregator' from '/usr/local/lib/python3.6/dist-packages/bzt/modules/aggregator.py'>
+[2020-07-17 09:49:26,500 DEBUG Engine.consolidator] Buffer scaling setup: percentile 95.0 from [0.0, 50.0, 90.0, 95.0, 99.0, 99.9, 100.0] selected
+[2020-07-17 09:49:26,500 DEBUG Engine] Module config: monitoring {'class': 'bzt.modules.monitoring.Monitoring'}
+[2020-07-17 09:49:26,500 DEBUG root] Importing module: bzt.modules.monitoring
+[2020-07-17 09:49:26,502 DEBUG root] Loading class: 'Monitoring' from <module 'bzt.modules.monitoring' from '/usr/local/lib/python3.6/dist-packages/bzt/modules/monitoring.py'>
+[2020-07-17 09:49:26,503 DEBUG Engine] Module config: local {'class': 'bzt.modules.provisioning.Local'}
+[2020-07-17 09:49:26,503 DEBUG root] Importing module: bzt.modules.provisioning
+[2020-07-17 09:49:26,503 DEBUG root] Loading class: 'Local' from <module 'bzt.modules.provisioning' from '/usr/local/lib/python3.6/dist-packages/bzt/modules/provisioning.py'>
+[2020-07-17 09:49:26,503 DEBUG Engine] Module config: jmeter {'class': 'bzt.modules.jmeter.JMeterExecutor', 'protocol-handlers': {'http': 'bzt.jmx.http.HTTPProtocolHandler'}, 'plugins': ['jpgc-casutg', 'jpgc-dummy', 'jpgc-ffw', 'jpgc-fifo', 'jpgc-functions', 'jpgc-json', 'jpgc-perfmon', 'jpgc-prmctl', 'jpgc-tst'], 'properties': {'jmeter.save.saveservice.autoflush': 'true', 'jmeter.save.saveservice.connect_time': 'true', 'jmeterengine.force.system.exit': 'true', 'summariser.name': ''}}
+[2020-07-17 09:49:26,503 DEBUG root] Importing module: bzt.modules.jmeter
+[2020-07-17 09:49:26,523 DEBUG root] Loading class: 'JMeterExecutor' from <module 'bzt.modules.jmeter' from '/usr/local/lib/python3.6/dist-packages/bzt/modules/jmeter.py'>
+[2020-07-17 09:49:26,524 DEBUG Engine.local] Preparing executor: jmeter/139924925674440
+[2020-07-17 09:49:26,524 DEBUG Engine] New artifact filename: /home/gsaha/Desktop/performance/taurus_bzt/2020-07-17_09-49-26.290294/jmeter.log
+[2020-07-17 09:49:26,524 DEBUG Engine.jmeter] Checking if port 4445 is free
+[2020-07-17 09:49:26,524 DEBUG Engine.jmeter] Port 4445 is free
+[2020-07-17 09:49:26,524 DEBUG Engine.jmeter] Using port 4445 for management
+[2020-07-17 09:49:26,525 DEBUG Engine.jmeter] Extract {'script': '../script_jmeter/performance_gateway.jmx', 'properties': {'hostam`e': 'https://qa-secure.culqi.xyz/'}} into scenarios
+[2020-07-17 09:49:26,525 DEBUG Engine.jmeter] Additional properties: {'jmeter.save.saveservice.autoflush': 'true', 'jmeter.save.saveservice.connect_time': 'true', 'jmeterengine.force.system.exit': 'true', 'summariser.name': '', 'hostam`e': 'https://qa-secure.culqi.xyz/', 'jmeterengine.nongui.port': 4445, 'jmeterengine.nongui.maxport': 4445, 'jmeter.save.saveservice.timestamp_format': 'ms', 'sampleresult.default.encoding': 'UTF-8', 'user.classpath': '/home/gsaha/Desktop/performance/taurus_bzt/2020-07-17_09-49-26.290294:/home/gsaha/Desktop/performance/script_jmeter'}
+[2020-07-17 09:49:26,525 DEBUG Engine] New artifact filename: /home/gsaha/Desktop/performance/taurus_bzt/2020-07-17_09-49-26.290294/jmeter-bzt.properties
+[2020-07-17 09:49:26,526 DEBUG Engine.jmeter.JavaVM] Trying JavaVM: ['java', '-version']
+[2020-07-17 09:49:26,526 DEBUG root] Executing shell: ['java', '-version'] at .
+[2020-07-17 09:49:26,604 DEBUG Engine.jmeter.JavaVM] JavaVM output: openjdk version "11.0.6" 2020-01-14
+OpenJDK Runtime Environment (build 11.0.6+10-post-Ubuntu-1ubuntu118.04.1)
+OpenJDK 64-Bit Server VM (build 11.0.6+10-post-Ubuntu-1ubuntu118.04.1, mixed mode, sharing)
+
+[2020-07-17 09:49:26,605 DEBUG Engine.jmeter.TclLibrary] We don't need to check tcl library on this platform
+[2020-07-17 09:49:26,605 DEBUG Engine.jmeter.JMeter] Trying JMeter..
+[2020-07-17 09:49:26,605 DEBUG root] Executing shell: ['/home/gsaha/.bzt/jmeter-taurus/5.2.1/bin/jmeter.sh', '-j', '/tmp/jmeterc3zypa74log', '--version'] at .
+[2020-07-17 09:49:29,210 DEBUG Engine.jmeter.JMeter] JMeter check:     _    ____   _    ____ _   _ _____       _ __  __ _____ _____ _____ ____
+   / \  |  _ \ / \  / ___| | | | ____|     | |  \/  | ____|_   _| ____|  _ \
+  / _ \ | |_) / _ \| |   | |_| |  _|    _  | | |\/| |  _|   | | |  _| | |_) |
+ / ___ \|  __/ ___ \ |___|  _  | |___  | |_| | |  | | |___  | | | |___|  _ <
+/_/   \_\_| /_/   \_\____|_| |_|_____|  \___/|_|  |_|_____| |_| |_____|_| \_\ 5.2.1
+
+Copyright (c) 1999-2019 The Apache Software Foundation
+
+ / 
+[2020-07-17 09:49:29,220 DEBUG Engine] New artifact filename: /home/gsaha/Desktop/performance/taurus_bzt/2020-07-17_09-49-26.290294/kpi.jtl
+[2020-07-17 09:49:29,223 DEBUG Engine] New artifact filename: /home/gsaha/Desktop/performance/taurus_bzt/2020-07-17_09-49-26.290294/error.jtl
+[2020-07-17 09:49:29,291 ERROR root] ValueError: invalid literal for int() with base 10: '5       // total usuario'
+  File "/usr/local/lib/python3.6/dist-packages/bzt/cli.py", line 258, in perform
+    self.engine.prepare()
+  File "/usr/local/lib/python3.6/dist-packages/bzt/engine/engine.py", line 195, in prepare
+    self.__prepare_provisioning()
+  File "/usr/local/lib/python3.6/dist-packages/bzt/engine/engine.py", line 591, in __prepare_provisioning
+    self.provisioning.prepare()
+  File "/usr/local/lib/python3.6/dist-packages/bzt/modules/provisioning.py", line 73, in prepare
+    executor.prepare()
+  File "/usr/local/lib/python3.6/dist-packages/bzt/modules/jmeter.py", line 244, in prepare
+    modified = self.__get_modified_jmx(self.original_jmx, is_jmx_generated)
+  File "/usr/local/lib/python3.6/dist-packages/bzt/modules/jmeter.py", line 558, in __get_modified_jmx
+    LoadSettingsProcessor(self).modify(jmx)
+  File "/usr/local/lib/python3.6/dist-packages/bzt/jmx/tools.py", line 79, in __init__
+    self.load = executor.get_specific_load()
+  File "/usr/local/lib/python3.6/dist-packages/bzt/modules/jmeter.py", line 176, in get_specific_load
+    iterations = try_convert(raw_load.iterations)
+  File "/usr/local/lib/python3.6/dist-packages/bzt/jmx/base.py", line 43, in try_convert
+    res = func(val)
+[2020-07-17 09:49:29,292 INFO Engine] Post-processing...
+[2020-07-17 09:49:29,293 DEBUG Engine.local] Post-process jmeter/performance_gateway.jmx
+[2020-07-17 09:49:29,294 DEBUG Engine] Add existing artifact (move=True): None
+[2020-07-17 09:49:29,305 DEBUG Engine.local] Exception in post_process of JMeterExecutor: expected str, bytes or os.PathLike object, not NoneType Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/dist-packages/bzt/modules/provisioning.py", line 160, in post_process
+    executor.post_process()
+  File "/usr/local/lib/python3.6/dist-packages/bzt/modules/jmeter.py", line 387, in post_process
+    self.engine.existing_artifact(self.modified_jmx, True)
+  File "/usr/local/lib/python3.6/dist-packages/bzt/engine/engine.py", line 367, in existing_artifact
+    new_filename = os.path.basename(filename) if target_filename is None else target_filename
+  File "/usr/lib/python3.6/posixpath.py", line 146, in basename
+    p = os.fspath(p)
+TypeError: expected str, bytes or os.PathLike object, not NoneType
+
+[2020-07-17 09:49:29,311 DEBUG Engine] post_process: expected str, bytes or os.PathLike object, not NoneType
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/dist-packages/bzt/engine/engine.py", line 319, in post_process
+    module.post_process()
+  File "/usr/local/lib/python3.6/dist-packages/bzt/modules/provisioning.py", line 177, in post_process
+    reraise(exc_info, exc_value)
+  File "/usr/local/lib/python3.6/dist-packages/bzt/six/py3.py", line 86, in reraise
+    raise exc
+  File "/usr/local/lib/python3.6/dist-packages/bzt/modules/provisioning.py", line 160, in post_process
+    executor.post_process()
+  File "/usr/local/lib/python3.6/dist-packages/bzt/modules/jmeter.py", line 387, in post_process
+    self.engine.existing_artifact(self.modified_jmx, True)
+  File "/usr/local/lib/python3.6/dist-packages/bzt/engine/engine.py", line 367, in existing_artifact
+    new_filename = os.path.basename(filename) if target_filename is None else target_filename
+  File "/usr/lib/python3.6/posixpath.py", line 146, in basename
+    p = os.fspath(p)
+TypeError: expected str, bytes or os.PathLike object, not NoneType
+
+[2020-07-17 09:49:29,312 DEBUG Engine.consolidator] Consolidator buffer[0]: dict_keys([])
+[2020-07-17 09:49:29,323 DEBUG Engine.Configuration] Dumping YAML config into /home/gsaha/Desktop/performance/taurus_bzt/2020-07-17_09-49-26.290294/effective.yml
+[2020-07-17 09:49:29,393 DEBUG Engine.Configuration] Dumping JSON config into /home/gsaha/Desktop/performance/taurus_bzt/2020-07-17_09-49-26.290294/effective.json
+[2020-07-17 09:49:29,396 DEBUG root] TypeError: expected str, bytes or os.PathLike object, not NoneType
+  File "/usr/local/lib/python3.6/dist-packages/bzt/cli.py", line 266, in perform
+    self.engine.post_process()
+  File "/usr/local/lib/python3.6/dist-packages/bzt/engine/engine.py", line 333, in post_process
+    reraise(exc_info, exc_value)
+  File "/usr/local/lib/python3.6/dist-packages/bzt/six/py3.py", line 86, in reraise
+    raise exc
+  File "/usr/local/lib/python3.6/dist-packages/bzt/engine/engine.py", line 319, in post_process
+    module.post_process()
+  File "/usr/local/lib/python3.6/dist-packages/bzt/modules/provisioning.py", line 177, in post_process
+    reraise(exc_info, exc_value)
+  File "/usr/local/lib/python3.6/dist-packages/bzt/six/py3.py", line 86, in reraise
+    raise exc
+  File "/usr/local/lib/python3.6/dist-packages/bzt/modules/provisioning.py", line 160, in post_process
+    executor.post_process()
+  File "/usr/local/lib/python3.6/dist-packages/bzt/modules/jmeter.py", line 387, in post_process
+    self.engine.existing_artifact(self.modified_jmx, True)
+  File "/usr/local/lib/python3.6/dist-packages/bzt/engine/engine.py", line 367, in existing_artifact
+    new_filename = os.path.basename(filename) if target_filename is None else target_filename
+  File "/usr/lib/python3.6/posixpath.py", line 146, in basename
+    p = os.fspath(p)
+[2020-07-17 09:49:29,396 INFO root] Artifacts dir: /home/gsaha/Desktop/performance/taurus_bzt/2020-07-17_09-49-26.290294
+[2020-07-17 09:49:29,397 WARNING root] Done performing with code: 1
+[2020-07-17 09:49:29,397 DEBUG root] Closing log handler: /home/gsaha/Desktop/performance/taurus_bzt/2020-07-17_09-49-26.290294/bzt.log

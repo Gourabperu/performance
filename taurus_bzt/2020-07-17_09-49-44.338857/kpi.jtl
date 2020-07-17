@@ -1,0 +1,16 @@
+timeStamp,elapsed,label,responseCode,responseMessage,threadName,success,bytes,grpThreads,allThreads,Latency,Hostname,Connect
+1594997395810,2614,token,201,Created,prueba_performance 1-1,true,988,1,1,2610,gs,1348
+1594997398470,1493,cargo,500,Internal Server Error,prueba_performance 1-1,false,717,1,1,1493,gs,903
+1594997400065,825,Devolucion,401,Unauthorized,prueba_performance 1-1,false,717,1,1,824,gs,0
+1594997400920,1490,token,201,Created,prueba_performance 1-1,true,988,1,1,1490,gs,519
+1594997402414,1223,cargo,500,Internal Server Error,prueba_performance 1-1,false,717,1,1,1223,gs,686
+1594997403648,870,Devolucion,401,Unauthorized,prueba_performance 1-1,false,717,1,1,870,gs,0
+1594997404541,1549,token,201,Created,prueba_performance 1-1,true,988,1,1,1549,gs,628
+1594997406091,1413,cargo,500,Internal Server Error,prueba_performance 1-1,false,717,1,1,1413,gs,719
+1594997407507,735,Devolucion,401,Unauthorized,prueba_performance 1-1,false,717,1,1,735,gs,0
+1594997408249,1328,token,201,Created,prueba_performance 1-1,true,988,1,1,1328,gs,442
+1594997409581,912,cargo,500,Internal Server Error,prueba_performance 1-1,false,717,1,1,912,gs,459
+1594997410497,851,Devolucion,401,Unauthorized,prueba_performance 1-1,false,717,1,1,850,gs,0
+1594997411365,1798,token,201,Created,prueba_performance 1-1,true,988,1,1,1798,gs,565
+1594997413167,994,cargo,500,Internal Server Error,prueba_performance 1-1,false,717,1,1,994,gs,551
+1594997414168,849,Devolucion,401,Unauthorized,prueba_performance 1-1,false,717,1,1,849,gs,0

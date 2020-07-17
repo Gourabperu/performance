@@ -1,0 +1,20 @@
+---
+execution:
+  concurrency: 1
+  hold-for: 1m
+  ramp-up: 1s
+  scenario:
+    properties:
+      hostam`e: https://qa-secure.culqi.xyz/
+    script: ../script_jmeter/performance_gateway.jmx
+modules:
+  blazemeter:
+    token: '********'
+reporting:
+- module: blazemeter
+  project: Culqi Tests
+  report-name: prueba performance
+  test: performance transaction
+- filename: report.xml
+  module: junit-xml
+

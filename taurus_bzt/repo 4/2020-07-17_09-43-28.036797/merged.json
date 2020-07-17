@@ -1,0 +1,30 @@
+{
+ "execution": {
+  "concurrency": 1,
+  "ramp-up": "1s",
+  "hold-for": "1m",
+  "scenario": {
+   "script": "../script_jmeter/performance_gateway.jmx",
+   "properties": {
+    "hostam`e": "https://qa-secure.culqi.xyz/"
+   }
+  }
+ },
+ "modules": {
+  "blazemeter": {
+   "token": "********"
+  }
+ },
+ "reporting": [
+  {
+   "module": "blazemeter",
+   "report-name": "prueba performance",
+   "test": "performance transaction",
+   "project": "Culqi Tests"
+  },
+  {
+   "module": "junit-xml",
+   "filename": "report.xml"
+  }
+ ]
+}

@@ -1,4 +1,4 @@
 pk,sk,email,amount,type,cardNumber,cvv,eMonth,eYear
-"pk_test_512d7b0959ac8315
-","sk_test_7434267b66d61045
-",gs@culqi.com,400,PEN,4111111111111111,123,9,2025
+"pk_live_18d41ad2714ff916
+","sk_live_a0649e21b6c175cc
+",gs@culqi.com,400,PEN,4831790000210669,48,7,2024

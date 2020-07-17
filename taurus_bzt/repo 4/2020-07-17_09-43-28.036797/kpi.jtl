@@ -1,0 +1,50 @@
+timeStamp,elapsed,label,responseCode,responseMessage,threadName,success,bytes,grpThreads,allThreads,Latency,Hostname,Connect
+1594997021272,2860,token,201,Created,prueba_performance-ThreadStarter 1-1,true,988,1,1,2850,gs,1115
+1594997024223,2612,cargo,201,Created,prueba_performance-ThreadStarter 1-1,true,1987,1,1,2611,gs,476
+1594997026853,1619,Devolucion,201,Created,prueba_performance-ThreadStarter 1-1,true,752,1,1,1619,gs,401
+1594997028508,1432,token,201,Created,prueba_performance-ThreadStarter 1-1,true,988,1,1,1432,gs,479
+1594997029948,1070,cargo,500,Internal Server Error,prueba_performance-ThreadStarter 1-1,false,717,1,1,1069,gs,439
+1594997031104,835,Devolucion,401,Unauthorized,prueba_performance-ThreadStarter 1-1,false,717,1,1,835,gs,0
+1594997031946,1865,token,201,Created,prueba_performance-ThreadStarter 1-1,true,988,1,1,1865,gs,609
+1594997033818,917,cargo,500,Internal Server Error,prueba_performance-ThreadStarter 1-1,false,717,1,1,916,gs,457
+1594997034744,778,Devolucion,401,Unauthorized,prueba_performance-ThreadStarter 1-1,false,717,1,1,778,gs,0
+1594997035535,1778,token,201,Created,prueba_performance-ThreadStarter 1-1,true,988,1,1,1778,gs,600
+1594997037315,974,cargo,500,Internal Server Error,prueba_performance-ThreadStarter 1-1,false,717,1,1,974,gs,466
+1594997038313,711,Devolucion,401,Unauthorized,prueba_performance-ThreadStarter 1-1,false,717,1,1,711,gs,0
+1594997039028,1388,token,201,Created,prueba_performance-ThreadStarter 1-1,true,988,1,1,1388,gs,432
+1594997040417,1199,cargo,500,Internal Server Error,prueba_performance-ThreadStarter 1-1,false,717,1,1,1199,gs,650
+1594997041635,744,Devolucion,401,Unauthorized,prueba_performance-ThreadStarter 1-1,false,717,1,1,744,gs,0
+1594997042383,1337,token,201,Created,prueba_performance-ThreadStarter 1-1,true,988,1,1,1337,gs,491
+1594997043721,995,cargo,500,Internal Server Error,prueba_performance-ThreadStarter 1-1,false,717,1,1,995,gs,546
+1594997044723,807,Devolucion,401,Unauthorized,prueba_performance-ThreadStarter 1-1,false,717,1,1,807,gs,0
+1594997045535,1545,token,201,Created,prueba_performance-ThreadStarter 1-1,true,988,1,1,1545,gs,480
+1594997047081,1142,cargo,500,Internal Server Error,prueba_performance-ThreadStarter 1-1,false,717,1,1,1142,gs,493
+1594997048227,709,Devolucion,401,Unauthorized,prueba_performance-ThreadStarter 1-1,false,717,1,1,708,gs,0
+1594997048961,1419,token,201,Created,prueba_performance-ThreadStarter 1-1,true,988,1,1,1419,gs,551
+1594997050381,1131,cargo,500,Internal Server Error,prueba_performance-ThreadStarter 1-1,false,717,1,1,1131,gs,563
+1594997051517,758,Devolucion,401,Unauthorized,prueba_performance-ThreadStarter 1-1,false,717,1,1,758,gs,0
+1594997052280,2745,token,201,Created,prueba_performance-ThreadStarter 1-1,true,988,1,1,2745,gs,1793
+1594997055025,875,cargo,500,Internal Server Error,prueba_performance-ThreadStarter 1-1,false,717,1,1,875,gs,416
+1594997055903,926,Devolucion,401,Unauthorized,prueba_performance-ThreadStarter 1-1,false,717,1,1,925,gs,0
+1594997056853,1327,token,201,Created,prueba_performance-ThreadStarter 1-1,true,988,1,1,1327,gs,438
+1594997058182,961,cargo,500,Internal Server Error,prueba_performance-ThreadStarter 1-1,false,717,1,1,961,gs,483
+1594997059152,947,Devolucion,401,Unauthorized,prueba_performance-ThreadStarter 1-1,false,717,1,1,947,gs,0
+1594997060114,1623,token,201,Created,prueba_performance-ThreadStarter 1-1,true,988,1,1,1623,gs,468
+1594997061737,1022,cargo,500,Internal Server Error,prueba_performance-ThreadStarter 1-1,false,717,1,1,1022,gs,510
+1594997062763,920,Devolucion,401,Unauthorized,prueba_performance-ThreadStarter 1-1,false,717,1,1,919,gs,0
+1594997063696,1387,token,201,Created,prueba_performance-ThreadStarter 1-1,true,988,1,1,1387,gs,387
+1594997065085,1007,cargo,500,Internal Server Error,prueba_performance-ThreadStarter 1-1,false,717,1,1,1007,gs,490
+1594997066116,946,Devolucion,401,Unauthorized,prueba_performance-ThreadStarter 1-1,false,717,1,1,946,gs,0
+1594997067080,1621,token,201,Created,prueba_performance-ThreadStarter 1-1,true,988,1,1,1620,gs,595
+1594997068704,989,cargo,500,Internal Server Error,prueba_performance-ThreadStarter 1-1,false,717,1,1,989,gs,508
+1594997069695,950,Devolucion,401,Unauthorized,prueba_performance-ThreadStarter 1-1,false,717,1,1,950,gs,0
+1594997070651,1483,token,201,Created,prueba_performance-ThreadStarter 1-1,true,988,1,1,1483,gs,566
+1594997072137,1070,cargo,500,Internal Server Error,prueba_performance-ThreadStarter 1-1,false,717,1,1,1070,gs,517
+1594997073213,721,Devolucion,401,Unauthorized,prueba_performance-ThreadStarter 1-1,false,717,1,1,721,gs,0
+1594997073943,1397,token,201,Created,prueba_performance-ThreadStarter 1-1,true,988,1,1,1397,gs,480
+1594997075341,1153,cargo,500,Internal Server Error,prueba_performance-ThreadStarter 1-1,false,717,1,1,1153,gs,527
+1594997076498,803,Devolucion,401,Unauthorized,prueba_performance-ThreadStarter 1-1,false,717,1,1,803,gs,0
+1594997077308,1426,token,201,Created,prueba_performance-ThreadStarter 1-1,true,988,1,1,1426,gs,507
+1594997078735,954,cargo,500,Internal Server Error,prueba_performance-ThreadStarter 1-1,false,717,1,1,954,gs,425
+1594997079691,733,Devolucion,401,Unauthorized,prueba_performance-ThreadStarter 1-1,false,717,1,1,733,gs,0
+1594997080433,1709,token,201,Created,prueba_performance-ThreadStarter 1-1,true,988,1,1,1709,gs,461
